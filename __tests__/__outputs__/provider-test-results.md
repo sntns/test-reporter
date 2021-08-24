@@ -606,11 +606,11 @@ valueListenableProvider
 error:
 
 ```
-	The following TestFailure object was thrown running a test:
-	  Expected: <2>
-	  Actual: <1>
-	Unexpected number of calls
-	
+The following TestFailure object was thrown running a test:
+  Expected: <2>
+  Actual: <1>
+Unexpected number of calls
+
 ```
 
 </details>

@@ -14,7 +14,7 @@ Test 1 Test 1.1
 error:
 
 ```
-	Some error
+Some error
 ```
 
 </details>
@@ -22,10 +22,10 @@ error:
 error:
 
 ```
-	Expected values to be strictly equal:
-	
-	false !== true
-	
+Expected values to be strictly equal:
+
+false !== true
+
 ```
 
 </details>
@@ -34,7 +34,7 @@ Test 2
 error:
 
 ```
-	Some error
+Some error
 ```
 
 </details>
@@ -45,7 +45,7 @@ error:
 error:
 
 ```
-	Timeout of 1ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\Michal\Workspace\dorny\test-reporter\reports\mocha\test\second.test.js)
+Timeout of 1ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\Michal\Workspace\dorny\test-reporter\reports\mocha\test\second.test.js)
 ```
 
 </details>

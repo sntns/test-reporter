@@ -14,7 +14,7 @@ Test 1 › Test 1.1
 error:
 
 ```
-	Error: expect(received).toBeTruthy()
+Error: expect(received).toBeTruthy()
 ```
 
 </details>
@@ -22,7 +22,7 @@ error:
 error:
 
 ```
-	Error: Some error
+Error: Some error
 ```
 
 </details>
@@ -31,7 +31,7 @@ Test 2
 error:
 
 ```
-	Error: Some error
+Error: Some error
 ```
 
 </details>
@@ -40,7 +40,7 @@ error:
 error:
 
 ```
-	: Timeout - Async callback was not invoked within the 1 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 1 ms timeout specified by jest.setTimeout.Error:
+: Timeout - Async callback was not invoked within the 1 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 1 ms timeout specified by jest.setTimeout.Error:
 ```
 
 </details>

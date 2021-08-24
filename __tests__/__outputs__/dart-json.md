@@ -14,9 +14,9 @@ Test 1 Test 1.1
 error:
 
 ```
-	Expected: <2>
-	  Actual: <1>
-	
+Expected: <2>
+  Actual: <1>
+
 ```
 
 </details>
@@ -24,7 +24,7 @@ error:
 error:
 
 ```
-	Exception: Some error
+Exception: Some error
 ```
 
 </details>
@@ -33,7 +33,7 @@ Test 2
 error:
 
 ```
-	Exception: Some error
+Exception: Some error
 ```
 
 </details>
@@ -42,7 +42,7 @@ error:
 error:
 
 ```
-	TimeoutException after 0:00:00.000001: Test timed out after 0 seconds.
+TimeoutException after 0:00:00.000001: Test timed out after 0 seconds.
 ```
 
 </details>

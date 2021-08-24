@@ -222,6 +222,7 @@ const dotnet_trx_parser_1 = __nccwpck_require__(2664);
 const java_junit_parser_1 = __nccwpck_require__(676);
 const jest_junit_parser_1 = __nccwpck_require__(1113);
 const mocha_json_parser_1 = __nccwpck_require__(6043);
+const golang_json_parser_1 = __nccwpck_require__(7054);
 const path_utils_1 = __nccwpck_require__(4070);
 const github_utils_1 = __nccwpck_require__(3522);
 const markdown_utils_1 = __nccwpck_require__(6482);
@@ -381,6 +382,8 @@ class TestReporter {
                 return new jest_junit_parser_1.JestJunitParser(options);
             case 'mocha-json':
                 return new mocha_json_parser_1.MochaJsonParser(options);
+            case 'golang-json':
+                return new golang_json_parser_1.GolangJsonParser(options);
             default:
                 throw new Error(`Input variable 'reporter' is set to invalid value '${reporter}'`);
         }
@@ -816,6 +819,245 @@ class DotnetTrxParser {
     }
 }
 exports.DotnetTrxParser = DotnetTrxParser;
+
+
+/***/ }),
+
+/***/ 7054:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.GolangJsonParser = void 0;
+const path = __importStar(__nccwpck_require__(5622));
+const golang_json_types_1 = __nccwpck_require__(9988);
+const path_utils_1 = __nccwpck_require__(4070);
+const test_results_1 = __nccwpck_require__(2768);
+class TestRun {
+    constructor(path, packages, success, time) {
+        this.path = path;
+        this.packages = packages;
+        this.success = success;
+        this.time = time;
+    }
+}
+class TestPackage {
+    constructor(name) {
+        this.name = name;
+        this.groups = {};
+        this.output = [];
+    }
+}
+class TestGroup {
+    constructor(group) {
+        this.group = group;
+        this.tests = {};
+    }
+}
+class TestCase {
+    constructor(name, rank) {
+        this.name = name;
+        this.rank = rank;
+        this.output = [];
+        this.name = name;
+        this.rank = rank;
+    }
+    get result() {
+        var _a, _b, _c;
+        if (((_a = this.res) === null || _a === void 0 ? void 0 : _a.Action) === "skip") {
+            return 'skipped';
+        }
+        if (((_b = this.res) === null || _b === void 0 ? void 0 : _b.Action) === 'pass') {
+            return 'success';
+        }
+        if (((_c = this.res) === null || _c === void 0 ? void 0 : _c.Action) === 'fail') {
+            return 'failed';
+        }
+        return undefined;
+    }
+    get time() {
+        return this.res !== undefined ? this.res.Elapsed : 0;
+    }
+}
+class GolangJsonParser {
+    constructor(options) {
+        var _a;
+        this.options = options;
+        this.separator = "/";
+        // Map to efficient lookup of all paths with given file name
+        this.trackedFiles = {};
+        for (const filePath of options.trackedFiles) {
+            const fileName = path.basename(filePath);
+            const files = (_a = this.trackedFiles[fileName]) !== null && _a !== void 0 ? _a : (this.trackedFiles[fileName] = []);
+            files.push(path_utils_1.normalizeFilePath(filePath));
+        }
+    }
+    async parse(path, content) {
+        const tr = this.getTestRun(path, content);
+        const result = this.getTestRunResult(tr);
+        return Promise.resolve(result);
+    }
+    getTestRun(path, content) {
+        const lines = content.split(/\n\r?/g);
+        const events = lines
+            .map((str, i) => {
+            if (str.trim() === '') {
+                return null;
+            }
+            try {
+                return JSON.parse(str);
+            }
+            catch (e) {
+                const col = e.columnNumber !== undefined ? `:${e.columnNumber}` : '';
+                throw new Error(`Invalid JSON at ${path}:${i + 1}${col}\n\n${e}`);
+            }
+        })
+            .filter(evt => evt != null);
+        let success = false;
+        let totalTime = 0;
+        const packages = {};
+        let rank = 0;
+        for (const evt of events) {
+            if (golang_json_types_1.isPackageEvent(evt)) {
+                // Lookup for package
+                if (packages[evt.Package] === undefined) {
+                    packages[evt.Package] = new TestPackage(evt.Package);
+                }
+                const pkg = packages[evt.Package];
+                if (golang_json_types_1.isTestEvent(evt)) {
+                    let items = evt.Test.split(this.separator);
+                    const group = { rank: rank++, name: items[0] };
+                    if (pkg.groups[group.name] === undefined) {
+                        pkg.groups[group.name] = new TestGroup(group);
+                    }
+                    const grp = pkg.groups[group.name];
+                    const test = (items.length > 1) ? items.slice(1).join(this.separator) : group.name;
+                    if (grp.tests[test] === undefined) {
+                        grp.tests[test] = new TestCase(test, rank++);
+                    }
+                    const tc = grp.tests[test];
+                    if (golang_json_types_1.isResultTestEvent(evt)) {
+                        tc.res = evt;
+                    }
+                    else if (golang_json_types_1.isOutputTestEvent(evt)) {
+                        tc.output.push(evt);
+                    }
+                }
+                else if (golang_json_types_1.isOutputTestEvent(evt)) {
+                    pkg.output.push(evt);
+                }
+            }
+        }
+        return new TestRun(path, Object.values(packages), success, totalTime);
+    }
+    getGroups(pkg) {
+        const groups = Object.values(pkg.groups).filter(grp => Object.keys(grp.tests).length > 0);
+        groups.sort((a, b) => { var _a, _b; return ((_a = a.group.rank) !== null && _a !== void 0 ? _a : 0) - ((_b = b.group.rank) !== null && _b !== void 0 ? _b : 0); });
+        return groups.map(group => {
+            let tests = Object.values(group.tests).sort((a, b) => { var _a, _b; return ((_a = a.rank) !== null && _a !== void 0 ? _a : 0) - ((_b = b.rank) !== null && _b !== void 0 ? _b : 0); }).map(tc => {
+                const error = this.getError(pkg, tc);
+                const testName = group.group.name !== undefined && tc.name.startsWith(group.group.name)
+                    ? tc.name.slice(group.group.name.length).trim()
+                    : tc.name.trim();
+                return new test_results_1.TestCaseResult(testName != "" ? testName : group.group.name, tc.result, tc.time, error, tc.output.map(e => { return e.Output.trimEnd(); }));
+            });
+            return new test_results_1.TestGroupResult(group.group.name, tests);
+        });
+    }
+    getError(pkg, test) {
+        return undefined;
+        /*
+        if (!this.options.parseErrors || !test.error) {
+          return undefined
+        }
+    
+        const {trackedFiles} = this.options
+        const stackTrace = test.error?.stackTrace ?? ''
+        const print = test.print
+          .filter(p => p.messageType === 'print')
+          .map(p => p.message)
+          .join('\n')
+        const details = [print, stackTrace].filter(str => str !== '').join('\n')
+        const src = this.exceptionThrowSource(details, trackedFiles)
+        const message = this.getErrorMessage(test.error?.error ?? '', print)
+        let path
+        let line
+    
+        if (src !== undefined) {
+          path = src.path
+          line = src.line
+        } else {
+          const testStartPath = this.getRelativePath(testSuite.suite.path)
+          if (trackedFiles.includes(testStartPath)) {
+            path = testStartPath
+            line = test.testStart.test.root_line ?? test.testStart.test.line ?? undefined
+          }
+        }
+    
+        return {
+          path,
+          line,
+          message,
+          details
+        }
+        */
+    }
+    getTestRunResult(tr) {
+        const suites = tr.packages.map(s => {
+            //return new TestSuiteResult(this.getRelativePath(s.suite.path), this.getGroups(s))
+            return new test_results_1.TestSuiteResult(s.name, this.getGroups(s));
+        });
+        return new test_results_1.TestRunResult(tr.path, suites, tr.time);
+    }
+}
+exports.GolangJsonParser = GolangJsonParser;
+
+
+/***/ }),
+
+/***/ 9988:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isOutputTestEvent = exports.isResultTestEvent = exports.isTestEvent = exports.isPackageEvent = void 0;
+function isPackageEvent(event) {
+    return true;
+}
+exports.isPackageEvent = isPackageEvent;
+function isTestEvent(event) {
+    return event.Test !== undefined && (event.Action === 'run' || event.Action === "skip" || event.Action === "fail" || event.Action === "pass" || event.Action === "output");
+}
+exports.isTestEvent = isTestEvent;
+function isResultTestEvent(event) {
+    return event.Action === "skip" || event.Action === "fail" || event.Action === "pass";
+}
+exports.isResultTestEvent = isResultTestEvent;
+function isOutputTestEvent(event) {
+    return event.Action === "output";
+}
+exports.isOutputTestEvent = isOutputTestEvent;
 
 
 /***/ }),
@@ -1523,7 +1765,7 @@ function getTestsReport(ts, runIndex, suiteIndex, options) {
     const tsNameLink = `<a id="${tsSlug.id}" href="${options.baseUrl + tsSlug.link}">${tsName}</a>`;
     const icon = getResultIcon(ts.result);
     sections.push(`### ${icon}\xa0${tsNameLink}`);
-    sections.push('```');
+    //sections.push('```')
     for (const grp of groups) {
         if (grp.name) {
             sections.push(grp.name);
@@ -1531,16 +1773,25 @@ function getTestsReport(ts, runIndex, suiteIndex, options) {
         const space = grp.name ? '  ' : '';
         for (const tc of grp.tests) {
             const result = getResultIcon(tc.result);
-            sections.push(`${space}${result} ${tc.name}`);
+            sections.push(`<details><summary>${space}${result} ${tc.name}</summary>`);
             if (tc.error) {
-                const lines = (_c = ((_a = tc.error.message) !== null && _a !== void 0 ? _a : (_b = parse_utils_1.getFirstNonEmptyLine(tc.error.details)) === null || _b === void 0 ? void 0 : _b.trim())) === null || _c === void 0 ? void 0 : _c.split(/\r?\n/g).map(l => '\t' + l);
+                const lines = (_c = ((_a = tc.error.message) !== null && _a !== void 0 ? _a : (_b = parse_utils_1.getFirstNonEmptyLine(tc.error.details)) === null || _b === void 0 ? void 0 : _b.trim())) === null || _c === void 0 ? void 0 : _c.split(/\r?\n/g);
                 if (lines) {
+                    sections.push('error:\n\n```');
                     sections.push(...lines);
+                    sections.push('```\n');
                 }
             }
+            if (tc.output) {
+                sections.push('output:\n\n```');
+                const lines = tc.output;
+                sections.push(...lines);
+                sections.push('```\n');
+            }
+            sections.push(`</details>`);
         }
     }
-    sections.push('```');
+    //sections.push('```')
     return sections;
 }
 function makeRunSlug(runIndex) {
@@ -1613,10 +1864,11 @@ class TestRunResult {
 }
 exports.TestRunResult = TestRunResult;
 class TestSuiteResult {
-    constructor(name, groups, totalTime) {
+    constructor(name, groups, totalTime, output) {
         this.name = name;
         this.groups = groups;
         this.totalTime = totalTime;
+        this.output = output;
     }
     get tests() {
         return this.groups.reduce((sum, g) => sum + g.tests.length, 0);
@@ -1651,9 +1903,10 @@ class TestSuiteResult {
 }
 exports.TestSuiteResult = TestSuiteResult;
 class TestGroupResult {
-    constructor(name, tests) {
+    constructor(name, tests, output) {
         this.name = name;
         this.tests = tests;
+        this.output = output;
     }
     get passed() {
         return this.tests.reduce((sum, t) => (t.result === 'success' ? sum + 1 : sum), 0);
@@ -1679,11 +1932,12 @@ class TestGroupResult {
 }
 exports.TestGroupResult = TestGroupResult;
 class TestCaseResult {
-    constructor(name, result, time, error) {
+    constructor(name, result, time, error, output) {
         this.name = name;
         this.result = result;
         this.time = time;
         this.error = error;
+        this.output = output;
     }
 }
 exports.TestCaseResult = TestCaseResult;
@@ -8354,13 +8608,12 @@ module.exports = function (/**String*/input) {
 	}
 
     function fixPath(zipPath){
-        // convert windows file separators
-        zipPath = zipPath.split("\\").join("/");
-        // add separator if it wasnt given
-        if (zipPath.charAt(zipPath.length - 1) !== "/") {
-            zipPath += "/";
-        }        
-        return zipPath;
+        // convert windows file separators and normalize
+        zipPath = pth.posix.normalize(zipPath.split("\\").join("/"));
+        // cleanup, remove invalid folder names
+        var names = zipPath.split("/").filter((c) => c !== "" && c !== "." && c !== "..");
+        // if we have name we return it
+        return names.length ? names.join("/") + "/" : "";
     }
 
 	return {
@@ -8526,7 +8779,7 @@ module.exports = function (/**String*/input) {
 				// add file name into zippath
 				zipPath += (zipName) ? zipName : p;
 
-				// read file attributes 
+				// read file attributes
 				const _attr = fs.statSync(localPath);
 
 				// add file into zip file
@@ -8546,7 +8799,7 @@ module.exports = function (/**String*/input) {
 		 */
         addLocalFolder: function (/**String*/localPath, /**String=*/zipPath, /**=RegExp|Function*/filter) {
             // Prepare filter
-            if (filter instanceof RegExp) {                 // if filter is RegExp wrap it 
+            if (filter instanceof RegExp) {                 // if filter is RegExp wrap it
                 filter = (function (rx){
                     return function (filename) {
                         return rx.test(filename);
@@ -8573,10 +8826,11 @@ module.exports = function (/**String*/input) {
                     items.forEach(function (filepath) {
                         var p = pth.relative(localPath, filepath).split("\\").join("/"); //windows fix
                         if (filter(p)) {
-                            if (filepath.charAt(filepath.length - 1) !== pth.sep) {
-                                self.addFile(zipPath + p, fs.readFileSync(filepath), "", fs.statSync(filepath));
+                            var stats = fs.statSync(filepath);
+                            if (stats.isFile()) {
+                                self.addFile(zipPath + p, fs.readFileSync(filepath), "", stats);
                             } else {
-                                self.addFile(zipPath + p + '/', Buffer.alloc(0), "", 0);
+                                self.addFile(zipPath + p + '/', Buffer.alloc(0), "", stats);
                             }
                         }
                     });
@@ -8594,75 +8848,83 @@ module.exports = function (/**String*/input) {
 		 * @param filter optional RegExp or Function if files match will
 		 *               be included.
 		 */
-		addLocalFolderAsync: function (/*String*/localPath, /*Function*/callback, /*String*/zipPath, /*RegExp|Function*/filter) {
-			if (filter === undefined) {
-				filter = function () {
-					return true;
-				};
-			} else if (filter instanceof RegExp) {
-				filter = function (filter) {
-					return function (filename) {
-						return filter.test(filename);
-					}
-				}(filter);
-			}
+        addLocalFolderAsync: function (/*String*/localPath, /*Function*/callback, /*String*/zipPath, /*RegExp|Function*/filter) {
+            if (filter instanceof RegExp) {
+                filter = (function (rx) {
+                    return function (filename) {
+                        return rx.test(filename);
+                    };
+                })(filter);
+            } else if ("function" !== typeof filter) {
+                filter = function () {
+                    return true;
+                };
+            }
 
-			if (zipPath) {
-				zipPath = zipPath.split("\\").join("/");
-				if (zipPath.charAt(zipPath.length - 1) !== "/") {
-					zipPath += "/";
-				}
-			} else {
-				zipPath = "";
-			}
-			// normalize the path first
-			localPath = pth.normalize(localPath);
-			localPath = localPath.split("\\").join("/"); //windows fix
-			if (localPath.charAt(localPath.length - 1) !== "/")
-				localPath += "/";
+            // fix ZipPath
+            zipPath = zipPath ? fixPath(zipPath) : "";
 
-			var self = this;
-			fs.open(localPath, 'r', function (err, fd) {
-				if (err && err.code === 'ENOENT') {
-					callback(undefined, Utils.Errors.FILE_NOT_FOUND.replace("%s", localPath));
-				} else if (err) {
-					callback(undefined, err);
-				} else {
-					var items = Utils.findFiles(localPath);
-					var i = -1;
+            // normalize the path first
+            localPath = pth.normalize(localPath);
 
-					var next = function () {
-						i += 1;
-						if (i < items.length) {
-							var p = items[i].split("\\").join("/").replace(new RegExp(localPath.replace(/(\(|\))/g, '\\$1'), 'i'), ""); //windows fix
-							p = p.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\x20-\x7E]/g, '') // accent fix
-							if (filter(p)) {
-								if (p.charAt(p.length - 1) !== "/") {
-									fs.readFile(items[i], function (err, data) {
-										if (err) {
-											callback(undefined, err);
-										} else {
-											self.addFile(zipPath + p, data, '', 0);
-											next();
-										}
-									})
-								} else {
-									self.addFile(zipPath + p, Buffer.alloc(0), "", 0);
-									next();
-								}
-							} else {
-								next();
-							}
+            var self = this;
+            fs.open(localPath, 'r', function (err) {
+                if (err && err.code === 'ENOENT') {
+                    callback(undefined, Utils.Errors.FILE_NOT_FOUND.replace("%s", localPath));
+                } else if (err) {
+                    callback(undefined, err);
+                } else {
+                    var items = Utils.findFiles(localPath);
+                    var i = -1;
 
-						} else {
-							callback(true, undefined);
-						}
-					}
+                    var next = function () {
+                        i += 1;
+                        if (i < items.length) {
+                            var filepath = items[i];
+                            var p = pth.relative(localPath, filepath).split("\\").join("/"); //windows fix
+                            p = p.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\x20-\x7E]/g, '') // accent fix
+                            if (filter(p)) {
+                                fs.stat(filepath, function (er0, stats) {
+                                    if (er0) callback(undefined, er0);
+                                    if (stats.isFile()) {
+                                        fs.readFile(filepath, function (er1, data) {
+                                            if (er1) {
+                                                callback(undefined, er1);
+                                            } else {
+                                                self.addFile(zipPath + p, data, "", stats);
+                                                next();
+                                            }
+                                        });
+                                    } else {
+                                        self.addFile(zipPath + p + "/", Buffer.alloc(0), "", stats);
+                                        next();
+                                    }
+                                });
+                            } else {
+                                next();
+                            }
 
-					next();
-				}
-			});
-		},
+                        } else {
+                            callback(true, undefined);
+                        }
+                    }
+
+                    next();
+                }
+            });
+        },
+
+        addLocalFolderPromise: function (/*String*/ localPath, /* object */ options) {
+            return new Promise((resolve, reject) => {
+                const { filter, zipPath } = Object.assign({}, options);
+                this.addLocalFolderAsync(localPath,
+                    (done, err) => {
+                        if (err) reject(err);
+                        if (done) resolve(this);
+                    }, zipPath, filter
+                );
+            });
+        },
 
 		/**
 		 * Allows you to create a entry (file or directory) in the zip file.
@@ -8696,10 +8958,10 @@ module.exports = function (/**String*/input) {
 				var unix = (entry.isDirectory) ? 0x4000 : 0x8000;
 
 				if (isStat) { 										// File attributes from file stats
-					unix |= (0xfff & attr.mode) 
+					unix |= (0xfff & attr.mode);
 				}else if ('number' === typeof attr){ 				// attr from given attr values
 					unix |= (0xfff & attr);
-				}else{												// Default values: 
+				}else{												// Default values:
 					unix |= (entry.isDirectory) ? 0o755 : 0o644;  	// permissions (drwxr-xr-x) or (-r-wr--r--)
 				}
 
@@ -8781,8 +9043,9 @@ module.exports = function (/**String*/input) {
 					}
 					var name = canonical(child.entryName)
 					var childName = sanitize(targetPath, maintainEntryPath ? name : pth.basename(name));
-
-					Utils.writeFileTo(childName, content, overwrite);
+					// The reverse operation for attr depend on method addFile()
+					var fileAttr = child.attr ? (((child.attr >>> 0) | 0) >> 16) & 0xfff : 0;
+					Utils.writeFileTo(childName, content, overwrite, fileAttr);
 				});
 				return true;
 			}
@@ -8793,7 +9056,9 @@ module.exports = function (/**String*/input) {
 			if (fs.existsSync(target) && !overwrite) {
 				throw new Error(Utils.Errors.CANT_OVERRIDE);
 			}
-			Utils.writeFileTo(target, content, overwrite);
+			// The reverse operation for attr depend on method addFile()
+			var fileAttr = item.attr ? (((item.attr >>> 0) | 0) >> 16) & 0xfff : 0;
+			Utils.writeFileTo(target, content, overwrite, fileAttr);
 
 			return true;
 		},
@@ -8845,7 +9110,9 @@ module.exports = function (/**String*/input) {
 				if (!content) {
 					throw new Error(Utils.Errors.CANT_EXTRACT_FILE);
 				}
-				Utils.writeFileTo(entryName, content, overwrite);
+				// The reverse operation for attr depend on method addFile()
+				var fileAttr = entry.attr ? (((entry.attr >>> 0) | 0) >> 16) & 0xfff : 0;
+				Utils.writeFileTo(entryName, content, overwrite, fileAttr);
 				try {
 					fs.utimesSync(entryName, entry.header.time, entry.header.time)
 				} catch (err) {
@@ -8897,7 +9164,9 @@ module.exports = function (/**String*/input) {
 						return;
 					}
 
-					Utils.writeFileToAsync(sanitize(targetPath, entryName), content, overwrite, function (succ) {
+					// The reverse operation for attr depend on method addFile()
+					var fileAttr = entry.attr ? (((entry.attr >>> 0) | 0) >> 16) & 0xfff : 0;
+					Utils.writeFileToAsync(sanitize(targetPath, entryName), content, overwrite, fileAttr, function (succ) {
 						try {
 							fs.utimesSync(pth.resolve(targetPath, entryName), entry.header.time, entry.header.time);
 						} catch (err) {
@@ -8941,6 +9210,27 @@ module.exports = function (/**String*/input) {
 				if (typeof callback === 'function') callback(!ok ? new Error("failed") : null, "");
 			}
 		},
+
+        writeZipPromise: function (/**String*/ targetFileName, /* object */ options) {
+            const { overwrite, perm } = Object.assign({ overwrite: true }, options);
+
+            return new Promise((resolve, reject) => {
+                // find file name
+                if (!targetFileName && _filename) targetFileName = _filename;
+                if (!targetFileName) reject("ADM-ZIP: ZIP File Name Missing");
+
+                this.toBufferPromise().then((zipData) => {
+                    const ret = (done) => (done ? resolve(done) : reject("ADM-ZIP: Wasn't able to write zip file"));
+                    Utils.writeFileToAsync(targetFileName, zipData, overwrite, perm, ret);
+                }, reject);
+            });
+        },
+
+        toBufferPromise: function () {
+            return new Promise((resolve, reject) => {
+                _zip.toAsyncBuffer(resolve, reject);
+            });
+        },
 
 		/**
 		 * Returns the content of the entire zip file as a Buffer object
@@ -10306,17 +10596,17 @@ module.exports = function (/*Buffer*/input) {
 
         getData : function(pass) {
             if (_entryHeader.changed) {
-				return uncompressedData;
-			} else {
-				return decompress(false, null, pass);
+                return uncompressedData;
+            } else {
+                return decompress(false, null, pass);
             }
         },
 
         getDataAsync : function(/*Function*/callback, pass) {
-			if (_entryHeader.changed) {
-				callback(uncompressedData)
-			} else {
-				decompress(true, callback, pass)
+            if (_entryHeader.changed) {
+                callback(uncompressedData);
+            } else {
+                decompress(true, callback, pass);
             }
         },
 
@@ -10332,14 +10622,20 @@ module.exports = function (/*Buffer*/input) {
         },
 
         packHeader : function() {
+            // 1. create header (buffer)
             var header = _entryHeader.entryHeaderToBinary();
-            // add
-            _entryName.copy(header, Utils.Constants.CENHDR);
+            var addpos = Utils.Constants.CENHDR;
+            // 2. add file name
+            _entryName.copy(header, addpos);
+            addpos += _entryName.length;
+            // 3. add extra data
             if (_entryHeader.extraLength) {
-                _extra.copy(header, Utils.Constants.CENHDR + _entryName.length)
+                _extra.copy(header, addpos);
+                addpos += _entryHeader.extraLength;
             }
+            // 4. add file comment
             if (_entryHeader.commentLength) {
-                _comment.copy(header, Utils.Constants.CENHDR + _entryName.length + _entryHeader.extraLength, _comment.length);
+                _comment.copy(header, addpos);
             }
             return header;
         },
@@ -11960,12 +12256,14 @@ module.exports = (fromStream, toStream) => {
 /***/ }),
 
 /***/ 6214:
-/***/ ((module, exports, __nccwpck_require__) => {
+/***/ ((module, exports) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const tls_1 = __nccwpck_require__(4016);
+function isTLSSocket(socket) {
+    return socket.encrypted;
+}
 const deferToConnect = (socket, fn) => {
     let listeners;
     if (typeof fn === 'function') {
@@ -11982,7 +12280,7 @@ const deferToConnect = (socket, fn) => {
         if (hasConnectListener) {
             listeners.connect();
         }
-        if (socket instanceof tls_1.TLSSocket && hasSecureConnectListener) {
+        if (isTLSSocket(socket) && hasSecureConnectListener) {
             if (socket.authorized) {
                 listeners.secureConnect();
             }
@@ -15992,7 +16290,7 @@ const is_response_ok_1 = __nccwpck_require__(9298);
 const deprecation_warning_1 = __nccwpck_require__(397);
 const normalize_arguments_1 = __nccwpck_require__(1048);
 const calculate_retry_delay_1 = __nccwpck_require__(3462);
-const globalDnsCache = new cacheable_lookup_1.default();
+let globalDnsCache;
 const kRequest = Symbol('request');
 const kResponse = Symbol('response');
 const kResponseSize = Symbol('responseSize');
@@ -16549,6 +16847,9 @@ class Request extends stream_1.Duplex {
         options.cacheOptions = { ...options.cacheOptions };
         // `options.dnsCache`
         if (options.dnsCache === true) {
+            if (!globalDnsCache) {
+                globalDnsCache = new cacheable_lookup_1.default();
+            }
             options.dnsCache = globalDnsCache;
         }
         else if (!is_1.default.undefined(options.dnsCache) && !options.dnsCache.lookup) {

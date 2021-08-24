@@ -422,7 +422,7 @@
 error:
 
 ```
-	Error: abort: empty revision range
+Error: abort: empty revision range
 ```
 
 </details>
@@ -449,7 +449,7 @@ error:
 error:
 
 ```
-	Error: expect(received).toMatch(expected)
+Error: expect(received).toMatch(expected)
 ```
 
 </details>

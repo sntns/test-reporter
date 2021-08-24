@@ -11,7 +11,7 @@
 error:
 
 ```
-	System.DivideByZeroException : Attempted to divide by zero.
+System.DivideByZeroException : Attempted to divide by zero.
 ```
 
 </details>
@@ -19,7 +19,7 @@ error:
 error:
 
 ```
-	System.Exception : Test
+System.Exception : Test
 ```
 
 </details>
@@ -27,9 +27,9 @@ error:
 error:
 
 ```
-	Assert.Equal() Failure
-	Expected: 3
-	Actual:   2
+Assert.Equal() Failure
+Expected: 3
+Actual:   2
 ```
 
 </details>
@@ -39,9 +39,9 @@ error:
 error:
 
 ```
-	Assert.True() Failure
-	Expected: True
-	Actual:   False
+Assert.True() Failure
+Expected: True
+Actual:   False
 ```
 
 </details>
@@ -53,9 +53,9 @@ error:
 error:
 
 ```
-	Assert.True() Failure
-	Expected: True
-	Actual:   False
+Assert.True() Failure
+Expected: True
+Actual:   False
 ```
 
 </details>
