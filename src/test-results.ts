@@ -38,7 +38,12 @@ export class TestRunResult {
 }
 
 export class TestSuiteResult {
-  constructor(readonly name: string, readonly groups: TestGroupResult[], private totalTime?: number, readonly output?: string[]) {}
+  constructor(
+    readonly name: string,
+    readonly groups: TestGroupResult[],
+    private totalTime?: number,
+    readonly output?: string[]
+  ) {}
 
   get tests(): number {
     return this.groups.reduce((sum, g) => sum + g.tests.length, 0)
