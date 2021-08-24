@@ -1,6 +1,6 @@
 name: Test Reporter
 description: |
-  Shows test results in GitHub UI: .NET (xUnit, NUnit, MSTest), Dart, Flutter, Java (JUnit), JavaScript (JEST, Mocha)
+  Shows test results in GitHub UI: .NET (xUnit, NUnit, MSTest), Dart, Flutter, Java (JUnit), JavaScript (JEST, Mocha), Golang
 author: Michal Dorner <dorner.michal@gmail.com>
 inputs:
   artifact:
@@ -31,6 +31,7 @@ inputs:
         - java-junit
         - jest-junit
         - mocha-json
+        - golang-json
     required: true
   list-suites:
     description: |
