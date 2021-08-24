@@ -404,29 +404,54 @@
 |packages/pretty-format/src/__tests__/react.test.tsx|55✔️|||325ms|
 |packages/pretty-format/src/__tests__/ReactElement.test.ts|3✔️|||64ms|
 ### ❌ <a id="user-content-r0s75" href="#r0s75">e2e/__tests__/jestChangedFiles.test.ts</a>
+<details><summary>✔️ gets hg SCM roots and dedupes them</summary>
+</details>
+<details><summary>✔️ gets git SCM roots and dedupes them</summary>
+</details>
+<details><summary>✔️ gets mixed git and hg SCM roots and dedupes them</summary>
+</details>
+<details><summary>✔️ gets changed files for git</summary>
+</details>
+<details><summary>✔️ monitors only root paths for git</summary>
+</details>
+<details><summary>✔️ does not find changes in files with no diff, for git</summary>
+</details>
+<details><summary>✔️ handles a bad revision for "changedSince", for git</summary>
+</details>
+<details><summary>❌ gets changed files for hg</summary>
+error:
+
 ```
-✔️ gets hg SCM roots and dedupes them
-✔️ gets git SCM roots and dedupes them
-✔️ gets mixed git and hg SCM roots and dedupes them
-✔️ gets changed files for git
-✔️ monitors only root paths for git
-✔️ does not find changes in files with no diff, for git
-✔️ handles a bad revision for "changedSince", for git
-❌ gets changed files for hg
 	Error: abort: empty revision range
-✔️ monitors only root paths for hg
-✔️ handles a bad revision for "changedSince", for hg
 ```
+
+</details>
+<details><summary>✔️ monitors only root paths for hg</summary>
+</details>
+<details><summary>✔️ handles a bad revision for "changedSince", for hg</summary>
+</details>
 ### ❌ <a id="user-content-r0s98" href="#r0s98">e2e/__tests__/onlyChanged.test.ts</a>
+<details><summary>✔️ run for "onlyChanged" and "changedSince"</summary>
+</details>
+<details><summary>✔️ run only changed files</summary>
+</details>
+<details><summary>✔️ report test coverage for only changed files</summary>
+</details>
+<details><summary>✔️ report test coverage of source on test file change under only changed files</summary>
+</details>
+<details><summary>✔️ do not pickup non-tested files when reporting coverage on only changed files</summary>
+</details>
+<details><summary>✔️ collect test coverage when using onlyChanged</summary>
+</details>
+<details><summary>✔️ onlyChanged in config is overwritten by --all or testPathPattern</summary>
+</details>
+<details><summary>❌ gets changed files for hg</summary>
+error:
+
 ```
-✔️ run for "onlyChanged" and "changedSince"
-✔️ run only changed files
-✔️ report test coverage for only changed files
-✔️ report test coverage of source on test file change under only changed files
-✔️ do not pickup non-tested files when reporting coverage on only changed files
-✔️ collect test coverage when using onlyChanged
-✔️ onlyChanged in config is overwritten by --all or testPathPattern
-❌ gets changed files for hg
 	Error: expect(received).toMatch(expected)
-✔️ path on Windows is case-insensitive
 ```
+
+</details>
+<details><summary>✔️ path on Windows is case-insensitive</summary>
+</details>

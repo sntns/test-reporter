@@ -224,7 +224,7 @@ function getTestsReport(ts: TestSuiteResult, runIndex: number, suiteIndex: numbe
   const icon = getResultIcon(ts.result)
   sections.push(`### ${icon}\xa0${tsNameLink}`)
 
-  sections.push('```')
+  //sections.push('```')
   for (const grp of groups) {
     if (grp.name) {
       sections.push(grp.name)
@@ -232,18 +232,27 @@ function getTestsReport(ts: TestSuiteResult, runIndex: number, suiteIndex: numbe
     const space = grp.name ? '  ' : ''
     for (const tc of grp.tests) {
       const result = getResultIcon(tc.result)
-      sections.push(`${space}${result} ${tc.name}`)
+      sections.push(`<details><summary>${space}${result} ${tc.name}</summary>`)
       if (tc.error) {
         const lines = (tc.error.message ?? getFirstNonEmptyLine(tc.error.details)?.trim())
           ?.split(/\r?\n/g)
           .map(l => '\t' + l)
         if (lines) {
+          sections.push('error:\n\n```')
           sections.push(...lines)
+          sections.push('```\n')
         }
       }
+      if (tc.output) {
+        sections.push('output:\n\n```')
+        const lines = (tc.output)
+        sections.push(...lines)
+        sections.push('```\n')
+      }
+      sections.push(`</details>`)
     }
   }
-  sections.push('```')
+  //sections.push('```')
 
   return sections
 }

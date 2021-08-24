@@ -1,0 +1,673 @@
+{"Time":"2021-07-07T12:23:23.175952318+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestNoArgs"}
+{"Time":"2021-07-07T12:23:23.176178954+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoArgs","Output":"=== RUN   TestNoArgs\n"}
+{"Time":"2021-07-07T12:23:23.176230853+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoArgs","Output":"--- PASS: TestNoArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.176242524+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestNoArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.176252505+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestNoArgsWithArgs"}
+{"Time":"2021-07-07T12:23:23.176259708+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoArgsWithArgs","Output":"=== RUN   TestNoArgsWithArgs\n"}
+{"Time":"2021-07-07T12:23:23.176864147+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoArgsWithArgs","Output":"--- PASS: TestNoArgsWithArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.176888475+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestNoArgsWithArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.176896436+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestOnlyValidArgs"}
+{"Time":"2021-07-07T12:23:23.176902966+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestOnlyValidArgs","Output":"=== RUN   TestOnlyValidArgs\n"}
+{"Time":"2021-07-07T12:23:23.176986576+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestOnlyValidArgs","Output":"--- PASS: TestOnlyValidArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.177000216+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestOnlyValidArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.177007302+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestOnlyValidArgsWithInvalidArgs"}
+{"Time":"2021-07-07T12:23:23.177013966+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestOnlyValidArgsWithInvalidArgs","Output":"=== RUN   TestOnlyValidArgsWithInvalidArgs\n"}
+{"Time":"2021-07-07T12:23:23.177590605+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestOnlyValidArgsWithInvalidArgs","Output":"--- PASS: TestOnlyValidArgsWithInvalidArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.177606745+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestOnlyValidArgsWithInvalidArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.177617336+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestArbitraryArgs"}
+{"Time":"2021-07-07T12:23:23.177627379+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestArbitraryArgs","Output":"=== RUN   TestArbitraryArgs\n"}
+{"Time":"2021-07-07T12:23:23.177639672+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestArbitraryArgs","Output":"--- PASS: TestArbitraryArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.177649113+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestArbitraryArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.177655534+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestMinimumNArgs"}
+{"Time":"2021-07-07T12:23:23.177661436+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMinimumNArgs","Output":"=== RUN   TestMinimumNArgs\n"}
+{"Time":"2021-07-07T12:23:23.177668667+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMinimumNArgs","Output":"--- PASS: TestMinimumNArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.177771966+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestMinimumNArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.177787934+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestMinimumNArgsWithLessArgs"}
+{"Time":"2021-07-07T12:23:23.177795434+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMinimumNArgsWithLessArgs","Output":"=== RUN   TestMinimumNArgsWithLessArgs\n"}
+{"Time":"2021-07-07T12:23:23.17834518+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMinimumNArgsWithLessArgs","Output":"--- PASS: TestMinimumNArgsWithLessArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.178404219+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestMinimumNArgsWithLessArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.178420867+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestMaximumNArgs"}
+{"Time":"2021-07-07T12:23:23.178431933+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMaximumNArgs","Output":"=== RUN   TestMaximumNArgs\n"}
+{"Time":"2021-07-07T12:23:23.178569412+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMaximumNArgs","Output":"--- PASS: TestMaximumNArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.178615471+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestMaximumNArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.178625061+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestMaximumNArgsWithMoreArgs"}
+{"Time":"2021-07-07T12:23:23.17863185+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMaximumNArgsWithMoreArgs","Output":"=== RUN   TestMaximumNArgsWithMoreArgs\n"}
+{"Time":"2021-07-07T12:23:23.179425655+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMaximumNArgsWithMoreArgs","Output":"--- PASS: TestMaximumNArgsWithMoreArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.179457805+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestMaximumNArgsWithMoreArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.179467032+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestExactArgs"}
+{"Time":"2021-07-07T12:23:23.179473717+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactArgs","Output":"=== RUN   TestExactArgs\n"}
+{"Time":"2021-07-07T12:23:23.179482737+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactArgs","Output":"--- PASS: TestExactArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.179491974+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestExactArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.179498157+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestExactArgsWithInvalidCount"}
+{"Time":"2021-07-07T12:23:23.179504375+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactArgsWithInvalidCount","Output":"=== RUN   TestExactArgsWithInvalidCount\n"}
+{"Time":"2021-07-07T12:23:23.18025214+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactArgsWithInvalidCount","Output":"--- PASS: TestExactArgsWithInvalidCount (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.180292321+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestExactArgsWithInvalidCount","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.180301667+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestExactValidArgs"}
+{"Time":"2021-07-07T12:23:23.180307891+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactValidArgs","Output":"=== RUN   TestExactValidArgs\n"}
+{"Time":"2021-07-07T12:23:23.18031598+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactValidArgs","Output":"--- PASS: TestExactValidArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.180331635+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestExactValidArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.18033766+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestExactValidArgsWithInvalidCount"}
+{"Time":"2021-07-07T12:23:23.180343463+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactValidArgsWithInvalidCount","Output":"=== RUN   TestExactValidArgsWithInvalidCount\n"}
+{"Time":"2021-07-07T12:23:23.180840327+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactValidArgsWithInvalidCount","Output":"--- PASS: TestExactValidArgsWithInvalidCount (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.180873903+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestExactValidArgsWithInvalidCount","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.18088339+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestExactValidArgsWithInvalidArgs"}
+{"Time":"2021-07-07T12:23:23.180899026+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactValidArgsWithInvalidArgs","Output":"=== RUN   TestExactValidArgsWithInvalidArgs\n"}
+{"Time":"2021-07-07T12:23:23.181723917+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExactValidArgsWithInvalidArgs","Output":"--- PASS: TestExactValidArgsWithInvalidArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.181759158+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestExactValidArgsWithInvalidArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.181768551+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRangeArgs"}
+{"Time":"2021-07-07T12:23:23.181775236+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRangeArgs","Output":"=== RUN   TestRangeArgs\n"}
+{"Time":"2021-07-07T12:23:23.181785666+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRangeArgs","Output":"--- PASS: TestRangeArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.181886552+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRangeArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.181913448+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRangeArgsWithInvalidCount"}
+{"Time":"2021-07-07T12:23:23.181920718+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRangeArgsWithInvalidCount","Output":"=== RUN   TestRangeArgsWithInvalidCount\n"}
+{"Time":"2021-07-07T12:23:23.182260552+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRangeArgsWithInvalidCount","Output":"--- PASS: TestRangeArgsWithInvalidCount (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.18228726+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRangeArgsWithInvalidCount","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.182295517+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRootTakesNoArgs"}
+{"Time":"2021-07-07T12:23:23.182302146+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRootTakesNoArgs","Output":"=== RUN   TestRootTakesNoArgs\n"}
+{"Time":"2021-07-07T12:23:23.182417727+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRootTakesNoArgs","Output":"--- PASS: TestRootTakesNoArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.182462655+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRootTakesNoArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.182512762+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRootTakesArgs"}
+{"Time":"2021-07-07T12:23:23.182526401+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRootTakesArgs","Output":"=== RUN   TestRootTakesArgs\n"}
+{"Time":"2021-07-07T12:23:23.182546611+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRootTakesArgs","Output":"--- PASS: TestRootTakesArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.182679112+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRootTakesArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.182694435+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestChildTakesNoArgs"}
+{"Time":"2021-07-07T12:23:23.182701621+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildTakesNoArgs","Output":"=== RUN   TestChildTakesNoArgs\n"}
+{"Time":"2021-07-07T12:23:23.183420106+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildTakesNoArgs","Output":"--- PASS: TestChildTakesNoArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.183448609+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestChildTakesNoArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.18345959+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestChildTakesArgs"}
+{"Time":"2021-07-07T12:23:23.183463449+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildTakesArgs","Output":"=== RUN   TestChildTakesArgs\n"}
+{"Time":"2021-07-07T12:23:23.183469414+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildTakesArgs","Output":"--- PASS: TestChildTakesArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.183482934+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestChildTakesArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.183487461+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestBashCompletions"}
+{"Time":"2021-07-07T12:23:23.183491141+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestBashCompletions","Output":"=== RUN   TestBashCompletions\n"}
+{"Time":"2021-07-07T12:23:23.20714499+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestBashCompletions","Output":"--- PASS: TestBashCompletions (0.02s)\n"}
+{"Time":"2021-07-07T12:23:23.207184123+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestBashCompletions","Elapsed":0.02}
+{"Time":"2021-07-07T12:23:23.207190354+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestBashCompletionHiddenFlag"}
+{"Time":"2021-07-07T12:23:23.207193246+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestBashCompletionHiddenFlag","Output":"=== RUN   TestBashCompletionHiddenFlag\n"}
+{"Time":"2021-07-07T12:23:23.207308256+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestBashCompletionHiddenFlag","Output":"--- PASS: TestBashCompletionHiddenFlag (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.207343613+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestBashCompletionHiddenFlag","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.207348874+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestBashCompletionDeprecatedFlag"}
+{"Time":"2021-07-07T12:23:23.207351773+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestBashCompletionDeprecatedFlag","Output":"=== RUN   TestBashCompletionDeprecatedFlag\n"}
+{"Time":"2021-07-07T12:23:23.207437559+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestBashCompletionDeprecatedFlag","Output":"--- PASS: TestBashCompletionDeprecatedFlag (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.207456566+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestBashCompletionDeprecatedFlag","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.207460708+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestBashCompletionTraverseChildren"}
+{"Time":"2021-07-07T12:23:23.207463826+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestBashCompletionTraverseChildren","Output":"=== RUN   TestBashCompletionTraverseChildren\n"}
+{"Time":"2021-07-07T12:23:23.207636078+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestBashCompletionTraverseChildren","Output":"--- PASS: TestBashCompletionTraverseChildren (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.20765481+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestBashCompletionTraverseChildren","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.207658724+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestAddTemplateFunctions"}
+{"Time":"2021-07-07T12:23:23.207661523+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestAddTemplateFunctions","Output":"=== RUN   TestAddTemplateFunctions\n"}
+{"Time":"2021-07-07T12:23:23.207840178+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestAddTemplateFunctions","Output":"--- PASS: TestAddTemplateFunctions (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.207853805+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestAddTemplateFunctions","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.207857705+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSingleCommand"}
+{"Time":"2021-07-07T12:23:23.207860784+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSingleCommand","Output":"=== RUN   TestSingleCommand\n"}
+{"Time":"2021-07-07T12:23:23.207865413+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSingleCommand","Output":"--- PASS: TestSingleCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.20792808+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSingleCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.207944874+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestChildCommand"}
+{"Time":"2021-07-07T12:23:23.207949092+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildCommand","Output":"=== RUN   TestChildCommand\n"}
+{"Time":"2021-07-07T12:23:23.20795474+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildCommand","Output":"--- PASS: TestChildCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.207959212+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestChildCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.207961874+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCallCommandWithoutSubcommands"}
+{"Time":"2021-07-07T12:23:23.207964576+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCallCommandWithoutSubcommands","Output":"=== RUN   TestCallCommandWithoutSubcommands\n"}
+{"Time":"2021-07-07T12:23:23.207989324+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCallCommandWithoutSubcommands","Output":"--- PASS: TestCallCommandWithoutSubcommands (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208065665+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCallCommandWithoutSubcommands","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208079006+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRootExecuteUnknownCommand"}
+{"Time":"2021-07-07T12:23:23.208082685+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRootExecuteUnknownCommand","Output":"=== RUN   TestRootExecuteUnknownCommand\n"}
+{"Time":"2021-07-07T12:23:23.208087482+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRootExecuteUnknownCommand","Output":"--- PASS: TestRootExecuteUnknownCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208147619+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRootExecuteUnknownCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208158802+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSubcommandExecuteC"}
+{"Time":"2021-07-07T12:23:23.208161845+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSubcommandExecuteC","Output":"=== RUN   TestSubcommandExecuteC\n"}
+{"Time":"2021-07-07T12:23:23.20822171+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSubcommandExecuteC","Output":"--- PASS: TestSubcommandExecuteC (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208280798+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSubcommandExecuteC","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208286363+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestExecuteContext"}
+{"Time":"2021-07-07T12:23:23.208289137+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExecuteContext","Output":"=== RUN   TestExecuteContext\n"}
+{"Time":"2021-07-07T12:23:23.208369443+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExecuteContext","Output":"--- PASS: TestExecuteContext (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.20841711+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestExecuteContext","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208422859+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestExecuteContextC"}
+{"Time":"2021-07-07T12:23:23.208425629+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExecuteContextC","Output":"=== RUN   TestExecuteContextC\n"}
+{"Time":"2021-07-07T12:23:23.208515915+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExecuteContextC","Output":"--- PASS: TestExecuteContextC (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208556122+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestExecuteContextC","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208561551+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestExecute_NoContext"}
+{"Time":"2021-07-07T12:23:23.20856853+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExecute_NoContext","Output":"=== RUN   TestExecute_NoContext\n"}
+{"Time":"2021-07-07T12:23:23.208618038+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestExecute_NoContext","Output":"--- PASS: TestExecute_NoContext (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.20862744+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestExecute_NoContext","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208630725+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRootUnknownCommandSilenced"}
+{"Time":"2021-07-07T12:23:23.208634154+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRootUnknownCommandSilenced","Output":"=== RUN   TestRootUnknownCommandSilenced\n"}
+{"Time":"2021-07-07T12:23:23.208690204+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRootUnknownCommandSilenced","Output":"--- PASS: TestRootUnknownCommandSilenced (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208702319+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRootUnknownCommandSilenced","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208707269+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCommandAlias"}
+{"Time":"2021-07-07T12:23:23.208711339+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCommandAlias","Output":"=== RUN   TestCommandAlias\n"}
+{"Time":"2021-07-07T12:23:23.208725381+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCommandAlias","Output":"--- PASS: TestCommandAlias (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208776558+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCommandAlias","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208783683+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestEnablePrefixMatching"}
+{"Time":"2021-07-07T12:23:23.208786514+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestEnablePrefixMatching","Output":"=== RUN   TestEnablePrefixMatching\n"}
+{"Time":"2021-07-07T12:23:23.208832477+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestEnablePrefixMatching","Output":"--- PASS: TestEnablePrefixMatching (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208841361+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestEnablePrefixMatching","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208844559+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestAliasPrefixMatching"}
+{"Time":"2021-07-07T12:23:23.208848123+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestAliasPrefixMatching","Output":"=== RUN   TestAliasPrefixMatching\n"}
+{"Time":"2021-07-07T12:23:23.208893133+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestAliasPrefixMatching","Output":"--- PASS: TestAliasPrefixMatching (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208905862+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestAliasPrefixMatching","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208913032+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestChildSameName"}
+{"Time":"2021-07-07T12:23:23.20891734+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildSameName","Output":"=== RUN   TestChildSameName\n"}
+{"Time":"2021-07-07T12:23:23.208923367+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildSameName","Output":"--- PASS: TestChildSameName (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.208928777+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestChildSameName","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.208931545+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestGrandChildSameName"}
+{"Time":"2021-07-07T12:23:23.208934606+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestGrandChildSameName","Output":"=== RUN   TestGrandChildSameName\n"}
+{"Time":"2021-07-07T12:23:23.209007113+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestGrandChildSameName","Output":"--- PASS: TestGrandChildSameName (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.209020415+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestGrandChildSameName","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.209023873+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagLong"}
+{"Time":"2021-07-07T12:23:23.20902666+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagLong","Output":"=== RUN   TestFlagLong\n"}
+{"Time":"2021-07-07T12:23:23.209078515+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagLong","Output":"--- PASS: TestFlagLong (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.209125759+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagLong","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.209131085+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagShort"}
+{"Time":"2021-07-07T12:23:23.209133809+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagShort","Output":"=== RUN   TestFlagShort\n"}
+{"Time":"2021-07-07T12:23:23.20919071+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagShort","Output":"--- PASS: TestFlagShort (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.209238864+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagShort","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.209244178+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestChildFlag"}
+{"Time":"2021-07-07T12:23:23.20924698+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildFlag","Output":"=== RUN   TestChildFlag\n"}
+{"Time":"2021-07-07T12:23:23.209341223+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildFlag","Output":"--- PASS: TestChildFlag (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.209387991+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestChildFlag","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.209393239+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestChildFlagWithParentLocalFlag"}
+{"Time":"2021-07-07T12:23:23.209396008+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildFlagWithParentLocalFlag","Output":"=== RUN   TestChildFlagWithParentLocalFlag\n"}
+{"Time":"2021-07-07T12:23:23.209912126+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestChildFlagWithParentLocalFlag","Output":"--- PASS: TestChildFlagWithParentLocalFlag (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.209921303+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestChildFlagWithParentLocalFlag","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.209925864+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagInvalidInput"}
+{"Time":"2021-07-07T12:23:23.209929349+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagInvalidInput","Output":"=== RUN   TestFlagInvalidInput\n"}
+{"Time":"2021-07-07T12:23:23.210225433+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagInvalidInput","Output":"--- PASS: TestFlagInvalidInput (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210234417+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagInvalidInput","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.210237603+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagBeforeCommand"}
+{"Time":"2021-07-07T12:23:23.210240245+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagBeforeCommand","Output":"=== RUN   TestFlagBeforeCommand\n"}
+{"Time":"2021-07-07T12:23:23.210243527+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagBeforeCommand","Output":"--- PASS: TestFlagBeforeCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210246546+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagBeforeCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.210249043+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestStripFlags"}
+{"Time":"2021-07-07T12:23:23.210251584+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestStripFlags","Output":"=== RUN   TestStripFlags\n"}
+{"Time":"2021-07-07T12:23:23.210259164+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestStripFlags","Output":"--- PASS: TestStripFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210262312+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestStripFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.210264851+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestDisableFlagParsing"}
+{"Time":"2021-07-07T12:23:23.210267562+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestDisableFlagParsing","Output":"=== RUN   TestDisableFlagParsing\n"}
+{"Time":"2021-07-07T12:23:23.210273919+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestDisableFlagParsing","Output":"--- PASS: TestDisableFlagParsing (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210277438+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestDisableFlagParsing","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.21027993+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestPersistentFlagsOnSameCommand"}
+{"Time":"2021-07-07T12:23:23.2102825+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentFlagsOnSameCommand","Output":"=== RUN   TestPersistentFlagsOnSameCommand\n"}
+{"Time":"2021-07-07T12:23:23.210321233+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentFlagsOnSameCommand","Output":"--- PASS: TestPersistentFlagsOnSameCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210329639+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestPersistentFlagsOnSameCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.210334397+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestEmptyInputs"}
+{"Time":"2021-07-07T12:23:23.210338445+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestEmptyInputs","Output":"=== RUN   TestEmptyInputs\n"}
+{"Time":"2021-07-07T12:23:23.21034376+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestEmptyInputs","Output":"--- PASS: TestEmptyInputs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210348094+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestEmptyInputs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.21035191+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestOverwrittenFlag"}
+{"Time":"2021-07-07T12:23:23.210356043+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestOverwrittenFlag","Output":"=== RUN   TestOverwrittenFlag\n"}
+{"Time":"2021-07-07T12:23:23.210382091+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestOverwrittenFlag","Output":"    command_test.go:712: \n"}
+{"Time":"2021-07-07T12:23:23.210393857+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestOverwrittenFlag","Output":"--- SKIP: TestOverwrittenFlag (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.21039883+02:00","Action":"skip","Package":"github.com/spf13/cobra","Test":"TestOverwrittenFlag","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.210402526+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestPersistentFlagsOnChild"}
+{"Time":"2021-07-07T12:23:23.210405339+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentFlagsOnChild","Output":"=== RUN   TestPersistentFlagsOnChild\n"}
+{"Time":"2021-07-07T12:23:23.210411133+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentFlagsOnChild","Output":"--- PASS: TestPersistentFlagsOnChild (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210476033+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestPersistentFlagsOnChild","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.210481817+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRequiredFlags"}
+{"Time":"2021-07-07T12:23:23.210484927+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRequiredFlags","Output":"=== RUN   TestRequiredFlags\n"}
+{"Time":"2021-07-07T12:23:23.210688002+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRequiredFlags","Output":"--- PASS: TestRequiredFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210697251+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRequiredFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.210700567+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestPersistentRequiredFlags"}
+{"Time":"2021-07-07T12:23:23.210703576+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentRequiredFlags","Output":"=== RUN   TestPersistentRequiredFlags\n"}
+{"Time":"2021-07-07T12:23:23.210911447+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentRequiredFlags","Output":"--- PASS: TestPersistentRequiredFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.210919393+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestPersistentRequiredFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.210922534+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestPersistentRequiredFlagsWithDisableFlagParsing"}
+{"Time":"2021-07-07T12:23:23.21092527+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentRequiredFlagsWithDisableFlagParsing","Output":"=== RUN   TestPersistentRequiredFlagsWithDisableFlagParsing\n"}
+{"Time":"2021-07-07T12:23:23.211155755+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentRequiredFlagsWithDisableFlagParsing","Output":"--- PASS: TestPersistentRequiredFlagsWithDisableFlagParsing (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213615638+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestPersistentRequiredFlagsWithDisableFlagParsing","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.21362738+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestInitHelpFlagMergesFlags"}
+{"Time":"2021-07-07T12:23:23.213630902+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestInitHelpFlagMergesFlags","Output":"=== RUN   TestInitHelpFlagMergesFlags\n"}
+{"Time":"2021-07-07T12:23:23.21363652+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestInitHelpFlagMergesFlags","Output":"--- PASS: TestInitHelpFlagMergesFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213640222+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestInitHelpFlagMergesFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213643127+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHelpCommandExecuted"}
+{"Time":"2021-07-07T12:23:23.213645795+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpCommandExecuted","Output":"=== RUN   TestHelpCommandExecuted\n"}
+{"Time":"2021-07-07T12:23:23.213651358+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpCommandExecuted","Output":"--- PASS: TestHelpCommandExecuted (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213654454+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHelpCommandExecuted","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213657145+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHelpCommandExecutedOnChild"}
+{"Time":"2021-07-07T12:23:23.213659739+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpCommandExecutedOnChild","Output":"=== RUN   TestHelpCommandExecutedOnChild\n"}
+{"Time":"2021-07-07T12:23:23.213663145+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpCommandExecutedOnChild","Output":"--- PASS: TestHelpCommandExecutedOnChild (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213666316+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHelpCommandExecutedOnChild","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213669023+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSetHelpCommand"}
+{"Time":"2021-07-07T12:23:23.213671874+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetHelpCommand","Output":"=== RUN   TestSetHelpCommand\n"}
+{"Time":"2021-07-07T12:23:23.213679257+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetHelpCommand","Output":"--- PASS: TestSetHelpCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213688648+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSetHelpCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213692882+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHelpFlagExecuted"}
+{"Time":"2021-07-07T12:23:23.213696841+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpFlagExecuted","Output":"=== RUN   TestHelpFlagExecuted\n"}
+{"Time":"2021-07-07T12:23:23.213702168+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpFlagExecuted","Output":"--- PASS: TestHelpFlagExecuted (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213706824+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHelpFlagExecuted","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213710646+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHelpFlagExecutedOnChild"}
+{"Time":"2021-07-07T12:23:23.213715003+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpFlagExecutedOnChild","Output":"=== RUN   TestHelpFlagExecutedOnChild\n"}
+{"Time":"2021-07-07T12:23:23.213719917+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpFlagExecutedOnChild","Output":"--- PASS: TestHelpFlagExecutedOnChild (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213724444+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHelpFlagExecutedOnChild","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213728279+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHelpFlagInHelp"}
+{"Time":"2021-07-07T12:23:23.213732016+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpFlagInHelp","Output":"=== RUN   TestHelpFlagInHelp\n"}
+{"Time":"2021-07-07T12:23:23.213736601+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpFlagInHelp","Output":"--- PASS: TestHelpFlagInHelp (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213740825+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHelpFlagInHelp","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213744545+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagsInUsage"}
+{"Time":"2021-07-07T12:23:23.213748367+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagsInUsage","Output":"=== RUN   TestFlagsInUsage\n"}
+{"Time":"2021-07-07T12:23:23.21375693+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagsInUsage","Output":"--- PASS: TestFlagsInUsage (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213761398+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagsInUsage","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213765357+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHelpExecutedOnNonRunnableChild"}
+{"Time":"2021-07-07T12:23:23.213769164+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpExecutedOnNonRunnableChild","Output":"=== RUN   TestHelpExecutedOnNonRunnableChild\n"}
+{"Time":"2021-07-07T12:23:23.213773894+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHelpExecutedOnNonRunnableChild","Output":"--- PASS: TestHelpExecutedOnNonRunnableChild (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.21377835+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHelpExecutedOnNonRunnableChild","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213782115+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecuted"}
+{"Time":"2021-07-07T12:23:23.213785968+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecuted","Output":"=== RUN   TestVersionFlagExecuted\n"}
+{"Time":"2021-07-07T12:23:23.213790601+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecuted","Output":"--- PASS: TestVersionFlagExecuted (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213795008+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecuted","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213799377+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecutedWithNoName"}
+{"Time":"2021-07-07T12:23:23.213806188+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecutedWithNoName","Output":"=== RUN   TestVersionFlagExecutedWithNoName\n"}
+{"Time":"2021-07-07T12:23:23.213811085+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecutedWithNoName","Output":"--- PASS: TestVersionFlagExecutedWithNoName (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213815361+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecutedWithNoName","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213819055+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestShortAndLongVersionFlagInHelp"}
+{"Time":"2021-07-07T12:23:23.213822981+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShortAndLongVersionFlagInHelp","Output":"=== RUN   TestShortAndLongVersionFlagInHelp\n"}
+{"Time":"2021-07-07T12:23:23.213832661+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShortAndLongVersionFlagInHelp","Output":"--- PASS: TestShortAndLongVersionFlagInHelp (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.21383758+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestShortAndLongVersionFlagInHelp","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213841356+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestLongVersionFlagOnlyInHelpWhenShortPredefined"}
+{"Time":"2021-07-07T12:23:23.213845081+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestLongVersionFlagOnlyInHelpWhenShortPredefined","Output":"=== RUN   TestLongVersionFlagOnlyInHelpWhenShortPredefined\n"}
+{"Time":"2021-07-07T12:23:23.213851066+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestLongVersionFlagOnlyInHelpWhenShortPredefined","Output":"--- PASS: TestLongVersionFlagOnlyInHelpWhenShortPredefined (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213855515+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestLongVersionFlagOnlyInHelpWhenShortPredefined","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.21385955+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagExecuted"}
+{"Time":"2021-07-07T12:23:23.213863351+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagExecuted","Output":"=== RUN   TestShorthandVersionFlagExecuted\n"}
+{"Time":"2021-07-07T12:23:23.213868235+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagExecuted","Output":"--- PASS: TestShorthandVersionFlagExecuted (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213872735+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagExecuted","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213876744+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestVersionTemplate"}
+{"Time":"2021-07-07T12:23:23.213880619+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionTemplate","Output":"=== RUN   TestVersionTemplate\n"}
+{"Time":"2021-07-07T12:23:23.213886095+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionTemplate","Output":"--- PASS: TestVersionTemplate (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213890686+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestVersionTemplate","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213894375+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionTemplate"}
+{"Time":"2021-07-07T12:23:23.213898334+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionTemplate","Output":"=== RUN   TestShorthandVersionTemplate\n"}
+{"Time":"2021-07-07T12:23:23.21390642+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionTemplate","Output":"--- PASS: TestShorthandVersionTemplate (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213911166+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionTemplate","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213917445+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecutedOnSubcommand"}
+{"Time":"2021-07-07T12:23:23.21392186+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecutedOnSubcommand","Output":"=== RUN   TestVersionFlagExecutedOnSubcommand\n"}
+{"Time":"2021-07-07T12:23:23.213927601+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecutedOnSubcommand","Output":"--- PASS: TestVersionFlagExecutedOnSubcommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.213932191+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestVersionFlagExecutedOnSubcommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.213935953+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagExecutedOnSubcommand"}
+{"Time":"2021-07-07T12:23:23.213939838+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagExecutedOnSubcommand","Output":"=== RUN   TestShorthandVersionFlagExecutedOnSubcommand\n"}
+{"Time":"2021-07-07T12:23:23.214004515+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagExecutedOnSubcommand","Output":"--- PASS: TestShorthandVersionFlagExecutedOnSubcommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.214026821+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagExecutedOnSubcommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.214032026+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestVersionFlagOnlyAddedToRoot"}
+{"Time":"2021-07-07T12:23:23.214036324+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagOnlyAddedToRoot","Output":"=== RUN   TestVersionFlagOnlyAddedToRoot\n"}
+{"Time":"2021-07-07T12:23:23.214254857+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagOnlyAddedToRoot","Output":"--- PASS: TestVersionFlagOnlyAddedToRoot (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.214273511+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestVersionFlagOnlyAddedToRoot","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.214278666+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestShortVersionFlagOnlyAddedToRoot"}
+{"Time":"2021-07-07T12:23:23.21428298+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShortVersionFlagOnlyAddedToRoot","Output":"=== RUN   TestShortVersionFlagOnlyAddedToRoot\n"}
+{"Time":"2021-07-07T12:23:23.214599214+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShortVersionFlagOnlyAddedToRoot","Output":"--- PASS: TestShortVersionFlagOnlyAddedToRoot (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.214615156+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestShortVersionFlagOnlyAddedToRoot","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.214619084+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestVersionFlagOnlyExistsIfVersionNonEmpty"}
+{"Time":"2021-07-07T12:23:23.214621901+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagOnlyExistsIfVersionNonEmpty","Output":"=== RUN   TestVersionFlagOnlyExistsIfVersionNonEmpty\n"}
+{"Time":"2021-07-07T12:23:23.214901578+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVersionFlagOnlyExistsIfVersionNonEmpty","Output":"--- PASS: TestVersionFlagOnlyExistsIfVersionNonEmpty (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.214920806+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestVersionFlagOnlyExistsIfVersionNonEmpty","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.214925445+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty"}
+{"Time":"2021-07-07T12:23:23.214930286+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty","Output":"=== RUN   TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty\n"}
+{"Time":"2021-07-07T12:23:23.215234151+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty","Output":"--- PASS: TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.21524778+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.215251353+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined"}
+{"Time":"2021-07-07T12:23:23.215254369+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined","Output":"=== RUN   TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined\n"}
+{"Time":"2021-07-07T12:23:23.21543192+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined","Output":"--- PASS: TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.215439122+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.215442162+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyAddedIfVersionNotDefined"}
+{"Time":"2021-07-07T12:23:23.215445037+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyAddedIfVersionNotDefined","Output":"=== RUN   TestShorthandVersionFlagOnlyAddedIfVersionNotDefined\n"}
+{"Time":"2021-07-07T12:23:23.215722064+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyAddedIfVersionNotDefined","Output":"--- PASS: TestShorthandVersionFlagOnlyAddedIfVersionNotDefined (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.215736397+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestShorthandVersionFlagOnlyAddedIfVersionNotDefined","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.215740056+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestUsageIsNotPrintedTwice"}
+{"Time":"2021-07-07T12:23:23.215742807+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestUsageIsNotPrintedTwice","Output":"=== RUN   TestUsageIsNotPrintedTwice\n"}
+{"Time":"2021-07-07T12:23:23.215982474+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestUsageIsNotPrintedTwice","Output":"--- PASS: TestUsageIsNotPrintedTwice (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.215989073+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestUsageIsNotPrintedTwice","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.215992263+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestVisitParents"}
+{"Time":"2021-07-07T12:23:23.215995138+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVisitParents","Output":"=== RUN   TestVisitParents\n"}
+{"Time":"2021-07-07T12:23:23.215998382+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestVisitParents","Output":"--- PASS: TestVisitParents (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216001471+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestVisitParents","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216003957+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSuggestions"}
+{"Time":"2021-07-07T12:23:23.216006448+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSuggestions","Output":"=== RUN   TestSuggestions\n"}
+{"Time":"2021-07-07T12:23:23.216167178+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSuggestions","Output":"--- PASS: TestSuggestions (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216172995+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSuggestions","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216176013+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRemoveCommand"}
+{"Time":"2021-07-07T12:23:23.216178838+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRemoveCommand","Output":"=== RUN   TestRemoveCommand\n"}
+{"Time":"2021-07-07T12:23:23.216501635+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRemoveCommand","Output":"--- PASS: TestRemoveCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216634841+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRemoveCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216643033+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestReplaceCommandWithRemove"}
+{"Time":"2021-07-07T12:23:23.216649032+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestReplaceCommandWithRemove","Output":"=== RUN   TestReplaceCommandWithRemove\n"}
+{"Time":"2021-07-07T12:23:23.216656517+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestReplaceCommandWithRemove","Output":"--- PASS: TestReplaceCommandWithRemove (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216663064+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestReplaceCommandWithRemove","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216669097+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestDeprecatedCommand"}
+{"Time":"2021-07-07T12:23:23.216674807+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestDeprecatedCommand","Output":"=== RUN   TestDeprecatedCommand\n"}
+{"Time":"2021-07-07T12:23:23.216683717+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestDeprecatedCommand","Output":"--- PASS: TestDeprecatedCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216690158+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestDeprecatedCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.21669629+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHooks"}
+{"Time":"2021-07-07T12:23:23.216701262+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHooks","Output":"=== RUN   TestHooks\n"}
+{"Time":"2021-07-07T12:23:23.216706649+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHooks","Output":"--- PASS: TestHooks (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216711304+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHooks","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216715698+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestPersistentHooks"}
+{"Time":"2021-07-07T12:23:23.216719525+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentHooks","Output":"=== RUN   TestPersistentHooks\n"}
+{"Time":"2021-07-07T12:23:23.216724558+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestPersistentHooks","Output":"--- PASS: TestPersistentHooks (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216729191+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestPersistentHooks","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216733097+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestGlobalNormFuncPropagation"}
+{"Time":"2021-07-07T12:23:23.216737258+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestGlobalNormFuncPropagation","Output":"=== RUN   TestGlobalNormFuncPropagation\n"}
+{"Time":"2021-07-07T12:23:23.216741969+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestGlobalNormFuncPropagation","Output":"--- PASS: TestGlobalNormFuncPropagation (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216746328+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestGlobalNormFuncPropagation","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216749812+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestNormPassedOnLocal"}
+{"Time":"2021-07-07T12:23:23.216753394+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNormPassedOnLocal","Output":"=== RUN   TestNormPassedOnLocal\n"}
+{"Time":"2021-07-07T12:23:23.216757661+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNormPassedOnLocal","Output":"--- PASS: TestNormPassedOnLocal (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216761686+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestNormPassedOnLocal","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216847607+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestNormPassedOnInherited"}
+{"Time":"2021-07-07T12:23:23.216854291+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNormPassedOnInherited","Output":"=== RUN   TestNormPassedOnInherited\n"}
+{"Time":"2021-07-07T12:23:23.216860856+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNormPassedOnInherited","Output":"--- PASS: TestNormPassedOnInherited (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216865532+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestNormPassedOnInherited","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216871174+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestConsistentNormalizedName"}
+{"Time":"2021-07-07T12:23:23.216875536+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestConsistentNormalizedName","Output":"=== RUN   TestConsistentNormalizedName\n"}
+{"Time":"2021-07-07T12:23:23.216880654+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestConsistentNormalizedName","Output":"--- PASS: TestConsistentNormalizedName (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.216885027+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestConsistentNormalizedName","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.216888915+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagOnPflagCommandLine"}
+{"Time":"2021-07-07T12:23:23.216892725+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagOnPflagCommandLine","Output":"=== RUN   TestFlagOnPflagCommandLine\n"}
+{"Time":"2021-07-07T12:23:23.21726387+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagOnPflagCommandLine","Output":"--- PASS: TestFlagOnPflagCommandLine (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217285972+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagOnPflagCommandLine","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217291715+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHiddenCommandExecutes"}
+{"Time":"2021-07-07T12:23:23.217296475+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHiddenCommandExecutes","Output":"=== RUN   TestHiddenCommandExecutes\n"}
+{"Time":"2021-07-07T12:23:23.217301571+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHiddenCommandExecutes","Output":"--- PASS: TestHiddenCommandExecutes (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.21730626+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHiddenCommandExecutes","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217310207+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestHiddenCommandIsHidden"}
+{"Time":"2021-07-07T12:23:23.217314588+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHiddenCommandIsHidden","Output":"=== RUN   TestHiddenCommandIsHidden\n"}
+{"Time":"2021-07-07T12:23:23.217319684+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestHiddenCommandIsHidden","Output":"--- PASS: TestHiddenCommandIsHidden (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217325398+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestHiddenCommandIsHidden","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217329732+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCommandsAreSorted"}
+{"Time":"2021-07-07T12:23:23.21733413+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCommandsAreSorted","Output":"=== RUN   TestCommandsAreSorted\n"}
+{"Time":"2021-07-07T12:23:23.217340026+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCommandsAreSorted","Output":"--- PASS: TestCommandsAreSorted (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217344977+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCommandsAreSorted","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217349235+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestEnableCommandSortingIsDisabled"}
+{"Time":"2021-07-07T12:23:23.217360937+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestEnableCommandSortingIsDisabled","Output":"=== RUN   TestEnableCommandSortingIsDisabled\n"}
+{"Time":"2021-07-07T12:23:23.217366683+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestEnableCommandSortingIsDisabled","Output":"--- PASS: TestEnableCommandSortingIsDisabled (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217374515+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestEnableCommandSortingIsDisabled","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217379047+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSetOutput"}
+{"Time":"2021-07-07T12:23:23.217383402+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetOutput","Output":"=== RUN   TestSetOutput\n"}
+{"Time":"2021-07-07T12:23:23.217389097+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetOutput","Output":"--- PASS: TestSetOutput (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217394636+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSetOutput","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217398916+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSetOut"}
+{"Time":"2021-07-07T12:23:23.217403273+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetOut","Output":"=== RUN   TestSetOut\n"}
+{"Time":"2021-07-07T12:23:23.217408291+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetOut","Output":"--- PASS: TestSetOut (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217413625+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSetOut","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217417872+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSetErr"}
+{"Time":"2021-07-07T12:23:23.217422129+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetErr","Output":"=== RUN   TestSetErr\n"}
+{"Time":"2021-07-07T12:23:23.217428107+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetErr","Output":"--- PASS: TestSetErr (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217517417+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSetErr","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217528148+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSetIn"}
+{"Time":"2021-07-07T12:23:23.217532417+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetIn","Output":"=== RUN   TestSetIn\n"}
+{"Time":"2021-07-07T12:23:23.217538711+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSetIn","Output":"--- PASS: TestSetIn (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217544939+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSetIn","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217549755+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestUsageStringRedirected"}
+{"Time":"2021-07-07T12:23:23.21755427+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestUsageStringRedirected","Output":"=== RUN   TestUsageStringRedirected\n"}
+{"Time":"2021-07-07T12:23:23.217562765+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestUsageStringRedirected","Output":"--- PASS: TestUsageStringRedirected (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.21756859+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestUsageStringRedirected","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217572758+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCommandPrintRedirection"}
+{"Time":"2021-07-07T12:23:23.217576719+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCommandPrintRedirection","Output":"=== RUN   TestCommandPrintRedirection\n"}
+{"Time":"2021-07-07T12:23:23.217634671+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCommandPrintRedirection","Output":"--- PASS: TestCommandPrintRedirection (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.217654676+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCommandPrintRedirection","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.217676165+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagErrorFunc"}
+{"Time":"2021-07-07T12:23:23.217686993+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagErrorFunc","Output":"=== RUN   TestFlagErrorFunc\n"}
+{"Time":"2021-07-07T12:23:23.21803769+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagErrorFunc","Output":"--- PASS: TestFlagErrorFunc (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218055333+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagErrorFunc","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218062237+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestSortedFlags"}
+{"Time":"2021-07-07T12:23:23.218066659+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSortedFlags","Output":"=== RUN   TestSortedFlags\n"}
+{"Time":"2021-07-07T12:23:23.21814855+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestSortedFlags","Output":"--- PASS: TestSortedFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218169874+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestSortedFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218175548+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestMergeCommandLineToFlags"}
+{"Time":"2021-07-07T12:23:23.218179919+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMergeCommandLineToFlags","Output":"=== RUN   TestMergeCommandLineToFlags\n"}
+{"Time":"2021-07-07T12:23:23.218189205+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMergeCommandLineToFlags","Output":"--- PASS: TestMergeCommandLineToFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218197913+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestMergeCommandLineToFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218202974+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestUseDeprecatedFlags"}
+{"Time":"2021-07-07T12:23:23.218209534+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestUseDeprecatedFlags","Output":"=== RUN   TestUseDeprecatedFlags\n"}
+{"Time":"2021-07-07T12:23:23.218223994+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestUseDeprecatedFlags","Output":"--- PASS: TestUseDeprecatedFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.21830968+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestUseDeprecatedFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218321911+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestTraverseWithParentFlags"}
+{"Time":"2021-07-07T12:23:23.218326694+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseWithParentFlags","Output":"=== RUN   TestTraverseWithParentFlags\n"}
+{"Time":"2021-07-07T12:23:23.218334141+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseWithParentFlags","Output":"--- PASS: TestTraverseWithParentFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218347104+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestTraverseWithParentFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.21835184+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestTraverseNoParentFlags"}
+{"Time":"2021-07-07T12:23:23.218356222+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseNoParentFlags","Output":"=== RUN   TestTraverseNoParentFlags\n"}
+{"Time":"2021-07-07T12:23:23.218362252+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseNoParentFlags","Output":"--- PASS: TestTraverseNoParentFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218428853+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestTraverseNoParentFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218446783+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestTraverseWithBadParentFlags"}
+{"Time":"2021-07-07T12:23:23.218452075+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseWithBadParentFlags","Output":"=== RUN   TestTraverseWithBadParentFlags\n"}
+{"Time":"2021-07-07T12:23:23.218465076+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseWithBadParentFlags","Output":"--- PASS: TestTraverseWithBadParentFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218471107+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestTraverseWithBadParentFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218475827+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestTraverseWithBadChildFlag"}
+{"Time":"2021-07-07T12:23:23.218479852+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseWithBadChildFlag","Output":"=== RUN   TestTraverseWithBadChildFlag\n"}
+{"Time":"2021-07-07T12:23:23.218485934+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseWithBadChildFlag","Output":"--- PASS: TestTraverseWithBadChildFlag (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218491815+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestTraverseWithBadChildFlag","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218506775+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestTraverseWithTwoSubcommands"}
+{"Time":"2021-07-07T12:23:23.218512726+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseWithTwoSubcommands","Output":"=== RUN   TestTraverseWithTwoSubcommands\n"}
+{"Time":"2021-07-07T12:23:23.218518961+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestTraverseWithTwoSubcommands","Output":"--- PASS: TestTraverseWithTwoSubcommands (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218622951+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestTraverseWithTwoSubcommands","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218652246+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestUpdateName"}
+{"Time":"2021-07-07T12:23:23.218659071+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestUpdateName","Output":"=== RUN   TestUpdateName\n"}
+{"Time":"2021-07-07T12:23:23.218666376+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestUpdateName","Output":"--- PASS: TestUpdateName (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.218671379+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestUpdateName","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.218679295+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs"}
+{"Time":"2021-07-07T12:23:23.218683416+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs","Output":"=== RUN   TestCalledAs\n"}
+{"Time":"2021-07-07T12:23:23.218688631+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/no-args"}
+{"Time":"2021-07-07T12:23:23.218693+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/no-args","Output":"=== RUN   TestCalledAs/traverse/no-args\n"}
+{"Time":"2021-07-07T12:23:23.218699415+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/no-args","Output":"    command_test.go:1906: called: \"parent\"\n"}
+{"Time":"2021-07-07T12:23:23.21870465+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/full-alias"}
+{"Time":"2021-07-07T12:23:23.218708886+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/full-alias","Output":"=== RUN   TestCalledAs/find/full-alias\n"}
+{"Time":"2021-07-07T12:23:23.218785247+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/full-alias","Output":"    command_test.go:1906: called: \"child2\"\n"}
+{"Time":"2021-07-07T12:23:23.218803201+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-no-prefix"}
+{"Time":"2021-07-07T12:23:23.218810426+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-no-prefix","Output":"=== RUN   TestCalledAs/find/part-no-prefix\n"}
+{"Time":"2021-07-07T12:23:23.218911461+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-alias"}
+{"Time":"2021-07-07T12:23:23.218920886+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-alias","Output":"=== RUN   TestCalledAs/find/part-alias\n"}
+{"Time":"2021-07-07T12:23:23.218925991+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-alias","Output":"    command_test.go:1906: called: \"child1\"\n"}
+{"Time":"2021-07-07T12:23:23.218969524+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/real-name"}
+{"Time":"2021-07-07T12:23:23.218976535+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/real-name","Output":"=== RUN   TestCalledAs/traverse/real-name\n"}
+{"Time":"2021-07-07T12:23:23.219109489+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/real-name","Output":"    command_test.go:1906: called: \"child1\"\n"}
+{"Time":"2021-07-07T12:23:23.219125086+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-no-prefix"}
+{"Time":"2021-07-07T12:23:23.219129947+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-no-prefix","Output":"=== RUN   TestCalledAs/traverse/part-no-prefix\n"}
+{"Time":"2021-07-07T12:23:23.219143644+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/conflict"}
+{"Time":"2021-07-07T12:23:23.219148254+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/conflict","Output":"=== RUN   TestCalledAs/traverse/conflict\n"}
+{"Time":"2021-07-07T12:23:23.220681183+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/no-args"}
+{"Time":"2021-07-07T12:23:23.220695884+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/no-args","Output":"=== RUN   TestCalledAs/find/no-args\n"}
+{"Time":"2021-07-07T12:23:23.220701073+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/no-args","Output":"    command_test.go:1906: called: \"parent\"\n"}
+{"Time":"2021-07-07T12:23:23.220755448+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/conflict"}
+{"Time":"2021-07-07T12:23:23.220762481+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/conflict","Output":"=== RUN   TestCalledAs/find/conflict\n"}
+{"Time":"2021-07-07T12:23:23.220855347+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/full-alias"}
+{"Time":"2021-07-07T12:23:23.220867476+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/full-alias","Output":"=== RUN   TestCalledAs/traverse/full-alias\n"}
+{"Time":"2021-07-07T12:23:23.220872098+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/full-alias","Output":"    command_test.go:1906: called: \"child2\"\n"}
+{"Time":"2021-07-07T12:23:23.220916497+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-alias"}
+{"Time":"2021-07-07T12:23:23.220922905+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-alias","Output":"=== RUN   TestCalledAs/traverse/part-alias\n"}
+{"Time":"2021-07-07T12:23:23.221002225+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-alias","Output":"    command_test.go:1906: called: \"child1\"\n"}
+{"Time":"2021-07-07T12:23:23.22100836+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/real-name"}
+{"Time":"2021-07-07T12:23:23.22101122+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/real-name","Output":"=== RUN   TestCalledAs/find/real-name\n"}
+{"Time":"2021-07-07T12:23:23.221065803+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/real-name","Output":"    command_test.go:1906: called: \"child1\"\n"}
+{"Time":"2021-07-07T12:23:23.221084504+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs","Output":"--- PASS: TestCalledAs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221090056+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/no-args","Output":"    --- PASS: TestCalledAs/traverse/no-args (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.22109349+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/no-args","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221097275+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/full-alias","Output":"    --- PASS: TestCalledAs/find/full-alias (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221100438+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/full-alias","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221103142+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-no-prefix","Output":"    --- PASS: TestCalledAs/find/part-no-prefix (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221109513+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-no-prefix","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221112316+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-alias","Output":"    --- PASS: TestCalledAs/find/part-alias (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.22111537+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/part-alias","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221118051+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/real-name","Output":"    --- PASS: TestCalledAs/traverse/real-name (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221121232+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/real-name","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221123852+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-no-prefix","Output":"    --- PASS: TestCalledAs/traverse/part-no-prefix (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221128035+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-no-prefix","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221130744+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/conflict","Output":"    --- PASS: TestCalledAs/traverse/conflict (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221133817+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/conflict","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221136443+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/no-args","Output":"    --- PASS: TestCalledAs/find/no-args (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221139429+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/no-args","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221142294+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/conflict","Output":"    --- PASS: TestCalledAs/find/conflict (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221145388+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/conflict","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221147936+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/full-alias","Output":"    --- PASS: TestCalledAs/traverse/full-alias (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221150876+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/full-alias","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221153544+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-alias","Output":"    --- PASS: TestCalledAs/traverse/part-alias (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221156541+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/traverse/part-alias","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221161094+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/real-name","Output":"    --- PASS: TestCalledAs/find/real-name (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221164968+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs/find/real-name","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221167615+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCalledAs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221170185+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistBackwardCompatibility"}
+{"Time":"2021-07-07T12:23:23.221173824+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistBackwardCompatibility","Output":"=== RUN   TestFParseErrWhitelistBackwardCompatibility\n"}
+{"Time":"2021-07-07T12:23:23.221407731+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistBackwardCompatibility","Output":"--- PASS: TestFParseErrWhitelistBackwardCompatibility (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221416447+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistBackwardCompatibility","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221420017+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistSameCommand"}
+{"Time":"2021-07-07T12:23:23.221422915+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistSameCommand","Output":"=== RUN   TestFParseErrWhitelistSameCommand\n"}
+{"Time":"2021-07-07T12:23:23.221426429+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistSameCommand","Output":"--- PASS: TestFParseErrWhitelistSameCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221430092+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistSameCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221432846+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistParentCommand"}
+{"Time":"2021-07-07T12:23:23.221435425+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistParentCommand","Output":"=== RUN   TestFParseErrWhitelistParentCommand\n"}
+{"Time":"2021-07-07T12:23:23.221766455+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistParentCommand","Output":"--- PASS: TestFParseErrWhitelistParentCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221779894+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistParentCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221783685+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistChildCommand"}
+{"Time":"2021-07-07T12:23:23.221787037+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistChildCommand","Output":"=== RUN   TestFParseErrWhitelistChildCommand\n"}
+{"Time":"2021-07-07T12:23:23.221793519+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistChildCommand","Output":"--- PASS: TestFParseErrWhitelistChildCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.221796592+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistChildCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.221799614+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistSiblingCommand"}
+{"Time":"2021-07-07T12:23:23.221802281+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistSiblingCommand","Output":"=== RUN   TestFParseErrWhitelistSiblingCommand\n"}
+{"Time":"2021-07-07T12:23:23.222052506+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistSiblingCommand","Output":"--- PASS: TestFParseErrWhitelistSiblingCommand (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.222061838+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFParseErrWhitelistSiblingCommand","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.222069456+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCmdNameCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.222072359+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCmdNameCompletionInGo","Output":"=== RUN   TestCmdNameCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.222121179+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCmdNameCompletionInGo","Output":"--- PASS: TestCmdNameCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.22212876+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCmdNameCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.222132373+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestNoCmdNameCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.22213515+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoCmdNameCompletionInGo","Output":"=== RUN   TestNoCmdNameCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.222235159+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoCmdNameCompletionInGo","Output":"[Debug] [Error] Error while parsing flags from args [--localroot value]: unknown flag: --localroot\n"}
+{"Time":"2021-07-07T12:23:23.222278223+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoCmdNameCompletionInGo","Output":"--- PASS: TestNoCmdNameCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.222292643+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestNoCmdNameCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.222298635+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.222302972+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsCompletionInGo","Output":"=== RUN   TestValidArgsCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.222317082+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsCompletionInGo","Output":"--- PASS: TestValidArgsCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.222385064+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.222392926+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsAndCmdCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.222395992+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsAndCmdCompletionInGo","Output":"=== RUN   TestValidArgsAndCmdCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.222400841+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsAndCmdCompletionInGo","Output":"--- PASS: TestValidArgsAndCmdCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.222458313+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsAndCmdCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.22246681+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncAndCmdCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.222471233+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncAndCmdCompletionInGo","Output":"=== RUN   TestValidArgsFuncAndCmdCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.222546111+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncAndCmdCompletionInGo","Output":"--- PASS: TestValidArgsFuncAndCmdCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.222555084+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncAndCmdCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.222558355+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.222560935+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionInGo","Output":"=== RUN   TestFlagNameCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.222635477+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionInGo","Output":"--- PASS: TestFlagNameCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.222648845+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.222652319+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionInGoWithDesc"}
+{"Time":"2021-07-07T12:23:23.222655045+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionInGoWithDesc","Output":"=== RUN   TestFlagNameCompletionInGoWithDesc\n"}
+{"Time":"2021-07-07T12:23:23.222764657+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionInGoWithDesc","Output":"--- PASS: TestFlagNameCompletionInGoWithDesc (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.222771868+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionInGoWithDesc","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.222775032+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionRepeat"}
+{"Time":"2021-07-07T12:23:23.222777798+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionRepeat","Output":"=== RUN   TestFlagNameCompletionRepeat\n"}
+{"Time":"2021-07-07T12:23:23.222900824+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionRepeat","Output":"--- PASS: TestFlagNameCompletionRepeat (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.222908072+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagNameCompletionRepeat","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.222911679+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestRequiredFlagNameCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.222914842+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRequiredFlagNameCompletionInGo","Output":"=== RUN   TestRequiredFlagNameCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.223052645+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestRequiredFlagNameCompletionInGo","Output":"--- PASS: TestRequiredFlagNameCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.22305994+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestRequiredFlagNameCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223063095+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagFileExtFilterCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.223065907+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagFileExtFilterCompletionInGo","Output":"=== RUN   TestFlagFileExtFilterCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.223131824+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagFileExtFilterCompletionInGo","Output":"--- PASS: TestFlagFileExtFilterCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.22313942+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagFileExtFilterCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223142607+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagDirFilterCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.223145247+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagDirFilterCompletionInGo","Output":"=== RUN   TestFlagDirFilterCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.22322349+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagDirFilterCompletionInGo","Output":"--- PASS: TestFlagDirFilterCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.223304897+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagDirFilterCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223313094+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncCmdContext"}
+{"Time":"2021-07-07T12:23:23.223317247+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncCmdContext","Output":"=== RUN   TestValidArgsFuncCmdContext\n"}
+{"Time":"2021-07-07T12:23:23.223323755+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncCmdContext","Output":"--- PASS: TestValidArgsFuncCmdContext (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.223340398+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncCmdContext","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223345229+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncSingleCmd"}
+{"Time":"2021-07-07T12:23:23.223349066+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncSingleCmd","Output":"=== RUN   TestValidArgsFuncSingleCmd\n"}
+{"Time":"2021-07-07T12:23:23.223398399+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncSingleCmd","Output":"--- PASS: TestValidArgsFuncSingleCmd (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.22340419+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncSingleCmd","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223407534+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncSingleCmdInvalidArg"}
+{"Time":"2021-07-07T12:23:23.223410279+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncSingleCmdInvalidArg","Output":"=== RUN   TestValidArgsFuncSingleCmdInvalidArg\n"}
+{"Time":"2021-07-07T12:23:23.223414296+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncSingleCmdInvalidArg","Output":"--- PASS: TestValidArgsFuncSingleCmdInvalidArg (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.223452623+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncSingleCmdInvalidArg","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223457984+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncChildCmds"}
+{"Time":"2021-07-07T12:23:23.223460856+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncChildCmds","Output":"=== RUN   TestValidArgsFuncChildCmds\n"}
+{"Time":"2021-07-07T12:23:23.223564849+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncChildCmds","Output":"--- PASS: TestValidArgsFuncChildCmds (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.223570833+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncChildCmds","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223573897+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncAliases"}
+{"Time":"2021-07-07T12:23:23.223576543+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncAliases","Output":"=== RUN   TestValidArgsFuncAliases\n"}
+{"Time":"2021-07-07T12:23:23.223618605+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncAliases","Output":"--- PASS: TestValidArgsFuncAliases (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.223626781+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncAliases","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223629822+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncInBashScript"}
+{"Time":"2021-07-07T12:23:23.223632566+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncInBashScript","Output":"=== RUN   TestValidArgsFuncInBashScript\n"}
+{"Time":"2021-07-07T12:23:23.22373619+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncInBashScript","Output":"--- PASS: TestValidArgsFuncInBashScript (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.223742757+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncInBashScript","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.22374583+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestNoValidArgsFuncInBashScript"}
+{"Time":"2021-07-07T12:23:23.223750086+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoValidArgsFuncInBashScript","Output":"=== RUN   TestNoValidArgsFuncInBashScript\n"}
+{"Time":"2021-07-07T12:23:23.223835179+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestNoValidArgsFuncInBashScript","Output":"--- PASS: TestNoValidArgsFuncInBashScript (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.223844558+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestNoValidArgsFuncInBashScript","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223847616+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInBashScript"}
+{"Time":"2021-07-07T12:23:23.223850351+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInBashScript","Output":"=== RUN   TestCompleteCmdInBashScript\n"}
+{"Time":"2021-07-07T12:23:23.223888223+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInBashScript","Output":"--- PASS: TestCompleteCmdInBashScript (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.22397112+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInBashScript","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.223986645+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCompleteNoDesCmdInZshScript"}
+{"Time":"2021-07-07T12:23:23.223991489+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteNoDesCmdInZshScript","Output":"=== RUN   TestCompleteNoDesCmdInZshScript\n"}
+{"Time":"2021-07-07T12:23:23.223999998+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteNoDesCmdInZshScript","Output":"--- PASS: TestCompleteNoDesCmdInZshScript (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.224004894+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCompleteNoDesCmdInZshScript","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224008645+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInZshScript"}
+{"Time":"2021-07-07T12:23:23.224012254+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInZshScript","Output":"=== RUN   TestCompleteCmdInZshScript\n"}
+{"Time":"2021-07-07T12:23:23.224062534+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInZshScript","Output":"--- PASS: TestCompleteCmdInZshScript (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.224071247+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInZshScript","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224074543+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.224077753+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionInGo","Output":"=== RUN   TestFlagCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.224143488+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionInGo","Output":"--- PASS: TestFlagCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.22417239+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224176541+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncChildCmdsWithDesc"}
+{"Time":"2021-07-07T12:23:23.224179375+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncChildCmdsWithDesc","Output":"=== RUN   TestValidArgsFuncChildCmdsWithDesc\n"}
+{"Time":"2021-07-07T12:23:23.224273177+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncChildCmdsWithDesc","Output":"--- PASS: TestValidArgsFuncChildCmdsWithDesc (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.224279454+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsFuncChildCmdsWithDesc","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224282523+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionWithNotInterspersedArgs"}
+{"Time":"2021-07-07T12:23:23.22428685+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionWithNotInterspersedArgs","Output":"=== RUN   TestFlagCompletionWithNotInterspersedArgs\n"}
+{"Time":"2021-07-07T12:23:23.224420634+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionWithNotInterspersedArgs","Output":"--- PASS: TestFlagCompletionWithNotInterspersedArgs (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.224429875+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionWithNotInterspersedArgs","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224433546+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionWorksRootCommandAddedAfterFlags"}
+{"Time":"2021-07-07T12:23:23.224437539+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionWorksRootCommandAddedAfterFlags","Output":"=== RUN   TestFlagCompletionWorksRootCommandAddedAfterFlags\n"}
+{"Time":"2021-07-07T12:23:23.224441766+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionWorksRootCommandAddedAfterFlags","Output":"--- PASS: TestFlagCompletionWorksRootCommandAddedAfterFlags (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.2244846+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionWorksRootCommandAddedAfterFlags","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224490369+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionInGoWithDesc"}
+{"Time":"2021-07-07T12:23:23.224493437+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionInGoWithDesc","Output":"=== RUN   TestFlagCompletionInGoWithDesc\n"}
+{"Time":"2021-07-07T12:23:23.224582445+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionInGoWithDesc","Output":"--- PASS: TestFlagCompletionInGoWithDesc (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.224588708+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestFlagCompletionInGoWithDesc","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224592047+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestValidArgsNotValidArgsFunc"}
+{"Time":"2021-07-07T12:23:23.224595007+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsNotValidArgsFunc","Output":"=== RUN   TestValidArgsNotValidArgsFunc\n"}
+{"Time":"2021-07-07T12:23:23.224633867+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestValidArgsNotValidArgsFunc","Output":"--- PASS: TestValidArgsNotValidArgsFunc (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.224643286+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestValidArgsNotValidArgsFunc","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224648352+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestArgAliasesCompletionInGo"}
+{"Time":"2021-07-07T12:23:23.224651483+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestArgAliasesCompletionInGo","Output":"=== RUN   TestArgAliasesCompletionInGo\n"}
+{"Time":"2021-07-07T12:23:23.22467135+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestArgAliasesCompletionInGo","Output":"--- PASS: TestArgAliasesCompletionInGo (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.224739867+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestArgAliasesCompletionInGo","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224747436+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCompleteHelp"}
+{"Time":"2021-07-07T12:23:23.224751065+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteHelp","Output":"=== RUN   TestCompleteHelp\n"}
+{"Time":"2021-07-07T12:23:23.224794813+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteHelp","Output":"--- PASS: TestCompleteHelp (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.224803023+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCompleteHelp","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.224806237+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestDefaultCompletionCmd"}
+{"Time":"2021-07-07T12:23:23.224808873+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestDefaultCompletionCmd","Output":"=== RUN   TestDefaultCompletionCmd\n"}
+{"Time":"2021-07-07T12:23:23.224996769+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestDefaultCompletionCmd","Output":"--- PASS: TestDefaultCompletionCmd (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.225006119+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestDefaultCompletionCmd","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.22500914+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCompleteCompletion"}
+{"Time":"2021-07-07T12:23:23.225011904+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteCompletion","Output":"=== RUN   TestCompleteCompletion\n"}
+{"Time":"2021-07-07T12:23:23.225071804+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteCompletion","Output":"--- PASS: TestCompleteCompletion (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.225128165+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCompleteCompletion","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.225133604+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestMultipleShorthandFlagCompletion"}
+{"Time":"2021-07-07T12:23:23.225136465+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMultipleShorthandFlagCompletion","Output":"=== RUN   TestMultipleShorthandFlagCompletion\n"}
+{"Time":"2021-07-07T12:23:23.225200404+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestMultipleShorthandFlagCompletion","Output":"--- PASS: TestMultipleShorthandFlagCompletion (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.225208655+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestMultipleShorthandFlagCompletion","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.225211716+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCompleteNoDesCmdInFishScript"}
+{"Time":"2021-07-07T12:23:23.225214342+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteNoDesCmdInFishScript","Output":"=== RUN   TestCompleteNoDesCmdInFishScript\n"}
+{"Time":"2021-07-07T12:23:23.225285175+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteNoDesCmdInFishScript","Output":"--- PASS: TestCompleteNoDesCmdInFishScript (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.225291169+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCompleteNoDesCmdInFishScript","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.225294363+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInFishScript"}
+{"Time":"2021-07-07T12:23:23.22529709+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInFishScript","Output":"=== RUN   TestCompleteCmdInFishScript\n"}
+{"Time":"2021-07-07T12:23:23.225301083+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInFishScript","Output":"--- PASS: TestCompleteCmdInFishScript (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.225344074+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestCompleteCmdInFishScript","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.225349432+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestProgWithDash"}
+{"Time":"2021-07-07T12:23:23.225352388+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestProgWithDash","Output":"=== RUN   TestProgWithDash\n"}
+{"Time":"2021-07-07T12:23:23.22542703+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestProgWithDash","Output":"--- PASS: TestProgWithDash (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.225433413+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestProgWithDash","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.225436502+02:00","Action":"run","Package":"github.com/spf13/cobra","Test":"TestProgWithColon"}
+{"Time":"2021-07-07T12:23:23.225439189+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestProgWithColon","Output":"=== RUN   TestProgWithColon\n"}
+{"Time":"2021-07-07T12:23:23.225443065+02:00","Action":"output","Package":"github.com/spf13/cobra","Test":"TestProgWithColon","Output":"--- PASS: TestProgWithColon (0.00s)\n"}
+{"Time":"2021-07-07T12:23:23.225445921+02:00","Action":"pass","Package":"github.com/spf13/cobra","Test":"TestProgWithColon","Elapsed":0}
+{"Time":"2021-07-07T12:23:23.225509129+02:00","Action":"output","Package":"github.com/spf13/cobra","Output":"PASS\n"}
+{"Time":"2021-07-07T12:23:23.22616962+02:00","Action":"output","Package":"github.com/spf13/cobra","Output":"ok  \tgithub.com/spf13/cobra\t0.054s\n"}
+{"Time":"2021-07-07T12:23:23.226179965+02:00","Action":"pass","Package":"github.com/spf13/cobra","Elapsed":0.055}

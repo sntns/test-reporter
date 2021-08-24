@@ -20,355 +20,597 @@
 |[test/stream_provider_test.dart](#r0s14)|8✔️|||282ms|
 |[test/value_listenable_provider_test.dart](#r0s15)|4✔️|1❌||327ms|
 ### ✔️ <a id="user-content-r0s0" href="#r0s0">test/builder_test.dart</a>
-```
 ChangeNotifierProvider
-  ✔️ default
-  ✔️ .value
+<details><summary>  ✔️ default</summary>
+</details>
+<details><summary>  ✔️ .value</summary>
+</details>
 ListenableProvider
-  ✔️ default
-  ✔️ .value
+<details><summary>  ✔️ default</summary>
+</details>
+<details><summary>  ✔️ .value</summary>
+</details>
 Provider
-  ✔️ default
-  ✔️ .value
+<details><summary>  ✔️ default</summary>
+</details>
+<details><summary>  ✔️ .value</summary>
+</details>
 ProxyProvider
-  ✔️ 0
-  ✔️ 1
-  ✔️ 2
-  ✔️ 3
-  ✔️ 4
-  ✔️ 5
-  ✔️ 6
+<details><summary>  ✔️ 0</summary>
+</details>
+<details><summary>  ✔️ 1</summary>
+</details>
+<details><summary>  ✔️ 2</summary>
+</details>
+<details><summary>  ✔️ 3</summary>
+</details>
+<details><summary>  ✔️ 4</summary>
+</details>
+<details><summary>  ✔️ 5</summary>
+</details>
+<details><summary>  ✔️ 6</summary>
+</details>
 MultiProvider
-  ✔️ with 1 ChangeNotifierProvider default
-  ✔️ with 2 ChangeNotifierProvider default
-  ✔️ with ListenableProvider default
-  ✔️ with Provider default
-  ✔️ with ProxyProvider0
-  ✔️ with ProxyProvider1
-  ✔️ with ProxyProvider2
-  ✔️ with ProxyProvider3
-  ✔️ with ProxyProvider4
-  ✔️ with ProxyProvider5
-  ✔️ with ProxyProvider6
-```
+<details><summary>  ✔️ with 1 ChangeNotifierProvider default</summary>
+</details>
+<details><summary>  ✔️ with 2 ChangeNotifierProvider default</summary>
+</details>
+<details><summary>  ✔️ with ListenableProvider default</summary>
+</details>
+<details><summary>  ✔️ with Provider default</summary>
+</details>
+<details><summary>  ✔️ with ProxyProvider0</summary>
+</details>
+<details><summary>  ✔️ with ProxyProvider1</summary>
+</details>
+<details><summary>  ✔️ with ProxyProvider2</summary>
+</details>
+<details><summary>  ✔️ with ProxyProvider3</summary>
+</details>
+<details><summary>  ✔️ with ProxyProvider4</summary>
+</details>
+<details><summary>  ✔️ with ProxyProvider5</summary>
+</details>
+<details><summary>  ✔️ with ProxyProvider6</summary>
+</details>
 ### ✔️ <a id="user-content-r0s1" href="#r0s1">test/change_notifier_provider_test.dart</a>
-```
-✔️ Use builder property, not child
+<details><summary>✔️ Use builder property, not child</summary>
+</details>
 ChangeNotifierProvider
-  ✔️ value
-  ✔️ builder
-  ✔️ builder1
-  ✔️ builder2
-  ✔️ builder3
-  ✔️ builder4
-  ✔️ builder5
-  ✔️ builder6
-  ✔️ builder0
-```
+<details><summary>  ✔️ value</summary>
+</details>
+<details><summary>  ✔️ builder</summary>
+</details>
+<details><summary>  ✔️ builder1</summary>
+</details>
+<details><summary>  ✔️ builder2</summary>
+</details>
+<details><summary>  ✔️ builder3</summary>
+</details>
+<details><summary>  ✔️ builder4</summary>
+</details>
+<details><summary>  ✔️ builder5</summary>
+</details>
+<details><summary>  ✔️ builder6</summary>
+</details>
+<details><summary>  ✔️ builder0</summary>
+</details>
 ### ✔️ <a id="user-content-r0s2" href="#r0s2">test/consumer_test.dart</a>
-```
 consumer
-  ✔️ obtains value from Provider<T>
-  ✔️ crashed with no builder
-  ✔️ can be used inside MultiProvider
+<details><summary>  ✔️ obtains value from Provider<T></summary>
+</details>
+<details><summary>  ✔️ crashed with no builder</summary>
+</details>
+<details><summary>  ✔️ can be used inside MultiProvider</summary>
+</details>
 consumer2
-  ✔️ obtains value from Provider<T>
-  ✔️ crashed with no builder
-  ✔️ can be used inside MultiProvider
+<details><summary>  ✔️ obtains value from Provider<T></summary>
+</details>
+<details><summary>  ✔️ crashed with no builder</summary>
+</details>
+<details><summary>  ✔️ can be used inside MultiProvider</summary>
+</details>
 consumer3
-  ✔️ obtains value from Provider<T>
-  ✔️ crashed with no builder
-  ✔️ can be used inside MultiProvider
+<details><summary>  ✔️ obtains value from Provider<T></summary>
+</details>
+<details><summary>  ✔️ crashed with no builder</summary>
+</details>
+<details><summary>  ✔️ can be used inside MultiProvider</summary>
+</details>
 consumer4
-  ✔️ obtains value from Provider<T>
-  ✔️ crashed with no builder
-  ✔️ can be used inside MultiProvider
+<details><summary>  ✔️ obtains value from Provider<T></summary>
+</details>
+<details><summary>  ✔️ crashed with no builder</summary>
+</details>
+<details><summary>  ✔️ can be used inside MultiProvider</summary>
+</details>
 consumer5
-  ✔️ obtains value from Provider<T>
-  ✔️ crashed with no builder
-  ✔️ can be used inside MultiProvider
+<details><summary>  ✔️ obtains value from Provider<T></summary>
+</details>
+<details><summary>  ✔️ crashed with no builder</summary>
+</details>
+<details><summary>  ✔️ can be used inside MultiProvider</summary>
+</details>
 consumer6
-  ✔️ obtains value from Provider<T>
-  ✔️ crashed with no builder
-  ✔️ can be used inside MultiProvider
-```
+<details><summary>  ✔️ obtains value from Provider<T></summary>
+</details>
+<details><summary>  ✔️ crashed with no builder</summary>
+</details>
+<details><summary>  ✔️ can be used inside MultiProvider</summary>
+</details>
 ### ✔️ <a id="user-content-r0s3" href="#r0s3">test/context_test.dart</a>
-```
-✔️ watch in layoutbuilder
-✔️ select in layoutbuilder
-✔️ cannot select in listView
-✔️ watch in listView
-✔️ watch in gridView
-✔️ clears select dependencies for all dependents
+<details><summary>✔️ watch in layoutbuilder</summary>
+</details>
+<details><summary>✔️ select in layoutbuilder</summary>
+</details>
+<details><summary>✔️ cannot select in listView</summary>
+</details>
+<details><summary>✔️ watch in listView</summary>
+</details>
+<details><summary>✔️ watch in gridView</summary>
+</details>
+<details><summary>✔️ clears select dependencies for all dependents</summary>
+</details>
 BuildContext
-  ✔️ internal selected value is updated
-  ✔️ create can use read without being lazy
-  ✔️ watch can be used inside InheritedProvider.update
-  ✔️ select doesn't fail if it loads a provider that depends on other providers
-  ✔️ don't call old selectors if the child rebuilds individually
-  ✔️ selects throws inside click handlers
-  ✔️ select throws if try to read dynamic
-  ✔️ select throws ProviderNotFoundException
-  ✔️ select throws if watch called inside the callback from build
-  ✔️ select throws if read called inside the callback from build
-  ✔️ select throws if select called inside the callback from build
-  ✔️ select throws if read called inside the callback on dependency change
-  ✔️ select throws if watch called inside the callback on dependency change
-  ✔️ select throws if select called inside the callback on dependency change
-  ✔️ can call read inside didChangeDependencies
-  ✔️ select cannot be called inside didChangeDependencies
-  ✔️ select in initState throws
-  ✔️ watch in initState throws
-  ✔️ read in initState works
-  ✔️ consumer can be removed and selector stops to be called
-  ✔️ context.select deeply compares maps
-  ✔️ context.select deeply compares lists
-  ✔️ context.select deeply compares iterables
-  ✔️ context.select deeply compares sets
-  ✔️ context.watch listens to value changes
-```
+<details><summary>  ✔️ internal selected value is updated</summary>
+</details>
+<details><summary>  ✔️ create can use read without being lazy</summary>
+</details>
+<details><summary>  ✔️ watch can be used inside InheritedProvider.update</summary>
+</details>
+<details><summary>  ✔️ select doesn't fail if it loads a provider that depends on other providers</summary>
+</details>
+<details><summary>  ✔️ don't call old selectors if the child rebuilds individually</summary>
+</details>
+<details><summary>  ✔️ selects throws inside click handlers</summary>
+</details>
+<details><summary>  ✔️ select throws if try to read dynamic</summary>
+</details>
+<details><summary>  ✔️ select throws ProviderNotFoundException</summary>
+</details>
+<details><summary>  ✔️ select throws if watch called inside the callback from build</summary>
+</details>
+<details><summary>  ✔️ select throws if read called inside the callback from build</summary>
+</details>
+<details><summary>  ✔️ select throws if select called inside the callback from build</summary>
+</details>
+<details><summary>  ✔️ select throws if read called inside the callback on dependency change</summary>
+</details>
+<details><summary>  ✔️ select throws if watch called inside the callback on dependency change</summary>
+</details>
+<details><summary>  ✔️ select throws if select called inside the callback on dependency change</summary>
+</details>
+<details><summary>  ✔️ can call read inside didChangeDependencies</summary>
+</details>
+<details><summary>  ✔️ select cannot be called inside didChangeDependencies</summary>
+</details>
+<details><summary>  ✔️ select in initState throws</summary>
+</details>
+<details><summary>  ✔️ watch in initState throws</summary>
+</details>
+<details><summary>  ✔️ read in initState works</summary>
+</details>
+<details><summary>  ✔️ consumer can be removed and selector stops to be called</summary>
+</details>
+<details><summary>  ✔️ context.select deeply compares maps</summary>
+</details>
+<details><summary>  ✔️ context.select deeply compares lists</summary>
+</details>
+<details><summary>  ✔️ context.select deeply compares iterables</summary>
+</details>
+<details><summary>  ✔️ context.select deeply compares sets</summary>
+</details>
+<details><summary>  ✔️ context.watch listens to value changes</summary>
+</details>
 ### ✔️ <a id="user-content-r0s4" href="#r0s4">test/future_provider_test.dart</a>
-```
-✔️ works with MultiProvider
-✔️ (catchError) previous future completes after transition is no-op
-✔️ previous future completes after transition is no-op
-✔️ transition from future to future preserve state
-✔️ throws if future has error and catchError is missing
-✔️ calls catchError if present and future has error
-✔️ works with null
-✔️ create and dispose future with builder
-✔️ FutureProvider() crashes if builder is null
+<details><summary>✔️ works with MultiProvider</summary>
+</details>
+<details><summary>✔️ (catchError) previous future completes after transition is no-op</summary>
+</details>
+<details><summary>✔️ previous future completes after transition is no-op</summary>
+</details>
+<details><summary>✔️ transition from future to future preserve state</summary>
+</details>
+<details><summary>✔️ throws if future has error and catchError is missing</summary>
+</details>
+<details><summary>✔️ calls catchError if present and future has error</summary>
+</details>
+<details><summary>✔️ works with null</summary>
+</details>
+<details><summary>✔️ create and dispose future with builder</summary>
+</details>
+<details><summary>✔️ FutureProvider() crashes if builder is null</summary>
+</details>
 FutureProvider()
-  ✔️ crashes if builder is null
-```
+<details><summary>  ✔️ crashes if builder is null</summary>
+</details>
 ### ✔️ <a id="user-content-r0s5" href="#r0s5">test/inherited_provider_test.dart</a>
-```
-✔️ regression test #377
-✔️ rebuild on dependency flags update
-✔️ properly update debug flags if a create triggers another deferred create
-✔️ properly update debug flags if a create triggers another deferred create
-✔️ properly update debug flags if an update triggers another create/update
-✔️ properly update debug flags if a create triggers another create/update
-✔️ Provider.of(listen: false) outside of build works when it loads a provider
-✔️ new value is available in didChangeDependencies
-✔️ builder receives the current value and updates independently from `update`
-✔️ builder can _not_ rebuild when provider updates
-✔️ builder rebuilds if provider is recreated
-✔️ provider.of throws if listen:true outside of the widget tree
-✔️ InheritedProvider throws if no child is provided with default constructor
-✔️ InheritedProvider throws if no child is provided with value constructor
-✔️ DeferredInheritedProvider throws if no child is provided with default constructor
-✔️ DeferredInheritedProvider throws if no child is provided with value constructor
-✔️ startListening markNeedsNotifyDependents
-✔️ InheritedProvider can be subclassed
-✔️ DeferredInheritedProvider can be subclassed
-✔️ can be used with MultiProvider
-✔️ throw if the widget ctor changes
-✔️ InheritedProvider lazy loading can be disabled
-✔️ InheritedProvider.value lazy loading can be disabled
-✔️ InheritedProvider subclass don't have to specify default lazy value
-✔️ DeferredInheritedProvider lazy loading can be disabled
-✔️ DeferredInheritedProvider.value lazy loading can be disabled
-✔️ selector
-✔️ can select multiple types from same provider
-✔️ can select same type on two different providers
-✔️ can select same type twice on same provider
-✔️ Provider.of has a proper error message if context is null
+<details><summary>✔️ regression test #377</summary>
+</details>
+<details><summary>✔️ rebuild on dependency flags update</summary>
+</details>
+<details><summary>✔️ properly update debug flags if a create triggers another deferred create</summary>
+</details>
+<details><summary>✔️ properly update debug flags if a create triggers another deferred create</summary>
+</details>
+<details><summary>✔️ properly update debug flags if an update triggers another create/update</summary>
+</details>
+<details><summary>✔️ properly update debug flags if a create triggers another create/update</summary>
+</details>
+<details><summary>✔️ Provider.of(listen: false) outside of build works when it loads a provider</summary>
+</details>
+<details><summary>✔️ new value is available in didChangeDependencies</summary>
+</details>
+<details><summary>✔️ builder receives the current value and updates independently from `update`</summary>
+</details>
+<details><summary>✔️ builder can _not_ rebuild when provider updates</summary>
+</details>
+<details><summary>✔️ builder rebuilds if provider is recreated</summary>
+</details>
+<details><summary>✔️ provider.of throws if listen:true outside of the widget tree</summary>
+</details>
+<details><summary>✔️ InheritedProvider throws if no child is provided with default constructor</summary>
+</details>
+<details><summary>✔️ InheritedProvider throws if no child is provided with value constructor</summary>
+</details>
+<details><summary>✔️ DeferredInheritedProvider throws if no child is provided with default constructor</summary>
+</details>
+<details><summary>✔️ DeferredInheritedProvider throws if no child is provided with value constructor</summary>
+</details>
+<details><summary>✔️ startListening markNeedsNotifyDependents</summary>
+</details>
+<details><summary>✔️ InheritedProvider can be subclassed</summary>
+</details>
+<details><summary>✔️ DeferredInheritedProvider can be subclassed</summary>
+</details>
+<details><summary>✔️ can be used with MultiProvider</summary>
+</details>
+<details><summary>✔️ throw if the widget ctor changes</summary>
+</details>
+<details><summary>✔️ InheritedProvider lazy loading can be disabled</summary>
+</details>
+<details><summary>✔️ InheritedProvider.value lazy loading can be disabled</summary>
+</details>
+<details><summary>✔️ InheritedProvider subclass don't have to specify default lazy value</summary>
+</details>
+<details><summary>✔️ DeferredInheritedProvider lazy loading can be disabled</summary>
+</details>
+<details><summary>✔️ DeferredInheritedProvider.value lazy loading can be disabled</summary>
+</details>
+<details><summary>✔️ selector</summary>
+</details>
+<details><summary>✔️ can select multiple types from same provider</summary>
+</details>
+<details><summary>✔️ can select same type on two different providers</summary>
+</details>
+<details><summary>✔️ can select same type twice on same provider</summary>
+</details>
+<details><summary>✔️ Provider.of has a proper error message if context is null</summary>
+</details>
 diagnostics
-  ✔️ InheritedProvider.value
-  ✔️ InheritedProvider doesn't break lazy loading
-  ✔️ InheritedProvider show if listening
-  ✔️ DeferredInheritedProvider.value
-  ✔️ DeferredInheritedProvider
+<details><summary>  ✔️ InheritedProvider.value</summary>
+</details>
+<details><summary>  ✔️ InheritedProvider doesn't break lazy loading</summary>
+</details>
+<details><summary>  ✔️ InheritedProvider show if listening</summary>
+</details>
+<details><summary>  ✔️ DeferredInheritedProvider.value</summary>
+</details>
+<details><summary>  ✔️ DeferredInheritedProvider</summary>
+</details>
 InheritedProvider.value()
-  ✔️ markNeedsNotifyDependents during startListening is noop
-  ✔️ startListening called again when create returns new value
-  ✔️ startListening
-  ✔️ stopListening not called twice if rebuild doesn't have listeners
-  ✔️ removeListener cannot be null
-  ✔️ pass down current value
-  ✔️ default updateShouldNotify
-  ✔️ custom updateShouldNotify
+<details><summary>  ✔️ markNeedsNotifyDependents during startListening is noop</summary>
+</details>
+<details><summary>  ✔️ startListening called again when create returns new value</summary>
+</details>
+<details><summary>  ✔️ startListening</summary>
+</details>
+<details><summary>  ✔️ stopListening not called twice if rebuild doesn't have listeners</summary>
+</details>
+<details><summary>  ✔️ removeListener cannot be null</summary>
+</details>
+<details><summary>  ✔️ pass down current value</summary>
+</details>
+<details><summary>  ✔️ default updateShouldNotify</summary>
+</details>
+<details><summary>  ✔️ custom updateShouldNotify</summary>
+</details>
 InheritedProvider()
-  ✔️ hasValue
-  ✔️ provider calls update if rebuilding only due to didChangeDependencies
-  ✔️ provider notifying dependents doesn't call update
-  ✔️ update can call Provider.of with listen:true
-  ✔️ update lazy loaded can call Provider.of with listen:true
-  ✔️ markNeedsNotifyDependents during startListening is noop
-  ✔️ update can obtain parent of the same type than self
-  ✔️ _debugCheckInvalidValueType
-  ✔️ startListening
-  ✔️ startListening called again when create returns new value
-  ✔️ stopListening not called twice if rebuild doesn't have listeners
-  ✔️ removeListener cannot be null
-  ✔️ fails if initialValueBuilder calls inheritFromElement/inheritFromWiggetOfExactType
-  ✔️ builder is called on every rebuild and after a dependency change
-  ✔️ builder with no updateShouldNotify use ==
-  ✔️ builder calls updateShouldNotify callback
-  ✔️ initialValue is transmitted to valueBuilder
-  ✔️ calls builder again if dependencies change
-  ✔️ exposes initialValue if valueBuilder is null
-  ✔️ call dispose on unmount
-  ✔️ builder unmount, dispose not called if value never read
-  ✔️ call dispose after new value
-  ✔️ valueBuilder works without initialBuilder
-  ✔️ calls initialValueBuilder lazily once
-  ✔️ throws if both builder and initialBuilder are missing
+<details><summary>  ✔️ hasValue</summary>
+</details>
+<details><summary>  ✔️ provider calls update if rebuilding only due to didChangeDependencies</summary>
+</details>
+<details><summary>  ✔️ provider notifying dependents doesn't call update</summary>
+</details>
+<details><summary>  ✔️ update can call Provider.of with listen:true</summary>
+</details>
+<details><summary>  ✔️ update lazy loaded can call Provider.of with listen:true</summary>
+</details>
+<details><summary>  ✔️ markNeedsNotifyDependents during startListening is noop</summary>
+</details>
+<details><summary>  ✔️ update can obtain parent of the same type than self</summary>
+</details>
+<details><summary>  ✔️ _debugCheckInvalidValueType</summary>
+</details>
+<details><summary>  ✔️ startListening</summary>
+</details>
+<details><summary>  ✔️ startListening called again when create returns new value</summary>
+</details>
+<details><summary>  ✔️ stopListening not called twice if rebuild doesn't have listeners</summary>
+</details>
+<details><summary>  ✔️ removeListener cannot be null</summary>
+</details>
+<details><summary>  ✔️ fails if initialValueBuilder calls inheritFromElement/inheritFromWiggetOfExactType</summary>
+</details>
+<details><summary>  ✔️ builder is called on every rebuild and after a dependency change</summary>
+</details>
+<details><summary>  ✔️ builder with no updateShouldNotify use ==</summary>
+</details>
+<details><summary>  ✔️ builder calls updateShouldNotify callback</summary>
+</details>
+<details><summary>  ✔️ initialValue is transmitted to valueBuilder</summary>
+</details>
+<details><summary>  ✔️ calls builder again if dependencies change</summary>
+</details>
+<details><summary>  ✔️ exposes initialValue if valueBuilder is null</summary>
+</details>
+<details><summary>  ✔️ call dispose on unmount</summary>
+</details>
+<details><summary>  ✔️ builder unmount, dispose not called if value never read</summary>
+</details>
+<details><summary>  ✔️ call dispose after new value</summary>
+</details>
+<details><summary>  ✔️ valueBuilder works without initialBuilder</summary>
+</details>
+<details><summary>  ✔️ calls initialValueBuilder lazily once</summary>
+</details>
+<details><summary>  ✔️ throws if both builder and initialBuilder are missing</summary>
+</details>
 DeferredInheritedProvider.value()
-  ✔️ hasValue
-  ✔️ startListening
-  ✔️ stopListening cannot be null
-  ✔️ startListening doesn't need setState if already initialized
-  ✔️ setState without updateShouldNotify
-  ✔️ setState with updateShouldNotify
-  ✔️ startListening never leave the widget uninitialized
-  ✔️ startListening called again on controller change
+<details><summary>  ✔️ hasValue</summary>
+</details>
+<details><summary>  ✔️ startListening</summary>
+</details>
+<details><summary>  ✔️ stopListening cannot be null</summary>
+</details>
+<details><summary>  ✔️ startListening doesn't need setState if already initialized</summary>
+</details>
+<details><summary>  ✔️ setState without updateShouldNotify</summary>
+</details>
+<details><summary>  ✔️ setState with updateShouldNotify</summary>
+</details>
+<details><summary>  ✔️ startListening never leave the widget uninitialized</summary>
+</details>
+<details><summary>  ✔️ startListening called again on controller change</summary>
+</details>
 DeferredInheritedProvider()
-  ✔️ create can't call inherited widgets
-  ✔️ creates the value lazily
-  ✔️ dispose
-  ✔️ dispose no-op if never built
-```
+<details><summary>  ✔️ create can't call inherited widgets</summary>
+</details>
+<details><summary>  ✔️ creates the value lazily</summary>
+</details>
+<details><summary>  ✔️ dispose</summary>
+</details>
+<details><summary>  ✔️ dispose no-op if never built</summary>
+</details>
 ### ✔️ <a id="user-content-r0s6" href="#r0s6">test/listenable_provider_test.dart</a>
-```
 ListenableProvider
-  ✔️ works with MultiProvider
-  ✔️ asserts that the created notifier can have listeners
-  ✔️ don't listen again if listenable instance doesn't change
-  ✔️ works with null (default)
-  ✔️ works with null (create)
-  ✔️ stateful create called once
-  ✔️ dispose called on unmount
-  ✔️ dispose can be null
-  ✔️ changing listenable rebuilds descendants
-  ✔️ rebuilding with the same provider don't rebuilds descendants
-  ✔️ notifylistener rebuilds descendants
+<details><summary>  ✔️ works with MultiProvider</summary>
+</details>
+<details><summary>  ✔️ asserts that the created notifier can have listeners</summary>
+</details>
+<details><summary>  ✔️ don't listen again if listenable instance doesn't change</summary>
+</details>
+<details><summary>  ✔️ works with null (default)</summary>
+</details>
+<details><summary>  ✔️ works with null (create)</summary>
+</details>
+<details><summary>  ✔️ stateful create called once</summary>
+</details>
+<details><summary>  ✔️ dispose called on unmount</summary>
+</details>
+<details><summary>  ✔️ dispose can be null</summary>
+</details>
+<details><summary>  ✔️ changing listenable rebuilds descendants</summary>
+</details>
+<details><summary>  ✔️ rebuilding with the same provider don't rebuilds descendants</summary>
+</details>
+<details><summary>  ✔️ notifylistener rebuilds descendants</summary>
+</details>
 ListenableProvider value constructor
-  ✔️ pass down key
-  ✔️ changing the Listenable instance rebuilds dependents
+<details><summary>  ✔️ pass down key</summary>
+</details>
+<details><summary>  ✔️ changing the Listenable instance rebuilds dependents</summary>
+</details>
 ListenableProvider stateful constructor
-  ✔️ called with context
-  ✔️ pass down key
-  ✔️ throws if create is null
-```
+<details><summary>  ✔️ called with context</summary>
+</details>
+<details><summary>  ✔️ pass down key</summary>
+</details>
+<details><summary>  ✔️ throws if create is null</summary>
+</details>
 ### ✔️ <a id="user-content-r0s7" href="#r0s7">test/listenable_proxy_provider_test.dart</a>
-```
 ListenableProxyProvider
-  ✔️ throws if update is missing
-  ✔️ asserts that the created notifier has no listener
-  ✔️ asserts that the created notifier has no listener after rebuild
-  ✔️ rebuilds dependendents when listeners are called
-  ✔️ update returning a new Listenable disposes the previously created value and update dependents
-  ✔️ disposes of created value
+<details><summary>  ✔️ throws if update is missing</summary>
+</details>
+<details><summary>  ✔️ asserts that the created notifier has no listener</summary>
+</details>
+<details><summary>  ✔️ asserts that the created notifier has no listener after rebuild</summary>
+</details>
+<details><summary>  ✔️ rebuilds dependendents when listeners are called</summary>
+</details>
+<details><summary>  ✔️ update returning a new Listenable disposes the previously created value and update dependents</summary>
+</details>
+<details><summary>  ✔️ disposes of created value</summary>
+</details>
 ListenableProxyProvider variants
-  ✔️ ListenableProxyProvider
-  ✔️ ListenableProxyProvider2
-  ✔️ ListenableProxyProvider3
-  ✔️ ListenableProxyProvider4
-  ✔️ ListenableProxyProvider5
-  ✔️ ListenableProxyProvider6
-```
+<details><summary>  ✔️ ListenableProxyProvider</summary>
+</details>
+<details><summary>  ✔️ ListenableProxyProvider2</summary>
+</details>
+<details><summary>  ✔️ ListenableProxyProvider3</summary>
+</details>
+<details><summary>  ✔️ ListenableProxyProvider4</summary>
+</details>
+<details><summary>  ✔️ ListenableProxyProvider5</summary>
+</details>
+<details><summary>  ✔️ ListenableProxyProvider6</summary>
+</details>
 ### ✔️ <a id="user-content-r0s8" href="#r0s8">test/multi_provider_test.dart</a>
-```
 MultiProvider
-  ✔️ throw if providers is null
-  ✔️ MultiProvider children can only access parent providers
-  ✔️ MultiProvider.providers with ignored child
-```
+<details><summary>  ✔️ throw if providers is null</summary>
+</details>
+<details><summary>  ✔️ MultiProvider children can only access parent providers</summary>
+</details>
+<details><summary>  ✔️ MultiProvider.providers with ignored child</summary>
+</details>
 ### ✔️ <a id="user-content-r0s9" href="#r0s9">test/provider_test.dart</a>
-```
-✔️ works with MultiProvider
+<details><summary>✔️ works with MultiProvider</summary>
+</details>
 Provider.of
-  ✔️ throws if T is dynamic
-  ✔️ listen defaults to true when building widgets
-  ✔️ listen defaults to false outside of the widget tree
-  ✔️ listen:false doesn't trigger rebuild
-  ✔️ listen:true outside of the widget tree throws
+<details><summary>  ✔️ throws if T is dynamic</summary>
+</details>
+<details><summary>  ✔️ listen defaults to true when building widgets</summary>
+</details>
+<details><summary>  ✔️ listen defaults to false outside of the widget tree</summary>
+</details>
+<details><summary>  ✔️ listen:false doesn't trigger rebuild</summary>
+</details>
+<details><summary>  ✔️ listen:true outside of the widget tree throws</summary>
+</details>
 Provider
-  ✔️ throws if the provided value is a Listenable/Stream
-  ✔️ debugCheckInvalidValueType can be disabled
-  ✔️ simple usage
-  ✔️ throws an error if no provider found
-  ✔️ update should notify
-```
+<details><summary>  ✔️ throws if the provided value is a Listenable/Stream</summary>
+</details>
+<details><summary>  ✔️ debugCheckInvalidValueType can be disabled</summary>
+</details>
+<details><summary>  ✔️ simple usage</summary>
+</details>
+<details><summary>  ✔️ throws an error if no provider found</summary>
+</details>
+<details><summary>  ✔️ update should notify</summary>
+</details>
 ### ✔️ <a id="user-content-r0s10" href="#r0s10">test/proxy_provider_test.dart</a>
-```
 ProxyProvider
-  ✔️ throws if the provided value is a Listenable/Stream
-  ✔️ debugCheckInvalidValueType can be disabled
-  ✔️ create creates initial value
-  ✔️ consume another providers
-  ✔️ rebuild descendants if value change
-  ✔️ call dispose when unmounted with the latest result
-  ✔️ don't rebuild descendants if value doesn't change
-  ✔️ pass down updateShouldNotify
-  ✔️ works with MultiProvider
-  ✔️ update callback can trigger descendants setState synchronously
-  ✔️ throws if update is null
+<details><summary>  ✔️ throws if the provided value is a Listenable/Stream</summary>
+</details>
+<details><summary>  ✔️ debugCheckInvalidValueType can be disabled</summary>
+</details>
+<details><summary>  ✔️ create creates initial value</summary>
+</details>
+<details><summary>  ✔️ consume another providers</summary>
+</details>
+<details><summary>  ✔️ rebuild descendants if value change</summary>
+</details>
+<details><summary>  ✔️ call dispose when unmounted with the latest result</summary>
+</details>
+<details><summary>  ✔️ don't rebuild descendants if value doesn't change</summary>
+</details>
+<details><summary>  ✔️ pass down updateShouldNotify</summary>
+</details>
+<details><summary>  ✔️ works with MultiProvider</summary>
+</details>
+<details><summary>  ✔️ update callback can trigger descendants setState synchronously</summary>
+</details>
+<details><summary>  ✔️ throws if update is null</summary>
+</details>
 ProxyProvider variants
-  ✔️ ProxyProvider2
-  ✔️ ProxyProvider3
-  ✔️ ProxyProvider4
-  ✔️ ProxyProvider5
-  ✔️ ProxyProvider6
-```
+<details><summary>  ✔️ ProxyProvider2</summary>
+</details>
+<details><summary>  ✔️ ProxyProvider3</summary>
+</details>
+<details><summary>  ✔️ ProxyProvider4</summary>
+</details>
+<details><summary>  ✔️ ProxyProvider5</summary>
+</details>
+<details><summary>  ✔️ ProxyProvider6</summary>
+</details>
 ### ✔️ <a id="user-content-r0s11" href="#r0s11">test/reassemble_test.dart</a>
-```
-✔️ ReassembleHandler
-✔️ unevaluated create
-✔️ unevaluated create
-```
+<details><summary>✔️ ReassembleHandler</summary>
+</details>
+<details><summary>✔️ unevaluated create</summary>
+</details>
+<details><summary>✔️ unevaluated create</summary>
+</details>
 ### ✔️ <a id="user-content-r0s12" href="#r0s12">test/selector_test.dart</a>
-```
-✔️ asserts that builder/selector are not null
-✔️ Deep compare maps by default
-✔️ Deep compare iterables by default
-✔️ Deep compare sets by default
-✔️ Deep compare lists by default
-✔️ custom shouldRebuid
-✔️ passes `child` and `key`
-✔️ calls builder if the callback changes
-✔️ works with MultiProvider
-✔️ don't call builder again if it rebuilds but selector returns the same thing
-✔️ call builder again if it rebuilds abd selector returns the a different variable
-✔️ Selector
-✔️ Selector2
-✔️ Selector3
-✔️ Selector4
-✔️ Selector5
-✔️ Selector6
-```
+<details><summary>✔️ asserts that builder/selector are not null</summary>
+</details>
+<details><summary>✔️ Deep compare maps by default</summary>
+</details>
+<details><summary>✔️ Deep compare iterables by default</summary>
+</details>
+<details><summary>✔️ Deep compare sets by default</summary>
+</details>
+<details><summary>✔️ Deep compare lists by default</summary>
+</details>
+<details><summary>✔️ custom shouldRebuid</summary>
+</details>
+<details><summary>✔️ passes `child` and `key`</summary>
+</details>
+<details><summary>✔️ calls builder if the callback changes</summary>
+</details>
+<details><summary>✔️ works with MultiProvider</summary>
+</details>
+<details><summary>✔️ don't call builder again if it rebuilds but selector returns the same thing</summary>
+</details>
+<details><summary>✔️ call builder again if it rebuilds abd selector returns the a different variable</summary>
+</details>
+<details><summary>✔️ Selector</summary>
+</details>
+<details><summary>✔️ Selector2</summary>
+</details>
+<details><summary>✔️ Selector3</summary>
+</details>
+<details><summary>✔️ Selector4</summary>
+</details>
+<details><summary>✔️ Selector5</summary>
+</details>
+<details><summary>✔️ Selector6</summary>
+</details>
 ### ✔️ <a id="user-content-r0s13" href="#r0s13">test/stateful_provider_test.dart</a>
-```
-✔️ asserts
-✔️ works with MultiProvider
-✔️ calls create only once
-✔️ dispose
-```
+<details><summary>✔️ asserts</summary>
+</details>
+<details><summary>✔️ works with MultiProvider</summary>
+</details>
+<details><summary>✔️ calls create only once</summary>
+</details>
+<details><summary>✔️ dispose</summary>
+</details>
 ### ✔️ <a id="user-content-r0s14" href="#r0s14">test/stream_provider_test.dart</a>
-```
-✔️ works with MultiProvider
-✔️ transition from stream to stream preserve state
-✔️ throws if stream has error and catchError is missing
-✔️ calls catchError if present and stream has error
-✔️ works with null
-✔️ StreamProvider() crashes if builder is null
+<details><summary>✔️ works with MultiProvider</summary>
+</details>
+<details><summary>✔️ transition from stream to stream preserve state</summary>
+</details>
+<details><summary>✔️ throws if stream has error and catchError is missing</summary>
+</details>
+<details><summary>✔️ calls catchError if present and stream has error</summary>
+</details>
+<details><summary>✔️ works with null</summary>
+</details>
+<details><summary>✔️ StreamProvider() crashes if builder is null</summary>
+</details>
 StreamProvider()
-  ✔️ create and dispose stream with builder
-  ✔️ crashes if builder is null
-```
+<details><summary>  ✔️ create and dispose stream with builder</summary>
+</details>
+<details><summary>  ✔️ crashes if builder is null</summary>
+</details>
 ### ❌ <a id="user-content-r0s15" href="#r0s15">test/value_listenable_provider_test.dart</a>
-```
 valueListenableProvider
-  ✔️ rebuilds when value change
-  ✔️ don't rebuild dependents by default
-  ✔️ pass keys
-  ✔️ don't listen again if stream instance doesn't change
-  ❌ pass updateShouldNotify
+<details><summary>  ✔️ rebuilds when value change</summary>
+</details>
+<details><summary>  ✔️ don't rebuild dependents by default</summary>
+</details>
+<details><summary>  ✔️ pass keys</summary>
+</details>
+<details><summary>  ✔️ don't listen again if stream instance doesn't change</summary>
+</details>
+<details><summary>  ❌ pass updateShouldNotify</summary>
+error:
+
+```
 	The following TestFailure object was thrown running a test:
 	  Expected: <2>
 	  Actual: <1>
 	Unexpected number of calls
 	
 ```
+
+</details>

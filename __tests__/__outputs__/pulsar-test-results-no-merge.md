@@ -5,8 +5,13 @@
 |:---|---:|---:|---:|---:|
 |[org.apache.pulsar.AddMissingPatchVersionTest](#r0s0)||1❌|1✖️|116ms|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">org.apache.pulsar.AddMissingPatchVersionTest</a>
+<details><summary>✖️ testVersionStrings</summary>
+</details>
+<details><summary>❌ testVersionStrings</summary>
+error:
+
 ```
-✖️ testVersionStrings
-❌ testVersionStrings
 	java.lang.AssertionError: expected [1.2.1] but found [1.2.0]
 ```
+
+</details>

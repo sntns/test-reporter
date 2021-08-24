@@ -5,27 +5,61 @@
 |:---|---:|---:|---:|---:|
 |[DotnetTests.XUnitTests.CalculatorTests](#r0s0)|5✔️|5❌|1✖️|118ms|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">DotnetTests.XUnitTests.CalculatorTests</a>
+<details><summary>✔️ Custom Name</summary>
+</details>
+<details><summary>❌ Exception_In_TargetTest</summary>
+error:
+
 ```
-✔️ Custom Name
-❌ Exception_In_TargetTest
 	System.DivideByZeroException : Attempted to divide by zero.
-❌ Exception_In_Test
+```
+
+</details>
+<details><summary>❌ Exception_In_Test</summary>
+error:
+
+```
 	System.Exception : Test
-❌ Failing_Test
+```
+
+</details>
+<details><summary>❌ Failing_Test</summary>
+error:
+
+```
 	Assert.Equal() Failure
 	Expected: 3
 	Actual:   2
-✔️ Is_Even_Number(i: 2)
-❌ Is_Even_Number(i: 3)
-	Assert.True() Failure
-	Expected: True
-	Actual:   False
-✔️ Passing_Test
-✔️ Should be even number(i: 2)
-❌ Should be even number(i: 3)
-	Assert.True() Failure
-	Expected: True
-	Actual:   False
-✖️ Skipped_Test
-✔️ Timeout_Test
 ```
+
+</details>
+<details><summary>✔️ Is_Even_Number(i: 2)</summary>
+</details>
+<details><summary>❌ Is_Even_Number(i: 3)</summary>
+error:
+
+```
+	Assert.True() Failure
+	Expected: True
+	Actual:   False
+```
+
+</details>
+<details><summary>✔️ Passing_Test</summary>
+</details>
+<details><summary>✔️ Should be even number(i: 2)</summary>
+</details>
+<details><summary>❌ Should be even number(i: 3)</summary>
+error:
+
+```
+	Assert.True() Failure
+	Expected: True
+	Actual:   False
+```
+
+</details>
+<details><summary>✖️ Skipped_Test</summary>
+</details>
+<details><summary>✔️ Timeout_Test</summary>
+</details>

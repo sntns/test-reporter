@@ -1,0 +1,5189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`golang-json tests report from spf13/cobra single suite test results matches snapshot (verbose) 1`] = `
+TestRunResult {
+  "path": "fixtures/external/golang/spf13-cobra-verbose.json",
+  "suites": Array [
+    TestSuiteResult {
+      "groups": Array [
+        TestGroupResult {
+          "name": "TestNoArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNoArgs",
+              "output": Array [
+                "=== RUN   TestNoArgs",
+                "--- PASS: TestNoArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNoArgsWithArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNoArgsWithArgs",
+              "output": Array [
+                "=== RUN   TestNoArgsWithArgs",
+                "--- PASS: TestNoArgsWithArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestOnlyValidArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestOnlyValidArgs",
+              "output": Array [
+                "=== RUN   TestOnlyValidArgs",
+                "--- PASS: TestOnlyValidArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestOnlyValidArgsWithInvalidArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestOnlyValidArgsWithInvalidArgs",
+              "output": Array [
+                "=== RUN   TestOnlyValidArgsWithInvalidArgs",
+                "--- PASS: TestOnlyValidArgsWithInvalidArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestArbitraryArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestArbitraryArgs",
+              "output": Array [
+                "=== RUN   TestArbitraryArgs",
+                "--- PASS: TestArbitraryArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMinimumNArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMinimumNArgs",
+              "output": Array [
+                "=== RUN   TestMinimumNArgs",
+                "--- PASS: TestMinimumNArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMinimumNArgsWithLessArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMinimumNArgsWithLessArgs",
+              "output": Array [
+                "=== RUN   TestMinimumNArgsWithLessArgs",
+                "--- PASS: TestMinimumNArgsWithLessArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMaximumNArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMaximumNArgs",
+              "output": Array [
+                "=== RUN   TestMaximumNArgs",
+                "--- PASS: TestMaximumNArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMaximumNArgsWithMoreArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMaximumNArgsWithMoreArgs",
+              "output": Array [
+                "=== RUN   TestMaximumNArgsWithMoreArgs",
+                "--- PASS: TestMaximumNArgsWithMoreArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactArgs",
+              "output": Array [
+                "=== RUN   TestExactArgs",
+                "--- PASS: TestExactArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactArgsWithInvalidCount",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactArgsWithInvalidCount",
+              "output": Array [
+                "=== RUN   TestExactArgsWithInvalidCount",
+                "--- PASS: TestExactArgsWithInvalidCount (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactValidArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactValidArgs",
+              "output": Array [
+                "=== RUN   TestExactValidArgs",
+                "--- PASS: TestExactValidArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactValidArgsWithInvalidCount",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactValidArgsWithInvalidCount",
+              "output": Array [
+                "=== RUN   TestExactValidArgsWithInvalidCount",
+                "--- PASS: TestExactValidArgsWithInvalidCount (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactValidArgsWithInvalidArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactValidArgsWithInvalidArgs",
+              "output": Array [
+                "=== RUN   TestExactValidArgsWithInvalidArgs",
+                "--- PASS: TestExactValidArgsWithInvalidArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRangeArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRangeArgs",
+              "output": Array [
+                "=== RUN   TestRangeArgs",
+                "--- PASS: TestRangeArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRangeArgsWithInvalidCount",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRangeArgsWithInvalidCount",
+              "output": Array [
+                "=== RUN   TestRangeArgsWithInvalidCount",
+                "--- PASS: TestRangeArgsWithInvalidCount (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRootTakesNoArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRootTakesNoArgs",
+              "output": Array [
+                "=== RUN   TestRootTakesNoArgs",
+                "--- PASS: TestRootTakesNoArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRootTakesArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRootTakesArgs",
+              "output": Array [
+                "=== RUN   TestRootTakesArgs",
+                "--- PASS: TestRootTakesArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildTakesNoArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildTakesNoArgs",
+              "output": Array [
+                "=== RUN   TestChildTakesNoArgs",
+                "--- PASS: TestChildTakesNoArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildTakesArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildTakesArgs",
+              "output": Array [
+                "=== RUN   TestChildTakesArgs",
+                "--- PASS: TestChildTakesArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestBashCompletions",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestBashCompletions",
+              "output": Array [
+                "=== RUN   TestBashCompletions",
+                "--- PASS: TestBashCompletions (0.03s)",
+              ],
+              "result": "success",
+              "time": 0.03,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestBashCompletionHiddenFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestBashCompletionHiddenFlag",
+              "output": Array [
+                "=== RUN   TestBashCompletionHiddenFlag",
+                "--- PASS: TestBashCompletionHiddenFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestBashCompletionDeprecatedFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestBashCompletionDeprecatedFlag",
+              "output": Array [
+                "=== RUN   TestBashCompletionDeprecatedFlag",
+                "--- PASS: TestBashCompletionDeprecatedFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestBashCompletionTraverseChildren",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestBashCompletionTraverseChildren",
+              "output": Array [
+                "=== RUN   TestBashCompletionTraverseChildren",
+                "--- PASS: TestBashCompletionTraverseChildren (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestAddTemplateFunctions",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestAddTemplateFunctions",
+              "output": Array [
+                "=== RUN   TestAddTemplateFunctions",
+                "--- PASS: TestAddTemplateFunctions (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSingleCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSingleCommand",
+              "output": Array [
+                "=== RUN   TestSingleCommand",
+                "--- PASS: TestSingleCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildCommand",
+              "output": Array [
+                "=== RUN   TestChildCommand",
+                "--- PASS: TestChildCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCallCommandWithoutSubcommands",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCallCommandWithoutSubcommands",
+              "output": Array [
+                "=== RUN   TestCallCommandWithoutSubcommands",
+                "--- PASS: TestCallCommandWithoutSubcommands (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRootExecuteUnknownCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRootExecuteUnknownCommand",
+              "output": Array [
+                "=== RUN   TestRootExecuteUnknownCommand",
+                "--- PASS: TestRootExecuteUnknownCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSubcommandExecuteC",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSubcommandExecuteC",
+              "output": Array [
+                "=== RUN   TestSubcommandExecuteC",
+                "--- PASS: TestSubcommandExecuteC (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExecuteContext",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExecuteContext",
+              "output": Array [
+                "=== RUN   TestExecuteContext",
+                "--- PASS: TestExecuteContext (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExecuteContextC",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExecuteContextC",
+              "output": Array [
+                "=== RUN   TestExecuteContextC",
+                "--- PASS: TestExecuteContextC (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExecute_NoContext",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExecute_NoContext",
+              "output": Array [
+                "=== RUN   TestExecute_NoContext",
+                "--- PASS: TestExecute_NoContext (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRootUnknownCommandSilenced",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRootUnknownCommandSilenced",
+              "output": Array [
+                "=== RUN   TestRootUnknownCommandSilenced",
+                "--- PASS: TestRootUnknownCommandSilenced (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCommandAlias",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCommandAlias",
+              "output": Array [
+                "=== RUN   TestCommandAlias",
+                "--- PASS: TestCommandAlias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestEnablePrefixMatching",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestEnablePrefixMatching",
+              "output": Array [
+                "=== RUN   TestEnablePrefixMatching",
+                "--- PASS: TestEnablePrefixMatching (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestAliasPrefixMatching",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestAliasPrefixMatching",
+              "output": Array [
+                "=== RUN   TestAliasPrefixMatching",
+                "--- PASS: TestAliasPrefixMatching (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildSameName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildSameName",
+              "output": Array [
+                "=== RUN   TestChildSameName",
+                "--- PASS: TestChildSameName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestGrandChildSameName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestGrandChildSameName",
+              "output": Array [
+                "=== RUN   TestGrandChildSameName",
+                "--- PASS: TestGrandChildSameName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagLong",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagLong",
+              "output": Array [
+                "=== RUN   TestFlagLong",
+                "--- PASS: TestFlagLong (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagShort",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagShort",
+              "output": Array [
+                "=== RUN   TestFlagShort",
+                "--- PASS: TestFlagShort (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildFlag",
+              "output": Array [
+                "=== RUN   TestChildFlag",
+                "--- PASS: TestChildFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildFlagWithParentLocalFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildFlagWithParentLocalFlag",
+              "output": Array [
+                "=== RUN   TestChildFlagWithParentLocalFlag",
+                "--- PASS: TestChildFlagWithParentLocalFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagInvalidInput",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagInvalidInput",
+              "output": Array [
+                "=== RUN   TestFlagInvalidInput",
+                "--- PASS: TestFlagInvalidInput (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagBeforeCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagBeforeCommand",
+              "output": Array [
+                "=== RUN   TestFlagBeforeCommand",
+                "--- PASS: TestFlagBeforeCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestStripFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestStripFlags",
+              "output": Array [
+                "=== RUN   TestStripFlags",
+                "--- PASS: TestStripFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestDisableFlagParsing",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestDisableFlagParsing",
+              "output": Array [
+                "=== RUN   TestDisableFlagParsing",
+                "--- PASS: TestDisableFlagParsing (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentFlagsOnSameCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentFlagsOnSameCommand",
+              "output": Array [
+                "=== RUN   TestPersistentFlagsOnSameCommand",
+                "--- PASS: TestPersistentFlagsOnSameCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestEmptyInputs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestEmptyInputs",
+              "output": Array [
+                "=== RUN   TestEmptyInputs",
+                "--- PASS: TestEmptyInputs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestOverwrittenFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestOverwrittenFlag",
+              "output": Array [
+                "=== RUN   TestOverwrittenFlag",
+                "    command_test.go:712:",
+                "--- SKIP: TestOverwrittenFlag (0.00s)",
+              ],
+              "result": "skipped",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentFlagsOnChild",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentFlagsOnChild",
+              "output": Array [
+                "=== RUN   TestPersistentFlagsOnChild",
+                "--- PASS: TestPersistentFlagsOnChild (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRequiredFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRequiredFlags",
+              "output": Array [
+                "=== RUN   TestRequiredFlags",
+                "--- PASS: TestRequiredFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentRequiredFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentRequiredFlags",
+              "output": Array [
+                "=== RUN   TestPersistentRequiredFlags",
+                "--- PASS: TestPersistentRequiredFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentRequiredFlagsWithDisableFlagParsing",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentRequiredFlagsWithDisableFlagParsing",
+              "output": Array [
+                "=== RUN   TestPersistentRequiredFlagsWithDisableFlagParsing",
+                "--- PASS: TestPersistentRequiredFlagsWithDisableFlagParsing (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestInitHelpFlagMergesFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestInitHelpFlagMergesFlags",
+              "output": Array [
+                "=== RUN   TestInitHelpFlagMergesFlags",
+                "--- PASS: TestInitHelpFlagMergesFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpCommandExecuted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpCommandExecuted",
+              "output": Array [
+                "=== RUN   TestHelpCommandExecuted",
+                "--- PASS: TestHelpCommandExecuted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpCommandExecutedOnChild",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpCommandExecutedOnChild",
+              "output": Array [
+                "=== RUN   TestHelpCommandExecutedOnChild",
+                "--- PASS: TestHelpCommandExecutedOnChild (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetHelpCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetHelpCommand",
+              "output": Array [
+                "=== RUN   TestSetHelpCommand",
+                "--- PASS: TestSetHelpCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpFlagExecuted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpFlagExecuted",
+              "output": Array [
+                "=== RUN   TestHelpFlagExecuted",
+                "--- PASS: TestHelpFlagExecuted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpFlagExecutedOnChild",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpFlagExecutedOnChild",
+              "output": Array [
+                "=== RUN   TestHelpFlagExecutedOnChild",
+                "--- PASS: TestHelpFlagExecutedOnChild (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpFlagInHelp",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpFlagInHelp",
+              "output": Array [
+                "=== RUN   TestHelpFlagInHelp",
+                "--- PASS: TestHelpFlagInHelp (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagsInUsage",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagsInUsage",
+              "output": Array [
+                "=== RUN   TestFlagsInUsage",
+                "--- PASS: TestFlagsInUsage (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpExecutedOnNonRunnableChild",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpExecutedOnNonRunnableChild",
+              "output": Array [
+                "=== RUN   TestHelpExecutedOnNonRunnableChild",
+                "--- PASS: TestHelpExecutedOnNonRunnableChild (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagExecuted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagExecuted",
+              "output": Array [
+                "=== RUN   TestVersionFlagExecuted",
+                "--- PASS: TestVersionFlagExecuted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagExecutedWithNoName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagExecutedWithNoName",
+              "output": Array [
+                "=== RUN   TestVersionFlagExecutedWithNoName",
+                "--- PASS: TestVersionFlagExecutedWithNoName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShortAndLongVersionFlagInHelp",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShortAndLongVersionFlagInHelp",
+              "output": Array [
+                "=== RUN   TestShortAndLongVersionFlagInHelp",
+                "--- PASS: TestShortAndLongVersionFlagInHelp (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestLongVersionFlagOnlyInHelpWhenShortPredefined",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestLongVersionFlagOnlyInHelpWhenShortPredefined",
+              "output": Array [
+                "=== RUN   TestLongVersionFlagOnlyInHelpWhenShortPredefined",
+                "--- PASS: TestLongVersionFlagOnlyInHelpWhenShortPredefined (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagExecuted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagExecuted",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagExecuted",
+                "--- PASS: TestShorthandVersionFlagExecuted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionTemplate",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionTemplate",
+              "output": Array [
+                "=== RUN   TestVersionTemplate",
+                "--- PASS: TestVersionTemplate (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionTemplate",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionTemplate",
+              "output": Array [
+                "=== RUN   TestShorthandVersionTemplate",
+                "--- PASS: TestShorthandVersionTemplate (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagExecutedOnSubcommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagExecutedOnSubcommand",
+              "output": Array [
+                "=== RUN   TestVersionFlagExecutedOnSubcommand",
+                "--- PASS: TestVersionFlagExecutedOnSubcommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagExecutedOnSubcommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagExecutedOnSubcommand",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagExecutedOnSubcommand",
+                "--- PASS: TestShorthandVersionFlagExecutedOnSubcommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagOnlyAddedToRoot",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagOnlyAddedToRoot",
+              "output": Array [
+                "=== RUN   TestVersionFlagOnlyAddedToRoot",
+                "--- PASS: TestVersionFlagOnlyAddedToRoot (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShortVersionFlagOnlyAddedToRoot",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShortVersionFlagOnlyAddedToRoot",
+              "output": Array [
+                "=== RUN   TestShortVersionFlagOnlyAddedToRoot",
+                "--- PASS: TestShortVersionFlagOnlyAddedToRoot (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagOnlyExistsIfVersionNonEmpty",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagOnlyExistsIfVersionNonEmpty",
+              "output": Array [
+                "=== RUN   TestVersionFlagOnlyExistsIfVersionNonEmpty",
+                "--- PASS: TestVersionFlagOnlyExistsIfVersionNonEmpty (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty",
+                "--- PASS: TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined",
+                "--- PASS: TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagOnlyAddedIfVersionNotDefined",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagOnlyAddedIfVersionNotDefined",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagOnlyAddedIfVersionNotDefined",
+                "--- PASS: TestShorthandVersionFlagOnlyAddedIfVersionNotDefined (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestUsageIsNotPrintedTwice",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestUsageIsNotPrintedTwice",
+              "output": Array [
+                "=== RUN   TestUsageIsNotPrintedTwice",
+                "--- PASS: TestUsageIsNotPrintedTwice (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVisitParents",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVisitParents",
+              "output": Array [
+                "=== RUN   TestVisitParents",
+                "--- PASS: TestVisitParents (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSuggestions",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSuggestions",
+              "output": Array [
+                "=== RUN   TestSuggestions",
+                "--- PASS: TestSuggestions (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRemoveCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRemoveCommand",
+              "output": Array [
+                "=== RUN   TestRemoveCommand",
+                "--- PASS: TestRemoveCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestReplaceCommandWithRemove",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestReplaceCommandWithRemove",
+              "output": Array [
+                "=== RUN   TestReplaceCommandWithRemove",
+                "--- PASS: TestReplaceCommandWithRemove (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestDeprecatedCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestDeprecatedCommand",
+              "output": Array [
+                "=== RUN   TestDeprecatedCommand",
+                "--- PASS: TestDeprecatedCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHooks",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHooks",
+              "output": Array [
+                "=== RUN   TestHooks",
+                "--- PASS: TestHooks (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentHooks",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentHooks",
+              "output": Array [
+                "=== RUN   TestPersistentHooks",
+                "--- PASS: TestPersistentHooks (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestGlobalNormFuncPropagation",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestGlobalNormFuncPropagation",
+              "output": Array [
+                "=== RUN   TestGlobalNormFuncPropagation",
+                "--- PASS: TestGlobalNormFuncPropagation (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNormPassedOnLocal",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNormPassedOnLocal",
+              "output": Array [
+                "=== RUN   TestNormPassedOnLocal",
+                "--- PASS: TestNormPassedOnLocal (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNormPassedOnInherited",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNormPassedOnInherited",
+              "output": Array [
+                "=== RUN   TestNormPassedOnInherited",
+                "--- PASS: TestNormPassedOnInherited (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestConsistentNormalizedName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestConsistentNormalizedName",
+              "output": Array [
+                "=== RUN   TestConsistentNormalizedName",
+                "--- PASS: TestConsistentNormalizedName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagOnPflagCommandLine",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagOnPflagCommandLine",
+              "output": Array [
+                "=== RUN   TestFlagOnPflagCommandLine",
+                "--- PASS: TestFlagOnPflagCommandLine (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHiddenCommandExecutes",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHiddenCommandExecutes",
+              "output": Array [
+                "=== RUN   TestHiddenCommandExecutes",
+                "--- PASS: TestHiddenCommandExecutes (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHiddenCommandIsHidden",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHiddenCommandIsHidden",
+              "output": Array [
+                "=== RUN   TestHiddenCommandIsHidden",
+                "--- PASS: TestHiddenCommandIsHidden (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCommandsAreSorted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCommandsAreSorted",
+              "output": Array [
+                "=== RUN   TestCommandsAreSorted",
+                "--- PASS: TestCommandsAreSorted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestEnableCommandSortingIsDisabled",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestEnableCommandSortingIsDisabled",
+              "output": Array [
+                "=== RUN   TestEnableCommandSortingIsDisabled",
+                "--- PASS: TestEnableCommandSortingIsDisabled (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetOutput",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetOutput",
+              "output": Array [
+                "=== RUN   TestSetOutput",
+                "--- PASS: TestSetOutput (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetOut",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetOut",
+              "output": Array [
+                "=== RUN   TestSetOut",
+                "--- PASS: TestSetOut (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetErr",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetErr",
+              "output": Array [
+                "=== RUN   TestSetErr",
+                "--- PASS: TestSetErr (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetIn",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetIn",
+              "output": Array [
+                "=== RUN   TestSetIn",
+                "--- PASS: TestSetIn (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestUsageStringRedirected",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestUsageStringRedirected",
+              "output": Array [
+                "=== RUN   TestUsageStringRedirected",
+                "--- PASS: TestUsageStringRedirected (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCommandPrintRedirection",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCommandPrintRedirection",
+              "output": Array [
+                "=== RUN   TestCommandPrintRedirection",
+                "--- PASS: TestCommandPrintRedirection (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagErrorFunc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagErrorFunc",
+              "output": Array [
+                "=== RUN   TestFlagErrorFunc",
+                "--- PASS: TestFlagErrorFunc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSortedFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSortedFlags",
+              "output": Array [
+                "=== RUN   TestSortedFlags",
+                "--- PASS: TestSortedFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMergeCommandLineToFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMergeCommandLineToFlags",
+              "output": Array [
+                "=== RUN   TestMergeCommandLineToFlags",
+                "--- PASS: TestMergeCommandLineToFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestUseDeprecatedFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestUseDeprecatedFlags",
+              "output": Array [
+                "=== RUN   TestUseDeprecatedFlags",
+                "--- PASS: TestUseDeprecatedFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseWithParentFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseWithParentFlags",
+              "output": Array [
+                "=== RUN   TestTraverseWithParentFlags",
+                "--- PASS: TestTraverseWithParentFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseNoParentFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseNoParentFlags",
+              "output": Array [
+                "=== RUN   TestTraverseNoParentFlags",
+                "--- PASS: TestTraverseNoParentFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseWithBadParentFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseWithBadParentFlags",
+              "output": Array [
+                "=== RUN   TestTraverseWithBadParentFlags",
+                "--- PASS: TestTraverseWithBadParentFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseWithBadChildFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseWithBadChildFlag",
+              "output": Array [
+                "=== RUN   TestTraverseWithBadChildFlag",
+                "--- PASS: TestTraverseWithBadChildFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseWithTwoSubcommands",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseWithTwoSubcommands",
+              "output": Array [
+                "=== RUN   TestTraverseWithTwoSubcommands",
+                "--- PASS: TestTraverseWithTwoSubcommands (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestUpdateName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestUpdateName",
+              "output": Array [
+                "=== RUN   TestUpdateName",
+                "--- PASS: TestUpdateName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCalledAs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCalledAs",
+              "output": Array [
+                "=== RUN   TestCalledAs",
+                "--- PASS: TestCalledAs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/part-alias",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/part-alias",
+                "    command_test.go:1906: called: \\"child1\\"",
+                "    --- PASS: TestCalledAs/traverse/part-alias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/real-name",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/real-name",
+                "    command_test.go:1906: called: \\"child1\\"",
+                "    --- PASS: TestCalledAs/find/real-name (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/part-alias",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/part-alias",
+                "    command_test.go:1906: called: \\"child1\\"",
+                "    --- PASS: TestCalledAs/find/part-alias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/real-name",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/real-name",
+                "    command_test.go:1906: called: \\"child1\\"",
+                "    --- PASS: TestCalledAs/traverse/real-name (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/part-no-prefix",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/part-no-prefix",
+                "    --- PASS: TestCalledAs/traverse/part-no-prefix (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/conflict",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/conflict",
+                "    --- PASS: TestCalledAs/find/conflict (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/full-alias",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/full-alias",
+                "    command_test.go:1906: called: \\"child2\\"",
+                "    --- PASS: TestCalledAs/traverse/full-alias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/conflict",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/conflict",
+                "    --- PASS: TestCalledAs/traverse/conflict (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/no-args",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/no-args",
+                "    command_test.go:1906: called: \\"parent\\"",
+                "    --- PASS: TestCalledAs/find/no-args (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/no-args",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/no-args",
+                "    command_test.go:1906: called: \\"parent\\"",
+                "    --- PASS: TestCalledAs/traverse/no-args (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/full-alias",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/full-alias",
+                "    command_test.go:1906: called: \\"child2\\"",
+                "    --- PASS: TestCalledAs/find/full-alias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/part-no-prefix",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/part-no-prefix",
+                "    --- PASS: TestCalledAs/find/part-no-prefix (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistBackwardCompatibility",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistBackwardCompatibility",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistBackwardCompatibility",
+                "--- PASS: TestFParseErrWhitelistBackwardCompatibility (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistSameCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistSameCommand",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistSameCommand",
+                "--- PASS: TestFParseErrWhitelistSameCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistParentCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistParentCommand",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistParentCommand",
+                "--- PASS: TestFParseErrWhitelistParentCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistChildCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistChildCommand",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistChildCommand",
+                "--- PASS: TestFParseErrWhitelistChildCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistSiblingCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistSiblingCommand",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistSiblingCommand",
+                "--- PASS: TestFParseErrWhitelistSiblingCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCmdNameCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCmdNameCompletionInGo",
+              "output": Array [
+                "=== RUN   TestCmdNameCompletionInGo",
+                "--- PASS: TestCmdNameCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNoCmdNameCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNoCmdNameCompletionInGo",
+              "output": Array [
+                "=== RUN   TestNoCmdNameCompletionInGo",
+                "[Debug] [Error] Error while parsing flags from args [--localroot value]: unknown flag: --localroot",
+                "--- PASS: TestNoCmdNameCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsCompletionInGo",
+              "output": Array [
+                "=== RUN   TestValidArgsCompletionInGo",
+                "--- PASS: TestValidArgsCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsAndCmdCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsAndCmdCompletionInGo",
+              "output": Array [
+                "=== RUN   TestValidArgsAndCmdCompletionInGo",
+                "--- PASS: TestValidArgsAndCmdCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncAndCmdCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncAndCmdCompletionInGo",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncAndCmdCompletionInGo",
+                "--- PASS: TestValidArgsFuncAndCmdCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagNameCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagNameCompletionInGo",
+              "output": Array [
+                "=== RUN   TestFlagNameCompletionInGo",
+                "--- PASS: TestFlagNameCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagNameCompletionInGoWithDesc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagNameCompletionInGoWithDesc",
+              "output": Array [
+                "=== RUN   TestFlagNameCompletionInGoWithDesc",
+                "--- PASS: TestFlagNameCompletionInGoWithDesc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagNameCompletionRepeat",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagNameCompletionRepeat",
+              "output": Array [
+                "=== RUN   TestFlagNameCompletionRepeat",
+                "--- PASS: TestFlagNameCompletionRepeat (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRequiredFlagNameCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRequiredFlagNameCompletionInGo",
+              "output": Array [
+                "=== RUN   TestRequiredFlagNameCompletionInGo",
+                "--- PASS: TestRequiredFlagNameCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagFileExtFilterCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagFileExtFilterCompletionInGo",
+              "output": Array [
+                "=== RUN   TestFlagFileExtFilterCompletionInGo",
+                "--- PASS: TestFlagFileExtFilterCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagDirFilterCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagDirFilterCompletionInGo",
+              "output": Array [
+                "=== RUN   TestFlagDirFilterCompletionInGo",
+                "--- PASS: TestFlagDirFilterCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncCmdContext",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncCmdContext",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncCmdContext",
+                "--- PASS: TestValidArgsFuncCmdContext (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncSingleCmd",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncSingleCmd",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncSingleCmd",
+                "--- PASS: TestValidArgsFuncSingleCmd (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncSingleCmdInvalidArg",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncSingleCmdInvalidArg",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncSingleCmdInvalidArg",
+                "--- PASS: TestValidArgsFuncSingleCmdInvalidArg (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncChildCmds",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncChildCmds",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncChildCmds",
+                "--- PASS: TestValidArgsFuncChildCmds (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncAliases",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncAliases",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncAliases",
+                "--- PASS: TestValidArgsFuncAliases (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncInBashScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncInBashScript",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncInBashScript",
+                "--- PASS: TestValidArgsFuncInBashScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNoValidArgsFuncInBashScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNoValidArgsFuncInBashScript",
+              "output": Array [
+                "=== RUN   TestNoValidArgsFuncInBashScript",
+                "--- PASS: TestNoValidArgsFuncInBashScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteCmdInBashScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteCmdInBashScript",
+              "output": Array [
+                "=== RUN   TestCompleteCmdInBashScript",
+                "--- PASS: TestCompleteCmdInBashScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteNoDesCmdInZshScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteNoDesCmdInZshScript",
+              "output": Array [
+                "=== RUN   TestCompleteNoDesCmdInZshScript",
+                "--- PASS: TestCompleteNoDesCmdInZshScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteCmdInZshScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteCmdInZshScript",
+              "output": Array [
+                "=== RUN   TestCompleteCmdInZshScript",
+                "--- PASS: TestCompleteCmdInZshScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagCompletionInGo",
+              "output": Array [
+                "=== RUN   TestFlagCompletionInGo",
+                "--- PASS: TestFlagCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncChildCmdsWithDesc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncChildCmdsWithDesc",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncChildCmdsWithDesc",
+                "--- PASS: TestValidArgsFuncChildCmdsWithDesc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagCompletionWithNotInterspersedArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagCompletionWithNotInterspersedArgs",
+              "output": Array [
+                "=== RUN   TestFlagCompletionWithNotInterspersedArgs",
+                "--- PASS: TestFlagCompletionWithNotInterspersedArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagCompletionWorksRootCommandAddedAfterFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagCompletionWorksRootCommandAddedAfterFlags",
+              "output": Array [
+                "=== RUN   TestFlagCompletionWorksRootCommandAddedAfterFlags",
+                "--- PASS: TestFlagCompletionWorksRootCommandAddedAfterFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagCompletionInGoWithDesc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagCompletionInGoWithDesc",
+              "output": Array [
+                "=== RUN   TestFlagCompletionInGoWithDesc",
+                "--- PASS: TestFlagCompletionInGoWithDesc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsNotValidArgsFunc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsNotValidArgsFunc",
+              "output": Array [
+                "=== RUN   TestValidArgsNotValidArgsFunc",
+                "--- PASS: TestValidArgsNotValidArgsFunc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestArgAliasesCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestArgAliasesCompletionInGo",
+              "output": Array [
+                "=== RUN   TestArgAliasesCompletionInGo",
+                "--- PASS: TestArgAliasesCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteHelp",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteHelp",
+              "output": Array [
+                "=== RUN   TestCompleteHelp",
+                "--- PASS: TestCompleteHelp (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestDefaultCompletionCmd",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestDefaultCompletionCmd",
+              "output": Array [
+                "=== RUN   TestDefaultCompletionCmd",
+                "--- PASS: TestDefaultCompletionCmd (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteCompletion",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteCompletion",
+              "output": Array [
+                "=== RUN   TestCompleteCompletion",
+                "--- PASS: TestCompleteCompletion (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMultipleShorthandFlagCompletion",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMultipleShorthandFlagCompletion",
+              "output": Array [
+                "=== RUN   TestMultipleShorthandFlagCompletion",
+                "--- PASS: TestMultipleShorthandFlagCompletion (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteNoDesCmdInFishScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteNoDesCmdInFishScript",
+              "output": Array [
+                "=== RUN   TestCompleteNoDesCmdInFishScript",
+                "--- PASS: TestCompleteNoDesCmdInFishScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteCmdInFishScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteCmdInFishScript",
+              "output": Array [
+                "=== RUN   TestCompleteCmdInFishScript",
+                "--- PASS: TestCompleteCmdInFishScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestProgWithDash",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestProgWithDash",
+              "output": Array [
+                "=== RUN   TestProgWithDash",
+                "--- PASS: TestProgWithDash (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestProgWithColon",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestProgWithColon",
+              "output": Array [
+                "=== RUN   TestProgWithColon",
+                "--- PASS: TestProgWithColon (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+      ],
+      "name": "github.com/spf13/cobra",
+      "output": undefined,
+      "totalTime": undefined,
+    },
+  ],
+  "totalTime": 0,
+}
+`;
+
+exports[`golang-json tests report from spf13/cobra single suite test results matches snapshot 1`] = `
+TestRunResult {
+  "path": "fixtures/external/golang/spf13-cobra.json",
+  "suites": Array [
+    TestSuiteResult {
+      "groups": Array [
+        TestGroupResult {
+          "name": "TestNoArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNoArgs",
+              "output": Array [
+                "=== RUN   TestNoArgs",
+                "--- PASS: TestNoArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNoArgsWithArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNoArgsWithArgs",
+              "output": Array [
+                "=== RUN   TestNoArgsWithArgs",
+                "--- PASS: TestNoArgsWithArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestOnlyValidArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestOnlyValidArgs",
+              "output": Array [
+                "=== RUN   TestOnlyValidArgs",
+                "--- PASS: TestOnlyValidArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestOnlyValidArgsWithInvalidArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestOnlyValidArgsWithInvalidArgs",
+              "output": Array [
+                "=== RUN   TestOnlyValidArgsWithInvalidArgs",
+                "--- PASS: TestOnlyValidArgsWithInvalidArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestArbitraryArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestArbitraryArgs",
+              "output": Array [
+                "=== RUN   TestArbitraryArgs",
+                "--- PASS: TestArbitraryArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMinimumNArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMinimumNArgs",
+              "output": Array [
+                "=== RUN   TestMinimumNArgs",
+                "--- PASS: TestMinimumNArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMinimumNArgsWithLessArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMinimumNArgsWithLessArgs",
+              "output": Array [
+                "=== RUN   TestMinimumNArgsWithLessArgs",
+                "--- PASS: TestMinimumNArgsWithLessArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMaximumNArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMaximumNArgs",
+              "output": Array [
+                "=== RUN   TestMaximumNArgs",
+                "--- PASS: TestMaximumNArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMaximumNArgsWithMoreArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMaximumNArgsWithMoreArgs",
+              "output": Array [
+                "=== RUN   TestMaximumNArgsWithMoreArgs",
+                "--- PASS: TestMaximumNArgsWithMoreArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactArgs",
+              "output": Array [
+                "=== RUN   TestExactArgs",
+                "--- PASS: TestExactArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactArgsWithInvalidCount",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactArgsWithInvalidCount",
+              "output": Array [
+                "=== RUN   TestExactArgsWithInvalidCount",
+                "--- PASS: TestExactArgsWithInvalidCount (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactValidArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactValidArgs",
+              "output": Array [
+                "=== RUN   TestExactValidArgs",
+                "--- PASS: TestExactValidArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactValidArgsWithInvalidCount",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactValidArgsWithInvalidCount",
+              "output": Array [
+                "=== RUN   TestExactValidArgsWithInvalidCount",
+                "--- PASS: TestExactValidArgsWithInvalidCount (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExactValidArgsWithInvalidArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExactValidArgsWithInvalidArgs",
+              "output": Array [
+                "=== RUN   TestExactValidArgsWithInvalidArgs",
+                "--- PASS: TestExactValidArgsWithInvalidArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRangeArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRangeArgs",
+              "output": Array [
+                "=== RUN   TestRangeArgs",
+                "--- PASS: TestRangeArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRangeArgsWithInvalidCount",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRangeArgsWithInvalidCount",
+              "output": Array [
+                "=== RUN   TestRangeArgsWithInvalidCount",
+                "--- PASS: TestRangeArgsWithInvalidCount (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRootTakesNoArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRootTakesNoArgs",
+              "output": Array [
+                "=== RUN   TestRootTakesNoArgs",
+                "--- PASS: TestRootTakesNoArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRootTakesArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRootTakesArgs",
+              "output": Array [
+                "=== RUN   TestRootTakesArgs",
+                "--- PASS: TestRootTakesArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildTakesNoArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildTakesNoArgs",
+              "output": Array [
+                "=== RUN   TestChildTakesNoArgs",
+                "--- PASS: TestChildTakesNoArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildTakesArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildTakesArgs",
+              "output": Array [
+                "=== RUN   TestChildTakesArgs",
+                "--- PASS: TestChildTakesArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestBashCompletions",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestBashCompletions",
+              "output": Array [
+                "=== RUN   TestBashCompletions",
+                "--- PASS: TestBashCompletions (0.02s)",
+              ],
+              "result": "success",
+              "time": 0.02,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestBashCompletionHiddenFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestBashCompletionHiddenFlag",
+              "output": Array [
+                "=== RUN   TestBashCompletionHiddenFlag",
+                "--- PASS: TestBashCompletionHiddenFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestBashCompletionDeprecatedFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestBashCompletionDeprecatedFlag",
+              "output": Array [
+                "=== RUN   TestBashCompletionDeprecatedFlag",
+                "--- PASS: TestBashCompletionDeprecatedFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestBashCompletionTraverseChildren",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestBashCompletionTraverseChildren",
+              "output": Array [
+                "=== RUN   TestBashCompletionTraverseChildren",
+                "--- PASS: TestBashCompletionTraverseChildren (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestAddTemplateFunctions",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestAddTemplateFunctions",
+              "output": Array [
+                "=== RUN   TestAddTemplateFunctions",
+                "--- PASS: TestAddTemplateFunctions (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSingleCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSingleCommand",
+              "output": Array [
+                "=== RUN   TestSingleCommand",
+                "--- PASS: TestSingleCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildCommand",
+              "output": Array [
+                "=== RUN   TestChildCommand",
+                "--- PASS: TestChildCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCallCommandWithoutSubcommands",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCallCommandWithoutSubcommands",
+              "output": Array [
+                "=== RUN   TestCallCommandWithoutSubcommands",
+                "--- PASS: TestCallCommandWithoutSubcommands (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRootExecuteUnknownCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRootExecuteUnknownCommand",
+              "output": Array [
+                "=== RUN   TestRootExecuteUnknownCommand",
+                "--- PASS: TestRootExecuteUnknownCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSubcommandExecuteC",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSubcommandExecuteC",
+              "output": Array [
+                "=== RUN   TestSubcommandExecuteC",
+                "--- PASS: TestSubcommandExecuteC (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExecuteContext",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExecuteContext",
+              "output": Array [
+                "=== RUN   TestExecuteContext",
+                "--- PASS: TestExecuteContext (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExecuteContextC",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExecuteContextC",
+              "output": Array [
+                "=== RUN   TestExecuteContextC",
+                "--- PASS: TestExecuteContextC (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestExecute_NoContext",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestExecute_NoContext",
+              "output": Array [
+                "=== RUN   TestExecute_NoContext",
+                "--- PASS: TestExecute_NoContext (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRootUnknownCommandSilenced",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRootUnknownCommandSilenced",
+              "output": Array [
+                "=== RUN   TestRootUnknownCommandSilenced",
+                "--- PASS: TestRootUnknownCommandSilenced (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCommandAlias",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCommandAlias",
+              "output": Array [
+                "=== RUN   TestCommandAlias",
+                "--- PASS: TestCommandAlias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestEnablePrefixMatching",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestEnablePrefixMatching",
+              "output": Array [
+                "=== RUN   TestEnablePrefixMatching",
+                "--- PASS: TestEnablePrefixMatching (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestAliasPrefixMatching",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestAliasPrefixMatching",
+              "output": Array [
+                "=== RUN   TestAliasPrefixMatching",
+                "--- PASS: TestAliasPrefixMatching (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildSameName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildSameName",
+              "output": Array [
+                "=== RUN   TestChildSameName",
+                "--- PASS: TestChildSameName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestGrandChildSameName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestGrandChildSameName",
+              "output": Array [
+                "=== RUN   TestGrandChildSameName",
+                "--- PASS: TestGrandChildSameName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagLong",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagLong",
+              "output": Array [
+                "=== RUN   TestFlagLong",
+                "--- PASS: TestFlagLong (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagShort",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagShort",
+              "output": Array [
+                "=== RUN   TestFlagShort",
+                "--- PASS: TestFlagShort (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildFlag",
+              "output": Array [
+                "=== RUN   TestChildFlag",
+                "--- PASS: TestChildFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestChildFlagWithParentLocalFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestChildFlagWithParentLocalFlag",
+              "output": Array [
+                "=== RUN   TestChildFlagWithParentLocalFlag",
+                "--- PASS: TestChildFlagWithParentLocalFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagInvalidInput",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagInvalidInput",
+              "output": Array [
+                "=== RUN   TestFlagInvalidInput",
+                "--- PASS: TestFlagInvalidInput (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagBeforeCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagBeforeCommand",
+              "output": Array [
+                "=== RUN   TestFlagBeforeCommand",
+                "--- PASS: TestFlagBeforeCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestStripFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestStripFlags",
+              "output": Array [
+                "=== RUN   TestStripFlags",
+                "--- PASS: TestStripFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestDisableFlagParsing",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestDisableFlagParsing",
+              "output": Array [
+                "=== RUN   TestDisableFlagParsing",
+                "--- PASS: TestDisableFlagParsing (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentFlagsOnSameCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentFlagsOnSameCommand",
+              "output": Array [
+                "=== RUN   TestPersistentFlagsOnSameCommand",
+                "--- PASS: TestPersistentFlagsOnSameCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestEmptyInputs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestEmptyInputs",
+              "output": Array [
+                "=== RUN   TestEmptyInputs",
+                "--- PASS: TestEmptyInputs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestOverwrittenFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestOverwrittenFlag",
+              "output": Array [
+                "=== RUN   TestOverwrittenFlag",
+                "    command_test.go:712:",
+                "--- SKIP: TestOverwrittenFlag (0.00s)",
+              ],
+              "result": "skipped",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentFlagsOnChild",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentFlagsOnChild",
+              "output": Array [
+                "=== RUN   TestPersistentFlagsOnChild",
+                "--- PASS: TestPersistentFlagsOnChild (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRequiredFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRequiredFlags",
+              "output": Array [
+                "=== RUN   TestRequiredFlags",
+                "--- PASS: TestRequiredFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentRequiredFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentRequiredFlags",
+              "output": Array [
+                "=== RUN   TestPersistentRequiredFlags",
+                "--- PASS: TestPersistentRequiredFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentRequiredFlagsWithDisableFlagParsing",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentRequiredFlagsWithDisableFlagParsing",
+              "output": Array [
+                "=== RUN   TestPersistentRequiredFlagsWithDisableFlagParsing",
+                "--- PASS: TestPersistentRequiredFlagsWithDisableFlagParsing (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestInitHelpFlagMergesFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestInitHelpFlagMergesFlags",
+              "output": Array [
+                "=== RUN   TestInitHelpFlagMergesFlags",
+                "--- PASS: TestInitHelpFlagMergesFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpCommandExecuted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpCommandExecuted",
+              "output": Array [
+                "=== RUN   TestHelpCommandExecuted",
+                "--- PASS: TestHelpCommandExecuted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpCommandExecutedOnChild",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpCommandExecutedOnChild",
+              "output": Array [
+                "=== RUN   TestHelpCommandExecutedOnChild",
+                "--- PASS: TestHelpCommandExecutedOnChild (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetHelpCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetHelpCommand",
+              "output": Array [
+                "=== RUN   TestSetHelpCommand",
+                "--- PASS: TestSetHelpCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpFlagExecuted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpFlagExecuted",
+              "output": Array [
+                "=== RUN   TestHelpFlagExecuted",
+                "--- PASS: TestHelpFlagExecuted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpFlagExecutedOnChild",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpFlagExecutedOnChild",
+              "output": Array [
+                "=== RUN   TestHelpFlagExecutedOnChild",
+                "--- PASS: TestHelpFlagExecutedOnChild (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpFlagInHelp",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpFlagInHelp",
+              "output": Array [
+                "=== RUN   TestHelpFlagInHelp",
+                "--- PASS: TestHelpFlagInHelp (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagsInUsage",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagsInUsage",
+              "output": Array [
+                "=== RUN   TestFlagsInUsage",
+                "--- PASS: TestFlagsInUsage (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHelpExecutedOnNonRunnableChild",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHelpExecutedOnNonRunnableChild",
+              "output": Array [
+                "=== RUN   TestHelpExecutedOnNonRunnableChild",
+                "--- PASS: TestHelpExecutedOnNonRunnableChild (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagExecuted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagExecuted",
+              "output": Array [
+                "=== RUN   TestVersionFlagExecuted",
+                "--- PASS: TestVersionFlagExecuted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagExecutedWithNoName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagExecutedWithNoName",
+              "output": Array [
+                "=== RUN   TestVersionFlagExecutedWithNoName",
+                "--- PASS: TestVersionFlagExecutedWithNoName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShortAndLongVersionFlagInHelp",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShortAndLongVersionFlagInHelp",
+              "output": Array [
+                "=== RUN   TestShortAndLongVersionFlagInHelp",
+                "--- PASS: TestShortAndLongVersionFlagInHelp (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestLongVersionFlagOnlyInHelpWhenShortPredefined",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestLongVersionFlagOnlyInHelpWhenShortPredefined",
+              "output": Array [
+                "=== RUN   TestLongVersionFlagOnlyInHelpWhenShortPredefined",
+                "--- PASS: TestLongVersionFlagOnlyInHelpWhenShortPredefined (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagExecuted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagExecuted",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagExecuted",
+                "--- PASS: TestShorthandVersionFlagExecuted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionTemplate",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionTemplate",
+              "output": Array [
+                "=== RUN   TestVersionTemplate",
+                "--- PASS: TestVersionTemplate (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionTemplate",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionTemplate",
+              "output": Array [
+                "=== RUN   TestShorthandVersionTemplate",
+                "--- PASS: TestShorthandVersionTemplate (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagExecutedOnSubcommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagExecutedOnSubcommand",
+              "output": Array [
+                "=== RUN   TestVersionFlagExecutedOnSubcommand",
+                "--- PASS: TestVersionFlagExecutedOnSubcommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagExecutedOnSubcommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagExecutedOnSubcommand",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagExecutedOnSubcommand",
+                "--- PASS: TestShorthandVersionFlagExecutedOnSubcommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagOnlyAddedToRoot",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagOnlyAddedToRoot",
+              "output": Array [
+                "=== RUN   TestVersionFlagOnlyAddedToRoot",
+                "--- PASS: TestVersionFlagOnlyAddedToRoot (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShortVersionFlagOnlyAddedToRoot",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShortVersionFlagOnlyAddedToRoot",
+              "output": Array [
+                "=== RUN   TestShortVersionFlagOnlyAddedToRoot",
+                "--- PASS: TestShortVersionFlagOnlyAddedToRoot (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVersionFlagOnlyExistsIfVersionNonEmpty",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVersionFlagOnlyExistsIfVersionNonEmpty",
+              "output": Array [
+                "=== RUN   TestVersionFlagOnlyExistsIfVersionNonEmpty",
+                "--- PASS: TestVersionFlagOnlyExistsIfVersionNonEmpty (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty",
+                "--- PASS: TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined",
+                "--- PASS: TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestShorthandVersionFlagOnlyAddedIfVersionNotDefined",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestShorthandVersionFlagOnlyAddedIfVersionNotDefined",
+              "output": Array [
+                "=== RUN   TestShorthandVersionFlagOnlyAddedIfVersionNotDefined",
+                "--- PASS: TestShorthandVersionFlagOnlyAddedIfVersionNotDefined (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestUsageIsNotPrintedTwice",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestUsageIsNotPrintedTwice",
+              "output": Array [
+                "=== RUN   TestUsageIsNotPrintedTwice",
+                "--- PASS: TestUsageIsNotPrintedTwice (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestVisitParents",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestVisitParents",
+              "output": Array [
+                "=== RUN   TestVisitParents",
+                "--- PASS: TestVisitParents (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSuggestions",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSuggestions",
+              "output": Array [
+                "=== RUN   TestSuggestions",
+                "--- PASS: TestSuggestions (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRemoveCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRemoveCommand",
+              "output": Array [
+                "=== RUN   TestRemoveCommand",
+                "--- PASS: TestRemoveCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestReplaceCommandWithRemove",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestReplaceCommandWithRemove",
+              "output": Array [
+                "=== RUN   TestReplaceCommandWithRemove",
+                "--- PASS: TestReplaceCommandWithRemove (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestDeprecatedCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestDeprecatedCommand",
+              "output": Array [
+                "=== RUN   TestDeprecatedCommand",
+                "--- PASS: TestDeprecatedCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHooks",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHooks",
+              "output": Array [
+                "=== RUN   TestHooks",
+                "--- PASS: TestHooks (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestPersistentHooks",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestPersistentHooks",
+              "output": Array [
+                "=== RUN   TestPersistentHooks",
+                "--- PASS: TestPersistentHooks (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestGlobalNormFuncPropagation",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestGlobalNormFuncPropagation",
+              "output": Array [
+                "=== RUN   TestGlobalNormFuncPropagation",
+                "--- PASS: TestGlobalNormFuncPropagation (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNormPassedOnLocal",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNormPassedOnLocal",
+              "output": Array [
+                "=== RUN   TestNormPassedOnLocal",
+                "--- PASS: TestNormPassedOnLocal (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNormPassedOnInherited",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNormPassedOnInherited",
+              "output": Array [
+                "=== RUN   TestNormPassedOnInherited",
+                "--- PASS: TestNormPassedOnInherited (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestConsistentNormalizedName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestConsistentNormalizedName",
+              "output": Array [
+                "=== RUN   TestConsistentNormalizedName",
+                "--- PASS: TestConsistentNormalizedName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagOnPflagCommandLine",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagOnPflagCommandLine",
+              "output": Array [
+                "=== RUN   TestFlagOnPflagCommandLine",
+                "--- PASS: TestFlagOnPflagCommandLine (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHiddenCommandExecutes",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHiddenCommandExecutes",
+              "output": Array [
+                "=== RUN   TestHiddenCommandExecutes",
+                "--- PASS: TestHiddenCommandExecutes (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestHiddenCommandIsHidden",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestHiddenCommandIsHidden",
+              "output": Array [
+                "=== RUN   TestHiddenCommandIsHidden",
+                "--- PASS: TestHiddenCommandIsHidden (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCommandsAreSorted",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCommandsAreSorted",
+              "output": Array [
+                "=== RUN   TestCommandsAreSorted",
+                "--- PASS: TestCommandsAreSorted (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestEnableCommandSortingIsDisabled",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestEnableCommandSortingIsDisabled",
+              "output": Array [
+                "=== RUN   TestEnableCommandSortingIsDisabled",
+                "--- PASS: TestEnableCommandSortingIsDisabled (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetOutput",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetOutput",
+              "output": Array [
+                "=== RUN   TestSetOutput",
+                "--- PASS: TestSetOutput (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetOut",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetOut",
+              "output": Array [
+                "=== RUN   TestSetOut",
+                "--- PASS: TestSetOut (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetErr",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetErr",
+              "output": Array [
+                "=== RUN   TestSetErr",
+                "--- PASS: TestSetErr (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSetIn",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSetIn",
+              "output": Array [
+                "=== RUN   TestSetIn",
+                "--- PASS: TestSetIn (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestUsageStringRedirected",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestUsageStringRedirected",
+              "output": Array [
+                "=== RUN   TestUsageStringRedirected",
+                "--- PASS: TestUsageStringRedirected (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCommandPrintRedirection",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCommandPrintRedirection",
+              "output": Array [
+                "=== RUN   TestCommandPrintRedirection",
+                "--- PASS: TestCommandPrintRedirection (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagErrorFunc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagErrorFunc",
+              "output": Array [
+                "=== RUN   TestFlagErrorFunc",
+                "--- PASS: TestFlagErrorFunc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestSortedFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestSortedFlags",
+              "output": Array [
+                "=== RUN   TestSortedFlags",
+                "--- PASS: TestSortedFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMergeCommandLineToFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMergeCommandLineToFlags",
+              "output": Array [
+                "=== RUN   TestMergeCommandLineToFlags",
+                "--- PASS: TestMergeCommandLineToFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestUseDeprecatedFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestUseDeprecatedFlags",
+              "output": Array [
+                "=== RUN   TestUseDeprecatedFlags",
+                "--- PASS: TestUseDeprecatedFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseWithParentFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseWithParentFlags",
+              "output": Array [
+                "=== RUN   TestTraverseWithParentFlags",
+                "--- PASS: TestTraverseWithParentFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseNoParentFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseNoParentFlags",
+              "output": Array [
+                "=== RUN   TestTraverseNoParentFlags",
+                "--- PASS: TestTraverseNoParentFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseWithBadParentFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseWithBadParentFlags",
+              "output": Array [
+                "=== RUN   TestTraverseWithBadParentFlags",
+                "--- PASS: TestTraverseWithBadParentFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseWithBadChildFlag",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseWithBadChildFlag",
+              "output": Array [
+                "=== RUN   TestTraverseWithBadChildFlag",
+                "--- PASS: TestTraverseWithBadChildFlag (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestTraverseWithTwoSubcommands",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestTraverseWithTwoSubcommands",
+              "output": Array [
+                "=== RUN   TestTraverseWithTwoSubcommands",
+                "--- PASS: TestTraverseWithTwoSubcommands (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestUpdateName",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestUpdateName",
+              "output": Array [
+                "=== RUN   TestUpdateName",
+                "--- PASS: TestUpdateName (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCalledAs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCalledAs",
+              "output": Array [
+                "=== RUN   TestCalledAs",
+                "--- PASS: TestCalledAs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/no-args",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/no-args",
+                "    command_test.go:1906: called: \\"parent\\"",
+                "    --- PASS: TestCalledAs/traverse/no-args (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/full-alias",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/full-alias",
+                "    command_test.go:1906: called: \\"child2\\"",
+                "    --- PASS: TestCalledAs/find/full-alias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/part-no-prefix",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/part-no-prefix",
+                "    --- PASS: TestCalledAs/find/part-no-prefix (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/part-alias",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/part-alias",
+                "    command_test.go:1906: called: \\"child1\\"",
+                "    --- PASS: TestCalledAs/find/part-alias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/real-name",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/real-name",
+                "    command_test.go:1906: called: \\"child1\\"",
+                "    --- PASS: TestCalledAs/traverse/real-name (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/part-no-prefix",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/part-no-prefix",
+                "    --- PASS: TestCalledAs/traverse/part-no-prefix (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/conflict",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/conflict",
+                "    --- PASS: TestCalledAs/traverse/conflict (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/no-args",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/no-args",
+                "    command_test.go:1906: called: \\"parent\\"",
+                "    --- PASS: TestCalledAs/find/no-args (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/conflict",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/conflict",
+                "    --- PASS: TestCalledAs/find/conflict (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/full-alias",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/full-alias",
+                "    command_test.go:1906: called: \\"child2\\"",
+                "    --- PASS: TestCalledAs/traverse/full-alias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "traverse/part-alias",
+              "output": Array [
+                "=== RUN   TestCalledAs/traverse/part-alias",
+                "    command_test.go:1906: called: \\"child1\\"",
+                "    --- PASS: TestCalledAs/traverse/part-alias (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+            TestCaseResult {
+              "error": undefined,
+              "name": "find/real-name",
+              "output": Array [
+                "=== RUN   TestCalledAs/find/real-name",
+                "    command_test.go:1906: called: \\"child1\\"",
+                "    --- PASS: TestCalledAs/find/real-name (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistBackwardCompatibility",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistBackwardCompatibility",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistBackwardCompatibility",
+                "--- PASS: TestFParseErrWhitelistBackwardCompatibility (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistSameCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistSameCommand",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistSameCommand",
+                "--- PASS: TestFParseErrWhitelistSameCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistParentCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistParentCommand",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistParentCommand",
+                "--- PASS: TestFParseErrWhitelistParentCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistChildCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistChildCommand",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistChildCommand",
+                "--- PASS: TestFParseErrWhitelistChildCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFParseErrWhitelistSiblingCommand",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFParseErrWhitelistSiblingCommand",
+              "output": Array [
+                "=== RUN   TestFParseErrWhitelistSiblingCommand",
+                "--- PASS: TestFParseErrWhitelistSiblingCommand (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCmdNameCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCmdNameCompletionInGo",
+              "output": Array [
+                "=== RUN   TestCmdNameCompletionInGo",
+                "--- PASS: TestCmdNameCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNoCmdNameCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNoCmdNameCompletionInGo",
+              "output": Array [
+                "=== RUN   TestNoCmdNameCompletionInGo",
+                "[Debug] [Error] Error while parsing flags from args [--localroot value]: unknown flag: --localroot",
+                "--- PASS: TestNoCmdNameCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsCompletionInGo",
+              "output": Array [
+                "=== RUN   TestValidArgsCompletionInGo",
+                "--- PASS: TestValidArgsCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsAndCmdCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsAndCmdCompletionInGo",
+              "output": Array [
+                "=== RUN   TestValidArgsAndCmdCompletionInGo",
+                "--- PASS: TestValidArgsAndCmdCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncAndCmdCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncAndCmdCompletionInGo",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncAndCmdCompletionInGo",
+                "--- PASS: TestValidArgsFuncAndCmdCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagNameCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagNameCompletionInGo",
+              "output": Array [
+                "=== RUN   TestFlagNameCompletionInGo",
+                "--- PASS: TestFlagNameCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagNameCompletionInGoWithDesc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagNameCompletionInGoWithDesc",
+              "output": Array [
+                "=== RUN   TestFlagNameCompletionInGoWithDesc",
+                "--- PASS: TestFlagNameCompletionInGoWithDesc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagNameCompletionRepeat",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagNameCompletionRepeat",
+              "output": Array [
+                "=== RUN   TestFlagNameCompletionRepeat",
+                "--- PASS: TestFlagNameCompletionRepeat (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestRequiredFlagNameCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestRequiredFlagNameCompletionInGo",
+              "output": Array [
+                "=== RUN   TestRequiredFlagNameCompletionInGo",
+                "--- PASS: TestRequiredFlagNameCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagFileExtFilterCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagFileExtFilterCompletionInGo",
+              "output": Array [
+                "=== RUN   TestFlagFileExtFilterCompletionInGo",
+                "--- PASS: TestFlagFileExtFilterCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagDirFilterCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagDirFilterCompletionInGo",
+              "output": Array [
+                "=== RUN   TestFlagDirFilterCompletionInGo",
+                "--- PASS: TestFlagDirFilterCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncCmdContext",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncCmdContext",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncCmdContext",
+                "--- PASS: TestValidArgsFuncCmdContext (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncSingleCmd",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncSingleCmd",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncSingleCmd",
+                "--- PASS: TestValidArgsFuncSingleCmd (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncSingleCmdInvalidArg",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncSingleCmdInvalidArg",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncSingleCmdInvalidArg",
+                "--- PASS: TestValidArgsFuncSingleCmdInvalidArg (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncChildCmds",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncChildCmds",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncChildCmds",
+                "--- PASS: TestValidArgsFuncChildCmds (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncAliases",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncAliases",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncAliases",
+                "--- PASS: TestValidArgsFuncAliases (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncInBashScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncInBashScript",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncInBashScript",
+                "--- PASS: TestValidArgsFuncInBashScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestNoValidArgsFuncInBashScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestNoValidArgsFuncInBashScript",
+              "output": Array [
+                "=== RUN   TestNoValidArgsFuncInBashScript",
+                "--- PASS: TestNoValidArgsFuncInBashScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteCmdInBashScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteCmdInBashScript",
+              "output": Array [
+                "=== RUN   TestCompleteCmdInBashScript",
+                "--- PASS: TestCompleteCmdInBashScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteNoDesCmdInZshScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteNoDesCmdInZshScript",
+              "output": Array [
+                "=== RUN   TestCompleteNoDesCmdInZshScript",
+                "--- PASS: TestCompleteNoDesCmdInZshScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteCmdInZshScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteCmdInZshScript",
+              "output": Array [
+                "=== RUN   TestCompleteCmdInZshScript",
+                "--- PASS: TestCompleteCmdInZshScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagCompletionInGo",
+              "output": Array [
+                "=== RUN   TestFlagCompletionInGo",
+                "--- PASS: TestFlagCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsFuncChildCmdsWithDesc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsFuncChildCmdsWithDesc",
+              "output": Array [
+                "=== RUN   TestValidArgsFuncChildCmdsWithDesc",
+                "--- PASS: TestValidArgsFuncChildCmdsWithDesc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagCompletionWithNotInterspersedArgs",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagCompletionWithNotInterspersedArgs",
+              "output": Array [
+                "=== RUN   TestFlagCompletionWithNotInterspersedArgs",
+                "--- PASS: TestFlagCompletionWithNotInterspersedArgs (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagCompletionWorksRootCommandAddedAfterFlags",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagCompletionWorksRootCommandAddedAfterFlags",
+              "output": Array [
+                "=== RUN   TestFlagCompletionWorksRootCommandAddedAfterFlags",
+                "--- PASS: TestFlagCompletionWorksRootCommandAddedAfterFlags (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestFlagCompletionInGoWithDesc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestFlagCompletionInGoWithDesc",
+              "output": Array [
+                "=== RUN   TestFlagCompletionInGoWithDesc",
+                "--- PASS: TestFlagCompletionInGoWithDesc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestValidArgsNotValidArgsFunc",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestValidArgsNotValidArgsFunc",
+              "output": Array [
+                "=== RUN   TestValidArgsNotValidArgsFunc",
+                "--- PASS: TestValidArgsNotValidArgsFunc (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestArgAliasesCompletionInGo",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestArgAliasesCompletionInGo",
+              "output": Array [
+                "=== RUN   TestArgAliasesCompletionInGo",
+                "--- PASS: TestArgAliasesCompletionInGo (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteHelp",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteHelp",
+              "output": Array [
+                "=== RUN   TestCompleteHelp",
+                "--- PASS: TestCompleteHelp (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestDefaultCompletionCmd",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestDefaultCompletionCmd",
+              "output": Array [
+                "=== RUN   TestDefaultCompletionCmd",
+                "--- PASS: TestDefaultCompletionCmd (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteCompletion",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteCompletion",
+              "output": Array [
+                "=== RUN   TestCompleteCompletion",
+                "--- PASS: TestCompleteCompletion (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestMultipleShorthandFlagCompletion",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestMultipleShorthandFlagCompletion",
+              "output": Array [
+                "=== RUN   TestMultipleShorthandFlagCompletion",
+                "--- PASS: TestMultipleShorthandFlagCompletion (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteNoDesCmdInFishScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteNoDesCmdInFishScript",
+              "output": Array [
+                "=== RUN   TestCompleteNoDesCmdInFishScript",
+                "--- PASS: TestCompleteNoDesCmdInFishScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestCompleteCmdInFishScript",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestCompleteCmdInFishScript",
+              "output": Array [
+                "=== RUN   TestCompleteCmdInFishScript",
+                "--- PASS: TestCompleteCmdInFishScript (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestProgWithDash",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestProgWithDash",
+              "output": Array [
+                "=== RUN   TestProgWithDash",
+                "--- PASS: TestProgWithDash (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+        TestGroupResult {
+          "name": "TestProgWithColon",
+          "output": undefined,
+          "tests": Array [
+            TestCaseResult {
+              "error": undefined,
+              "name": "TestProgWithColon",
+              "output": Array [
+                "=== RUN   TestProgWithColon",
+                "--- PASS: TestProgWithColon (0.00s)",
+              ],
+              "result": "success",
+              "time": 0,
+            },
+          ],
+        },
+      ],
+      "name": "github.com/spf13/cobra",
+      "output": undefined,
+      "totalTime": undefined,
+    },
+  ],
+  "totalTime": 0,
+}
+`;
