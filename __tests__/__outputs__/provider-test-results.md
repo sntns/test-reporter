@@ -73,6 +73,8 @@ MultiProvider
 </details>
 <details><summary>  ✔️ with ProxyProvider6</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s1" href="#r0s1">test/change_notifier_provider_test.dart</a>
 <details><summary>✔️ Use builder property, not child</summary>
 </details>
@@ -95,6 +97,8 @@ ChangeNotifierProvider
 </details>
 <details><summary>  ✔️ builder0</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s2" href="#r0s2">test/consumer_test.dart</a>
 consumer
 <details><summary>  ✔️ obtains value from Provider<T></summary>
@@ -138,6 +142,8 @@ consumer6
 </details>
 <details><summary>  ✔️ can be used inside MultiProvider</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s3" href="#r0s3">test/context_test.dart</a>
 <details><summary>✔️ watch in layoutbuilder</summary>
 </details>
@@ -202,6 +208,8 @@ BuildContext
 </details>
 <details><summary>  ✔️ context.watch listens to value changes</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s4" href="#r0s4">test/future_provider_test.dart</a>
 <details><summary>✔️ works with MultiProvider</summary>
 </details>
@@ -224,6 +232,8 @@ BuildContext
 FutureProvider()
 <details><summary>  ✔️ crashes if builder is null</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s5" href="#r0s5">test/inherited_provider_test.dart</a>
 <details><summary>✔️ regression test #377</summary>
 </details>
@@ -392,6 +402,8 @@ DeferredInheritedProvider()
 </details>
 <details><summary>  ✔️ dispose no-op if never built</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s6" href="#r0s6">test/listenable_provider_test.dart</a>
 ListenableProvider
 <details><summary>  ✔️ works with MultiProvider</summary>
@@ -428,6 +440,8 @@ ListenableProvider stateful constructor
 </details>
 <details><summary>  ✔️ throws if create is null</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s7" href="#r0s7">test/listenable_proxy_provider_test.dart</a>
 ListenableProxyProvider
 <details><summary>  ✔️ throws if update is missing</summary>
@@ -455,6 +469,8 @@ ListenableProxyProvider variants
 </details>
 <details><summary>  ✔️ ListenableProxyProvider6</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s8" href="#r0s8">test/multi_provider_test.dart</a>
 MultiProvider
 <details><summary>  ✔️ throw if providers is null</summary>
@@ -463,6 +479,8 @@ MultiProvider
 </details>
 <details><summary>  ✔️ MultiProvider.providers with ignored child</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s9" href="#r0s9">test/provider_test.dart</a>
 <details><summary>✔️ works with MultiProvider</summary>
 </details>
@@ -488,6 +506,8 @@ Provider
 </details>
 <details><summary>  ✔️ update should notify</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s10" href="#r0s10">test/proxy_provider_test.dart</a>
 ProxyProvider
 <details><summary>  ✔️ throws if the provided value is a Listenable/Stream</summary>
@@ -523,6 +543,8 @@ ProxyProvider variants
 </details>
 <details><summary>  ✔️ ProxyProvider6</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s11" href="#r0s11">test/reassemble_test.dart</a>
 <details><summary>✔️ ReassembleHandler</summary>
 </details>
@@ -530,6 +552,8 @@ ProxyProvider variants
 </details>
 <details><summary>✔️ unevaluated create</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s12" href="#r0s12">test/selector_test.dart</a>
 <details><summary>✔️ asserts that builder/selector are not null</summary>
 </details>
@@ -565,6 +589,8 @@ ProxyProvider variants
 </details>
 <details><summary>✔️ Selector6</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s13" href="#r0s13">test/stateful_provider_test.dart</a>
 <details><summary>✔️ asserts</summary>
 </details>
@@ -574,6 +600,8 @@ ProxyProvider variants
 </details>
 <details><summary>✔️ dispose</summary>
 </details>
+
+
 ### ✔️ <a id="user-content-r0s14" href="#r0s14">test/stream_provider_test.dart</a>
 <details><summary>✔️ works with MultiProvider</summary>
 </details>
@@ -592,6 +620,8 @@ StreamProvider()
 </details>
 <details><summary>  ✔️ crashes if builder is null</summary>
 </details>
+
+
 ### ❌ <a id="user-content-r0s15" href="#r0s15">test/value_listenable_provider_test.dart</a>
 valueListenableProvider
 <details><summary>  ✔️ rebuilds when value change</summary>
@@ -614,3 +644,4 @@ Unexpected number of calls
 ```
 
 </details>
+

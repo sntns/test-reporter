@@ -250,7 +250,7 @@ function getTestsReport(ts: TestSuiteResult, runIndex: number, suiteIndex: numbe
       sections.push(`</details>`)
     }
   }
-  //sections.push('```')
+  sections.push('\n')
 
   return sections
 }

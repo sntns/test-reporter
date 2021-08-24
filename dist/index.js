@@ -1791,7 +1791,7 @@ function getTestsReport(ts, runIndex, suiteIndex, options) {
             sections.push(`</details>`);
         }
     }
-    //sections.push('```')
+    sections.push('\n');
     return sections;
 }
 function makeRunSlug(runIndex) {
