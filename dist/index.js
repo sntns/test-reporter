@@ -896,7 +896,7 @@ class TestCase {
         return undefined;
     }
     get time() {
-        return this.res !== undefined ? this.res.Elapsed : 0;
+        return this.res !== undefined ? this.res.Elapsed * 1000 : 0;
     }
 }
 class GolangJsonParser {
@@ -979,55 +979,116 @@ class GolangJsonParser {
                 const testName = group.group.name !== undefined && tc.name.startsWith(group.group.name)
                     ? tc.name.slice(group.group.name.length).trim()
                     : tc.name.trim();
-                return new test_results_1.TestCaseResult(testName != "" ? testName : group.group.name, tc.result, tc.time, error, tc.output.map(e => { return e.Output.trimEnd(); }));
+                // The (main) test duration is encompassing children, then remove them
+                const testTime = testName != "" ? tc.time : (tc.time * 2 - Object.values(group.tests).reduce((sum, t) => (sum + t.time), 0));
+                return new test_results_1.TestCaseResult(testName != "" ? testName : "(main)", tc.result, testTime, error, tc.output.map(e => { return e.Output.trimEnd(); }));
             });
             return new test_results_1.TestGroupResult(group.group.name, tests);
         });
     }
-    getError(pkg, test) {
-        return undefined;
-        /*
-        if (!this.options.parseErrors || !test.error) {
-          return undefined
-        }
-    
-        const {trackedFiles} = this.options
-        const stackTrace = test.error?.stackTrace ?? ''
-        const print = test.print
-          .filter(p => p.messageType === 'print')
-          .map(p => p.message)
-          .join('\n')
-        const details = [print, stackTrace].filter(str => str !== '').join('\n')
-        const src = this.exceptionThrowSource(details, trackedFiles)
-        const message = this.getErrorMessage(test.error?.error ?? '', print)
-        let path
-        let line
-    
-        if (src !== undefined) {
-          path = src.path
-          line = src.line
-        } else {
-          const testStartPath = this.getRelativePath(testSuite.suite.path)
-          if (trackedFiles.includes(testStartPath)) {
-            path = testStartPath
-            line = test.testStart.test.root_line ?? test.testStart.test.line ?? undefined
-          }
-        }
-    
-        return {
-          path,
-          line,
-          message,
-          details
-        }
-        */
-    }
     getTestRunResult(tr) {
         const suites = tr.packages.map(s => {
             //return new TestSuiteResult(this.getRelativePath(s.suite.path), this.getGroups(s))
-            return new test_results_1.TestSuiteResult(s.name, this.getGroups(s));
+            return new test_results_1.TestSuiteResult(s.name, this.getGroups(s), undefined, s.output.map(e => { return e.Output.trimEnd(); }));
         });
         return new test_results_1.TestRunResult(tr.path, suites, tr.time);
+    }
+    getError(pkg, test) {
+        var _a;
+        /*
+          "error": Object {
+            "details": "Error: Some error
+        at Object.throwError (lib\\\\main.js:2:9)
+        at Context.<anonymous> (test\\\\main.test.js:15:11)
+        at processImmediate (internal/timers.js:461:21)",
+            "line": 2,
+            "message": "Some error",
+            "path": "lib/main.js",
+          },
+        */
+        if (!this.options.parseErrors || test.result != 'failed' || !test.output) {
+            return undefined;
+        }
+        const { trackedFiles } = this.options;
+        /*
+        "Output":"    server_test.go:104: "
+        "Output":"        \tError Trace:\tserver_test.go:104"
+        "Output":"        \t            \t\t\t\tserver_test.go:142"
+        "Output":"        \tError:      \t\"[{{some.domainname.com. TypeA ClassINET %!s(uint32=3600) %!s(uint16=4)} %!s(*dnsmessage.AResource=\u0026{[10 7 0 1]})}]\" should have 0 item(s), but has 1"
+        "Output":"        \tTest:       \tTestDns/k=4/case=should_read_dnsmasq_'some.domainname.com'"
+        */
+        const out = test.output
+            .filter(e => e.Output.startsWith("        \t"))
+            .map(e => { return e.Output.trimRight().slice("        \t".length); });
+        let stack = [];
+        let inStack = false;
+        out.forEach((it, i) => {
+            if (it.startsWith("Error Trace:\t")) {
+                stack.push(it.split("\t", 2)[1]);
+                inStack = true;
+            }
+            else if (it.startsWith("Error:")) {
+                inStack = false;
+            }
+            else if (inStack) {
+                stack.push(it.trim());
+            }
+        });
+        const error = (_a = out.filter(line => line.startsWith("Error:"))[0]) === null || _a === void 0 ? void 0 : _a.split("\t", 2)[1];
+        const src = this.exceptionThrowSource(stack, trackedFiles, pkg);
+        let path;
+        let line;
+        let message = error;
+        let details = out.join("\n");
+        if (src !== undefined) {
+            path = src.path;
+            line = src.line;
+        }
+        else {
+            /*
+            const testStartPath = this.getRelativePath(testSuite.suite.path)
+            if (trackedFiles.includes(testStartPath)) {
+              path = testStartPath
+              line = test.testStart.test.root_line ?? test.testStart.test.line ?? undefined
+            }*/
+        }
+        return {
+            path,
+            line,
+            message,
+            details
+        };
+    }
+    exceptionThrowSource(lines, trackedFiles, pkg) {
+        // regexp to extract file path and line number from stack trace
+        const re = /^(.+):(\d+)\s*/;
+        for (const str of lines) {
+            const match = str.match(re);
+            if (match !== null) {
+                const [_, pathStr, lineStr] = match;
+                const path = path_utils_1.normalizeFilePath(this.getRelativePath(`${pkg.name}/${pathStr}`));
+                if (trackedFiles.includes(path)) {
+                    const line = parseInt(lineStr);
+                    return { path, line };
+                }
+            }
+        }
+    }
+    getRelativePath(path) {
+        const prefix = 'file://';
+        if (path.startsWith(prefix)) {
+            path = path.substr(prefix.length);
+        }
+        path = path_utils_1.normalizeFilePath(path);
+        const workDir = this.getWorkDir(path);
+        if (workDir !== undefined && path.startsWith(workDir)) {
+            path = path.substr(workDir.length);
+        }
+        return path;
+    }
+    getWorkDir(path) {
+        var _a, _b;
+        return ((_b = (_a = this.options.workDir) !== null && _a !== void 0 ? _a : this.assumedWorkDir) !== null && _b !== void 0 ? _b : (this.assumedWorkDir = path_utils_1.getBasePath(path, this.options.trackedFiles)));
     }
 }
 exports.GolangJsonParser = GolangJsonParser;
@@ -1768,7 +1829,8 @@ function getTestsReport(ts, runIndex, suiteIndex, options) {
     //sections.push('```')
     for (const grp of groups) {
         if (grp.name) {
-            sections.push(grp.name);
+            const groupIcon = getResultIcon(grp.result);
+            sections.push(`\n#### ${groupIcon} ${grp.name}`);
         }
         const space = grp.name ? '  ' : '';
         for (const tc of grp.tests) {

@@ -227,8 +227,8 @@ function getTestsReport(ts: TestSuiteResult, runIndex: number, suiteIndex: numbe
   //sections.push('```')
   for (const grp of groups) {
     if (grp.name) {
-      const icon = getResultIcon(grp.result)
-      sections.push(`\n#### ${icon} ${grp.name}`)
+      const groupIcon = getResultIcon(grp.result)
+      sections.push(`\n#### ${groupIcon} ${grp.name}`)
     }
     const space = grp.name ? '  ' : ''
     for (const tc of grp.tests) {

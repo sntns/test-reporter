@@ -31,10 +31,10 @@ describe('golang-json tests', () => {
 
     const trackedFilesPath = path.join(__dirname, 'fixtures', 'external', 'golang', 'sample1-files.txt')
     const trackedFiles = fs.readFileSync(trackedFilesPath, {encoding: 'utf8'}).split(/\n\r?/g)
-    
+
     const opts: ParseOptions = {
       parseErrors: true,
-      trackedFiles,
+      trackedFiles
     }
 
     const parser = new GolangJsonParser(opts)
@@ -54,10 +54,10 @@ describe('golang-json tests', () => {
 
     const trackedFilesPath = path.join(__dirname, 'fixtures', 'external', 'golang', 'sample2-files.txt')
     const trackedFiles = fs.readFileSync(trackedFilesPath, {encoding: 'utf8'}).split(/\n\r?/g)
-    
+
     const opts: ParseOptions = {
       parseErrors: true,
-      trackedFiles,
+      trackedFiles
     }
 
     const parser = new GolangJsonParser(opts)
@@ -77,7 +77,7 @@ describe('golang-json tests', () => {
 
     const opts: ParseOptions = {
       parseErrors: true,
-      trackedFiles: [],
+      trackedFiles: []
     }
 
     const parser = new GolangJsonParser(opts)
@@ -97,7 +97,7 @@ describe('golang-json tests', () => {
 
     const opts: ParseOptions = {
       parseErrors: true,
-      trackedFiles: [],
+      trackedFiles: []
     }
 
     const parser = new GolangJsonParser(opts)
