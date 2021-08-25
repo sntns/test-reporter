@@ -994,7 +994,6 @@ class GolangJsonParser {
         return new test_results_1.TestRunResult(tr.path, suites, tr.time);
     }
     getError(pkg, test) {
-        var _a;
         /*
           "error": Object {
             "details": "Error: Some error
@@ -1021,24 +1020,36 @@ class GolangJsonParser {
             .filter(e => e.Output.startsWith("        \t"))
             .map(e => { return e.Output.trimRight().slice("        \t".length); });
         let stack = [];
-        let inStack = false;
+        let inBlock = false;
         out.forEach((it, i) => {
             if (it.startsWith("Error Trace:\t")) {
                 stack.push(it.split("\t", 2)[1]);
-                inStack = true;
+                inBlock = true;
             }
             else if (it.startsWith("Error:")) {
-                inStack = false;
+                inBlock = false;
             }
-            else if (inStack) {
+            else if (inBlock) {
                 stack.push(it.trim());
             }
         });
-        const error = (_a = out.filter(line => line.startsWith("Error:"))[0]) === null || _a === void 0 ? void 0 : _a.split("\t", 2)[1];
+        let error = [];
+        out.forEach((it, i) => {
+            if (it.startsWith("Error:")) {
+                error.push(it.split("\t", 2)[1]);
+                inBlock = true;
+            }
+            else if (it.startsWith("Test:")) {
+                inBlock = false;
+            }
+            else if (inBlock) {
+                error.push(it.trim());
+            }
+        });
         const src = this.exceptionThrowSource(stack, trackedFiles, pkg);
         let path;
         let line;
-        let message = error;
+        let message = error.join("\n");
         let details = out.join("\n");
         if (src !== undefined) {
             path = src.path;
