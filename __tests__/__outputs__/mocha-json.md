@@ -6,10 +6,12 @@
 |[test/main.test.js](#r0s0)|1✔️|3❌||1ms|
 |[test/second.test.js](#r0s1)||1❌|1✖️|8ms|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">test/main.test.js</a>
-Test 1
+
+#### ✔️ Test 1
 <details><summary>  ✔️ Passing test</summary>
 </details>
-Test 1 Test 1.1
+
+#### ❌ Test 1 Test 1.1
 <details><summary>  ❌ Exception in target unit</summary>
 error:
 
@@ -29,7 +31,8 @@ false !== true
 ```
 
 </details>
-Test 2
+
+#### ❌ Test 2
 <details><summary>  ❌ Exception in test</summary>
 error:
 

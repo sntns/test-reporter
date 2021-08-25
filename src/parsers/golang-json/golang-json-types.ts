@@ -1,5 +1,3 @@
-
-
 export interface Event {
   Action: 'skip' | 'output' | 'pass' | 'fail' | 'run'
   Package?: string

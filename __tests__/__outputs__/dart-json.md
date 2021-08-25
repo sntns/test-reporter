@@ -6,10 +6,12 @@
 |[test/main_test.dart](#r0s0)|1✔️|3❌||74ms|
 |[test/second_test.dart](#r0s1)||1❌|1✖️|51ms|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">test/main_test.dart</a>
-Test 1
+
+#### ✔️ Test 1
 <details><summary>  ✔️ Passing test</summary>
 </details>
-Test 1 Test 1.1
+
+#### ❌ Test 1 Test 1.1
 <details><summary>  ❌ Failing test</summary>
 error:
 
@@ -28,7 +30,8 @@ Exception: Some error
 ```
 
 </details>
-Test 2
+
+#### ❌ Test 2
 <details><summary>  ❌ Exception in test</summary>
 error:
 

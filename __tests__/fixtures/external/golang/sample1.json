@@ -1,0 +1,41 @@
+{"Time":"2021-08-24T12:40:27.494328573Z","Action":"output","Package":"github.com/dummy/sample","Output":"?   \tgithub.com/dummy/sample\t[no test files]\n"}
+{"Time":"2021-08-24T12:40:27.494514272Z","Action":"skip","Package":"github.com/dummy/sample","Elapsed":0}
+{"Time":"2021-08-24T12:40:27.494531472Z","Action":"output","Package":"github.com/dummy/sample/api","Output":"?   \tgithub.com/dummy/sample/api\t[no test files]\n"}
+{"Time":"2021-08-24T12:40:27.494536772Z","Action":"skip","Package":"github.com/dummy/sample/api","Elapsed":0}
+{"Time":"2021-08-24T12:40:27.494564872Z","Action":"output","Package":"github.com/dummy/sample/cmd","Output":"?   \tgithub.com/dummy/sample/cmd\t[no test files]\n"}
+{"Time":"2021-08-24T12:40:27.494569172Z","Action":"skip","Package":"github.com/dummy/sample/cmd","Elapsed":0}
+{"Time":"2021-08-24T12:40:29.065396046Z","Action":"output","Package":"github.com/dummy/sample/core","Output":"testing: warning: no tests to run\n"}
+{"Time":"2021-08-24T12:40:29.065637144Z","Action":"output","Package":"github.com/dummy/sample/core","Output":"PASS\n"}
+{"Time":"2021-08-24T12:40:29.065947142Z","Action":"output","Package":"github.com/dummy/sample/core","Output":"ok  \tgithub.com/dummy/sample/core\t0.005s [no tests to run]\n"}
+{"Time":"2021-08-24T12:40:29.066386239Z","Action":"pass","Package":"github.com/dummy/sample/core","Elapsed":0.005}
+{"Time":"2021-08-24T12:40:29.195798664Z","Action":"output","Package":"github.com/dummy/sample/driver/dns","Output":"testing: warning: no tests to run\n"}
+{"Time":"2021-08-24T12:40:29.195851263Z","Action":"output","Package":"github.com/dummy/sample/driver/dns","Output":"PASS\n"}
+{"Time":"2021-08-24T12:40:29.196075362Z","Action":"output","Package":"github.com/dummy/sample/driver/dns","Output":"ok  \tgithub.com/dummy/sample/driver/dns\t0.004s [no tests to run]\n"}
+{"Time":"2021-08-24T12:40:29.196427359Z","Action":"pass","Package":"github.com/dummy/sample/driver/dns","Elapsed":0.004}
+{"Time":"2021-08-24T12:40:29.906270158Z","Action":"output","Package":"github.com/dummy/sample/driver/mysql","Output":"testing: warning: no tests to run\n"}
+{"Time":"2021-08-24T12:40:29.906326557Z","Action":"output","Package":"github.com/dummy/sample/driver/mysql","Output":"PASS\n"}
+{"Time":"2021-08-24T12:40:29.912937113Z","Action":"output","Package":"github.com/dummy/sample/driver/mysql","Output":"ok  \tgithub.com/dummy/sample/driver/mysql\t0.011s [no tests to run]\n"}
+{"Time":"2021-08-24T12:40:29.91337561Z","Action":"pass","Package":"github.com/dummy/sample/driver/mysql","Elapsed":0.012}
+{"Time":"2021-08-24T12:40:30.214614772Z","Action":"output","Package":"github.com/dummy/sample/driver/mysql/db","Output":"testing: warning: no tests to run\n"}
+{"Time":"2021-08-24T12:40:30.214670272Z","Action":"output","Package":"github.com/dummy/sample/driver/mysql/db","Output":"PASS\n"}
+{"Time":"2021-08-24T12:40:30.218188948Z","Action":"output","Package":"github.com/dummy/sample/driver/mysql/db","Output":"ok  \tgithub.com/dummy/sample/driver/mysql/db\t0.018s [no tests to run]\n"}
+{"Time":"2021-08-24T12:40:30.218595845Z","Action":"pass","Package":"github.com/dummy/sample/driver/mysql/db","Elapsed":0.019}
+{"Time":"2021-08-24T12:40:30.21937324Z","Action":"output","Package":"github.com/dummy/sample/driver/mysql/db/conn","Output":"?   \tgithub.com/dummy/sample/driver/mysql/db/conn\t[no test files]\n"}
+{"Time":"2021-08-24T12:40:30.21938844Z","Action":"skip","Package":"github.com/dummy/sample/driver/mysql/db/conn","Elapsed":0}
+{"Time":"2021-08-24T12:40:30.21939824Z","Action":"output","Package":"github.com/dummy/sample/driver/mysql/db/conn/child","Output":"?   \tgithub.com/dummy/sample/driver/mysql/db/conn/child\t[no test files]\n"}
+{"Time":"2021-08-24T12:40:30.21940314Z","Action":"skip","Package":"github.com/dummy/sample/driver/mysql/db/conn/child","Elapsed":0}
+{"Time":"2021-08-24T12:40:30.655846587Z","Action":"output","Package":"github.com/dummy/sample/driver/ntp","Output":"testing: warning: no tests to run\n"}
+{"Time":"2021-08-24T12:40:30.655931687Z","Action":"output","Package":"github.com/dummy/sample/driver/ntp","Output":"PASS\n"}
+{"Time":"2021-08-24T12:40:30.65697858Z","Action":"output","Package":"github.com/dummy/sample/driver/ntp","Output":"ok  \tgithub.com/dummy/sample/driver/ntp\t0.005s [no tests to run]\n"}
+{"Time":"2021-08-24T12:40:30.657772974Z","Action":"pass","Package":"github.com/dummy/sample/driver/ntp","Elapsed":0.006}
+{"Time":"2021-08-24T12:40:30.92599306Z","Action":"output","Package":"github.com/dummy/sample/driver/stbp","Output":"testing: warning: no tests to run\n"}
+{"Time":"2021-08-24T12:40:30.926042959Z","Action":"output","Package":"github.com/dummy/sample/driver/stbp","Output":"PASS\n"}
+{"Time":"2021-08-24T12:40:30.926516656Z","Action":"output","Package":"github.com/dummy/sample/driver/stbp","Output":"ok  \tgithub.com/dummy/sample/driver/stbp\t0.009s [no tests to run]\n"}
+{"Time":"2021-08-24T12:40:30.926900054Z","Action":"pass","Package":"github.com/dummy/sample/driver/stbp","Elapsed":0.01}
+{"Time":"2021-08-24T12:40:38.940550521Z","Action":"output","Package":"github.com/dummy/sample/integration_test","Output":"panic: exit status 1\n"}
+{"Time":"2021-08-24T12:40:38.94061752Z","Action":"output","Package":"github.com/dummy/sample/integration_test","Output":"\n"}
+{"Time":"2021-08-24T12:40:38.94062522Z","Action":"output","Package":"github.com/dummy/sample/integration_test","Output":"goroutine 1 [running]:\n"}
+{"Time":"2021-08-24T12:40:38.94062902Z","Action":"output","Package":"github.com/dummy/sample/integration_test","Output":"github.com/dummy/sample/integration_test.init.0()\n"}
+{"Time":"2021-08-24T12:40:38.94063372Z","Action":"output","Package":"github.com/dummy/sample/integration_test","Output":"\t/home/runner/work/sample/sample/integration_test/testbed_test.go:36 +0x3c5\n"}
+{"Time":"2021-08-24T12:40:38.941447016Z","Action":"output","Package":"github.com/dummy/sample/integration_test","Output":"FAIL\tgithub.com/dummy/sample/integration_test\t1.392s\n"}
+{"Time":"2021-08-24T12:40:38.941466915Z","Action":"fail","Package":"github.com/dummy/sample/integration_test","Elapsed":1.392}

@@ -23,17 +23,61 @@ describe('golang-json tests', () => {
     expect(result.result).toBe('success')
   })
 
+  it('report from sample1 test results matches snapshot', async () => {
+    const fixturePath = path.join(__dirname, 'fixtures', 'external', 'golang', 'sample1.json')
+    const outputPath = path.join(__dirname, '__outputs__', 'golang-json.sample1.md')
+    const filePath = normalizeFilePath(path.relative(__dirname, fixturePath))
+    const fileContent = fs.readFileSync(fixturePath, {encoding: 'utf8'})
+
+    const trackedFilesPath = path.join(__dirname, 'fixtures', 'external', 'golang', 'sample1-files.txt')
+    const trackedFiles = fs.readFileSync(trackedFilesPath, {encoding: 'utf8'}).split(/\n\r?/g)
+    
+    const opts: ParseOptions = {
+      parseErrors: true,
+      trackedFiles,
+    }
+
+    const parser = new GolangJsonParser(opts)
+    const result = await parser.parse(filePath, fileContent)
+    expect(result).toMatchSnapshot()
+
+    const report = getReport([result])
+    fs.mkdirSync(path.dirname(outputPath), {recursive: true})
+    fs.writeFileSync(outputPath, report)
+  })
+
+  it('report from sample2 test results matches snapshot', async () => {
+    const fixturePath = path.join(__dirname, 'fixtures', 'external', 'golang', 'sample2.json')
+    const outputPath = path.join(__dirname, '__outputs__', 'golang-json.sample2.md')
+    const filePath = normalizeFilePath(path.relative(__dirname, fixturePath))
+    const fileContent = fs.readFileSync(fixturePath, {encoding: 'utf8'})
+
+    const trackedFilesPath = path.join(__dirname, 'fixtures', 'external', 'golang', 'sample2-files.txt')
+    const trackedFiles = fs.readFileSync(trackedFilesPath, {encoding: 'utf8'}).split(/\n\r?/g)
+    
+    const opts: ParseOptions = {
+      parseErrors: true,
+      trackedFiles,
+    }
+
+    const parser = new GolangJsonParser(opts)
+    const result = await parser.parse(filePath, fileContent)
+    expect(result).toMatchSnapshot()
+
+    const report = getReport([result])
+    fs.mkdirSync(path.dirname(outputPath), {recursive: true})
+    fs.writeFileSync(outputPath, report)
+  })
+
   it('report from spf13/cobra single suite test results matches snapshot', async () => {
     const fixturePath = path.join(__dirname, 'fixtures', 'external', 'golang', 'spf13-cobra.json')
-    const trackedFilesPath = path.join(__dirname, 'fixtures', 'external', 'java', 'files.txt')
     const outputPath = path.join(__dirname, '__outputs__', 'spf13-cobra.md')
     const filePath = normalizeFilePath(path.relative(__dirname, fixturePath))
     const fileContent = fs.readFileSync(fixturePath, {encoding: 'utf8'})
 
-    const trackedFiles = fs.readFileSync(trackedFilesPath, {encoding: 'utf8'}).split(/\n\r?/g)
     const opts: ParseOptions = {
       parseErrors: true,
-      trackedFiles
+      trackedFiles: [],
     }
 
     const parser = new GolangJsonParser(opts)
@@ -47,15 +91,13 @@ describe('golang-json tests', () => {
 
   it('report from spf13/cobra single suite test results matches snapshot (verbose)', async () => {
     const fixturePath = path.join(__dirname, 'fixtures', 'external', 'golang', 'spf13-cobra-verbose.json')
-    const trackedFilesPath = path.join(__dirname, 'fixtures', 'external', 'java', 'files.txt')
     const outputPath = path.join(__dirname, '__outputs__', 'spf13-cobra-verbose.md')
     const filePath = normalizeFilePath(path.relative(__dirname, fixturePath))
     const fileContent = fs.readFileSync(fixturePath, {encoding: 'utf8'})
 
-    const trackedFiles = fs.readFileSync(trackedFilesPath, {encoding: 'utf8'}).split(/\n\r?/g)
     const opts: ParseOptions = {
       parseErrors: true,
-      trackedFiles
+      trackedFiles: [],
     }
 
     const parser = new GolangJsonParser(opts)

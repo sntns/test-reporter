@@ -6,10 +6,12 @@
 |[__tests__\main.test.js](#r0s0)|1✔️|3❌||486ms|
 |[__tests__\second.test.js](#r0s1)||1❌|1✖️|82ms|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">__tests__\main.test.js</a>
-Test 1
+
+#### ✔️ Test 1
 <details><summary>  ✔️ Passing test</summary>
 </details>
-Test 1 › Test 1.1
+
+#### ❌ Test 1 › Test 1.1
 <details><summary>  ❌ Failing test</summary>
 error:
 
@@ -26,7 +28,8 @@ Error: Some error
 ```
 
 </details>
-Test 2
+
+#### ❌ Test 2
 <details><summary>  ❌ Exception in test</summary>
 error:
 

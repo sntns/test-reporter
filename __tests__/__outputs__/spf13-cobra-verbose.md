@@ -3,10 +3,11 @@
 **165** tests were completed in **0ms** with **164** passed, **0** failed and **1** skipped.
 |Test suite|Passed|Failed|Skipped|Time|
 |:---|---:|---:|---:|---:|
-|[github.com/spf13/cobra](#r0s0)|164✔️||1✖️|0ms|
+|[github.com/spf13/cobra](#r0s0)|164✔️||1✖️|30ms|
 ### ✔️ <a id="user-content-r0s0" href="#r0s0">github.com/spf13/cobra</a>
-TestNoArgs
-<details><summary>  ✔️ TestNoArgs</summary>
+
+#### ✔️ TestNoArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -15,8 +16,9 @@ output:
 ```
 
 </details>
-TestNoArgsWithArgs
-<details><summary>  ✔️ TestNoArgsWithArgs</summary>
+
+#### ✔️ TestNoArgsWithArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -25,8 +27,9 @@ output:
 ```
 
 </details>
-TestOnlyValidArgs
-<details><summary>  ✔️ TestOnlyValidArgs</summary>
+
+#### ✔️ TestOnlyValidArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -35,8 +38,9 @@ output:
 ```
 
 </details>
-TestOnlyValidArgsWithInvalidArgs
-<details><summary>  ✔️ TestOnlyValidArgsWithInvalidArgs</summary>
+
+#### ✔️ TestOnlyValidArgsWithInvalidArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -45,8 +49,9 @@ output:
 ```
 
 </details>
-TestArbitraryArgs
-<details><summary>  ✔️ TestArbitraryArgs</summary>
+
+#### ✔️ TestArbitraryArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -55,8 +60,9 @@ output:
 ```
 
 </details>
-TestMinimumNArgs
-<details><summary>  ✔️ TestMinimumNArgs</summary>
+
+#### ✔️ TestMinimumNArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -65,8 +71,9 @@ output:
 ```
 
 </details>
-TestMinimumNArgsWithLessArgs
-<details><summary>  ✔️ TestMinimumNArgsWithLessArgs</summary>
+
+#### ✔️ TestMinimumNArgsWithLessArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -75,8 +82,9 @@ output:
 ```
 
 </details>
-TestMaximumNArgs
-<details><summary>  ✔️ TestMaximumNArgs</summary>
+
+#### ✔️ TestMaximumNArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -85,8 +93,9 @@ output:
 ```
 
 </details>
-TestMaximumNArgsWithMoreArgs
-<details><summary>  ✔️ TestMaximumNArgsWithMoreArgs</summary>
+
+#### ✔️ TestMaximumNArgsWithMoreArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -95,8 +104,9 @@ output:
 ```
 
 </details>
-TestExactArgs
-<details><summary>  ✔️ TestExactArgs</summary>
+
+#### ✔️ TestExactArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -105,8 +115,9 @@ output:
 ```
 
 </details>
-TestExactArgsWithInvalidCount
-<details><summary>  ✔️ TestExactArgsWithInvalidCount</summary>
+
+#### ✔️ TestExactArgsWithInvalidCount
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -115,8 +126,9 @@ output:
 ```
 
 </details>
-TestExactValidArgs
-<details><summary>  ✔️ TestExactValidArgs</summary>
+
+#### ✔️ TestExactValidArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -125,8 +137,9 @@ output:
 ```
 
 </details>
-TestExactValidArgsWithInvalidCount
-<details><summary>  ✔️ TestExactValidArgsWithInvalidCount</summary>
+
+#### ✔️ TestExactValidArgsWithInvalidCount
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -135,8 +148,9 @@ output:
 ```
 
 </details>
-TestExactValidArgsWithInvalidArgs
-<details><summary>  ✔️ TestExactValidArgsWithInvalidArgs</summary>
+
+#### ✔️ TestExactValidArgsWithInvalidArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -145,8 +159,9 @@ output:
 ```
 
 </details>
-TestRangeArgs
-<details><summary>  ✔️ TestRangeArgs</summary>
+
+#### ✔️ TestRangeArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -155,8 +170,9 @@ output:
 ```
 
 </details>
-TestRangeArgsWithInvalidCount
-<details><summary>  ✔️ TestRangeArgsWithInvalidCount</summary>
+
+#### ✔️ TestRangeArgsWithInvalidCount
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -165,8 +181,9 @@ output:
 ```
 
 </details>
-TestRootTakesNoArgs
-<details><summary>  ✔️ TestRootTakesNoArgs</summary>
+
+#### ✔️ TestRootTakesNoArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -175,8 +192,9 @@ output:
 ```
 
 </details>
-TestRootTakesArgs
-<details><summary>  ✔️ TestRootTakesArgs</summary>
+
+#### ✔️ TestRootTakesArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -185,8 +203,9 @@ output:
 ```
 
 </details>
-TestChildTakesNoArgs
-<details><summary>  ✔️ TestChildTakesNoArgs</summary>
+
+#### ✔️ TestChildTakesNoArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -195,8 +214,9 @@ output:
 ```
 
 </details>
-TestChildTakesArgs
-<details><summary>  ✔️ TestChildTakesArgs</summary>
+
+#### ✔️ TestChildTakesArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -205,8 +225,9 @@ output:
 ```
 
 </details>
-TestBashCompletions
-<details><summary>  ✔️ TestBashCompletions</summary>
+
+#### ✔️ TestBashCompletions
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -215,8 +236,9 @@ output:
 ```
 
 </details>
-TestBashCompletionHiddenFlag
-<details><summary>  ✔️ TestBashCompletionHiddenFlag</summary>
+
+#### ✔️ TestBashCompletionHiddenFlag
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -225,8 +247,9 @@ output:
 ```
 
 </details>
-TestBashCompletionDeprecatedFlag
-<details><summary>  ✔️ TestBashCompletionDeprecatedFlag</summary>
+
+#### ✔️ TestBashCompletionDeprecatedFlag
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -235,8 +258,9 @@ output:
 ```
 
 </details>
-TestBashCompletionTraverseChildren
-<details><summary>  ✔️ TestBashCompletionTraverseChildren</summary>
+
+#### ✔️ TestBashCompletionTraverseChildren
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -245,8 +269,9 @@ output:
 ```
 
 </details>
-TestAddTemplateFunctions
-<details><summary>  ✔️ TestAddTemplateFunctions</summary>
+
+#### ✔️ TestAddTemplateFunctions
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -255,8 +280,9 @@ output:
 ```
 
 </details>
-TestSingleCommand
-<details><summary>  ✔️ TestSingleCommand</summary>
+
+#### ✔️ TestSingleCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -265,8 +291,9 @@ output:
 ```
 
 </details>
-TestChildCommand
-<details><summary>  ✔️ TestChildCommand</summary>
+
+#### ✔️ TestChildCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -275,8 +302,9 @@ output:
 ```
 
 </details>
-TestCallCommandWithoutSubcommands
-<details><summary>  ✔️ TestCallCommandWithoutSubcommands</summary>
+
+#### ✔️ TestCallCommandWithoutSubcommands
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -285,8 +313,9 @@ output:
 ```
 
 </details>
-TestRootExecuteUnknownCommand
-<details><summary>  ✔️ TestRootExecuteUnknownCommand</summary>
+
+#### ✔️ TestRootExecuteUnknownCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -295,8 +324,9 @@ output:
 ```
 
 </details>
-TestSubcommandExecuteC
-<details><summary>  ✔️ TestSubcommandExecuteC</summary>
+
+#### ✔️ TestSubcommandExecuteC
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -305,8 +335,9 @@ output:
 ```
 
 </details>
-TestExecuteContext
-<details><summary>  ✔️ TestExecuteContext</summary>
+
+#### ✔️ TestExecuteContext
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -315,8 +346,9 @@ output:
 ```
 
 </details>
-TestExecuteContextC
-<details><summary>  ✔️ TestExecuteContextC</summary>
+
+#### ✔️ TestExecuteContextC
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -325,8 +357,9 @@ output:
 ```
 
 </details>
-TestExecute_NoContext
-<details><summary>  ✔️ TestExecute_NoContext</summary>
+
+#### ✔️ TestExecute_NoContext
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -335,8 +368,9 @@ output:
 ```
 
 </details>
-TestRootUnknownCommandSilenced
-<details><summary>  ✔️ TestRootUnknownCommandSilenced</summary>
+
+#### ✔️ TestRootUnknownCommandSilenced
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -345,8 +379,9 @@ output:
 ```
 
 </details>
-TestCommandAlias
-<details><summary>  ✔️ TestCommandAlias</summary>
+
+#### ✔️ TestCommandAlias
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -355,8 +390,9 @@ output:
 ```
 
 </details>
-TestEnablePrefixMatching
-<details><summary>  ✔️ TestEnablePrefixMatching</summary>
+
+#### ✔️ TestEnablePrefixMatching
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -365,8 +401,9 @@ output:
 ```
 
 </details>
-TestAliasPrefixMatching
-<details><summary>  ✔️ TestAliasPrefixMatching</summary>
+
+#### ✔️ TestAliasPrefixMatching
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -375,8 +412,9 @@ output:
 ```
 
 </details>
-TestChildSameName
-<details><summary>  ✔️ TestChildSameName</summary>
+
+#### ✔️ TestChildSameName
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -385,8 +423,9 @@ output:
 ```
 
 </details>
-TestGrandChildSameName
-<details><summary>  ✔️ TestGrandChildSameName</summary>
+
+#### ✔️ TestGrandChildSameName
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -395,8 +434,9 @@ output:
 ```
 
 </details>
-TestFlagLong
-<details><summary>  ✔️ TestFlagLong</summary>
+
+#### ✔️ TestFlagLong
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -405,8 +445,9 @@ output:
 ```
 
 </details>
-TestFlagShort
-<details><summary>  ✔️ TestFlagShort</summary>
+
+#### ✔️ TestFlagShort
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -415,8 +456,9 @@ output:
 ```
 
 </details>
-TestChildFlag
-<details><summary>  ✔️ TestChildFlag</summary>
+
+#### ✔️ TestChildFlag
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -425,8 +467,9 @@ output:
 ```
 
 </details>
-TestChildFlagWithParentLocalFlag
-<details><summary>  ✔️ TestChildFlagWithParentLocalFlag</summary>
+
+#### ✔️ TestChildFlagWithParentLocalFlag
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -435,8 +478,9 @@ output:
 ```
 
 </details>
-TestFlagInvalidInput
-<details><summary>  ✔️ TestFlagInvalidInput</summary>
+
+#### ✔️ TestFlagInvalidInput
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -445,8 +489,9 @@ output:
 ```
 
 </details>
-TestFlagBeforeCommand
-<details><summary>  ✔️ TestFlagBeforeCommand</summary>
+
+#### ✔️ TestFlagBeforeCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -455,8 +500,9 @@ output:
 ```
 
 </details>
-TestStripFlags
-<details><summary>  ✔️ TestStripFlags</summary>
+
+#### ✔️ TestStripFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -465,8 +511,9 @@ output:
 ```
 
 </details>
-TestDisableFlagParsing
-<details><summary>  ✔️ TestDisableFlagParsing</summary>
+
+#### ✔️ TestDisableFlagParsing
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -475,8 +522,9 @@ output:
 ```
 
 </details>
-TestPersistentFlagsOnSameCommand
-<details><summary>  ✔️ TestPersistentFlagsOnSameCommand</summary>
+
+#### ✔️ TestPersistentFlagsOnSameCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -485,8 +533,9 @@ output:
 ```
 
 </details>
-TestEmptyInputs
-<details><summary>  ✔️ TestEmptyInputs</summary>
+
+#### ✔️ TestEmptyInputs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -495,8 +544,9 @@ output:
 ```
 
 </details>
-TestOverwrittenFlag
-<details><summary>  ✖️ TestOverwrittenFlag</summary>
+
+#### ✔️ TestOverwrittenFlag
+<details><summary>  ✖️ (main)</summary>
 output:
 
 ```
@@ -506,8 +556,9 @@ output:
 ```
 
 </details>
-TestPersistentFlagsOnChild
-<details><summary>  ✔️ TestPersistentFlagsOnChild</summary>
+
+#### ✔️ TestPersistentFlagsOnChild
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -516,8 +567,9 @@ output:
 ```
 
 </details>
-TestRequiredFlags
-<details><summary>  ✔️ TestRequiredFlags</summary>
+
+#### ✔️ TestRequiredFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -526,8 +578,9 @@ output:
 ```
 
 </details>
-TestPersistentRequiredFlags
-<details><summary>  ✔️ TestPersistentRequiredFlags</summary>
+
+#### ✔️ TestPersistentRequiredFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -536,8 +589,9 @@ output:
 ```
 
 </details>
-TestPersistentRequiredFlagsWithDisableFlagParsing
-<details><summary>  ✔️ TestPersistentRequiredFlagsWithDisableFlagParsing</summary>
+
+#### ✔️ TestPersistentRequiredFlagsWithDisableFlagParsing
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -546,8 +600,9 @@ output:
 ```
 
 </details>
-TestInitHelpFlagMergesFlags
-<details><summary>  ✔️ TestInitHelpFlagMergesFlags</summary>
+
+#### ✔️ TestInitHelpFlagMergesFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -556,8 +611,9 @@ output:
 ```
 
 </details>
-TestHelpCommandExecuted
-<details><summary>  ✔️ TestHelpCommandExecuted</summary>
+
+#### ✔️ TestHelpCommandExecuted
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -566,8 +622,9 @@ output:
 ```
 
 </details>
-TestHelpCommandExecutedOnChild
-<details><summary>  ✔️ TestHelpCommandExecutedOnChild</summary>
+
+#### ✔️ TestHelpCommandExecutedOnChild
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -576,8 +633,9 @@ output:
 ```
 
 </details>
-TestSetHelpCommand
-<details><summary>  ✔️ TestSetHelpCommand</summary>
+
+#### ✔️ TestSetHelpCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -586,8 +644,9 @@ output:
 ```
 
 </details>
-TestHelpFlagExecuted
-<details><summary>  ✔️ TestHelpFlagExecuted</summary>
+
+#### ✔️ TestHelpFlagExecuted
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -596,8 +655,9 @@ output:
 ```
 
 </details>
-TestHelpFlagExecutedOnChild
-<details><summary>  ✔️ TestHelpFlagExecutedOnChild</summary>
+
+#### ✔️ TestHelpFlagExecutedOnChild
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -606,8 +666,9 @@ output:
 ```
 
 </details>
-TestHelpFlagInHelp
-<details><summary>  ✔️ TestHelpFlagInHelp</summary>
+
+#### ✔️ TestHelpFlagInHelp
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -616,8 +677,9 @@ output:
 ```
 
 </details>
-TestFlagsInUsage
-<details><summary>  ✔️ TestFlagsInUsage</summary>
+
+#### ✔️ TestFlagsInUsage
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -626,8 +688,9 @@ output:
 ```
 
 </details>
-TestHelpExecutedOnNonRunnableChild
-<details><summary>  ✔️ TestHelpExecutedOnNonRunnableChild</summary>
+
+#### ✔️ TestHelpExecutedOnNonRunnableChild
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -636,8 +699,9 @@ output:
 ```
 
 </details>
-TestVersionFlagExecuted
-<details><summary>  ✔️ TestVersionFlagExecuted</summary>
+
+#### ✔️ TestVersionFlagExecuted
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -646,8 +710,9 @@ output:
 ```
 
 </details>
-TestVersionFlagExecutedWithNoName
-<details><summary>  ✔️ TestVersionFlagExecutedWithNoName</summary>
+
+#### ✔️ TestVersionFlagExecutedWithNoName
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -656,8 +721,9 @@ output:
 ```
 
 </details>
-TestShortAndLongVersionFlagInHelp
-<details><summary>  ✔️ TestShortAndLongVersionFlagInHelp</summary>
+
+#### ✔️ TestShortAndLongVersionFlagInHelp
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -666,8 +732,9 @@ output:
 ```
 
 </details>
-TestLongVersionFlagOnlyInHelpWhenShortPredefined
-<details><summary>  ✔️ TestLongVersionFlagOnlyInHelpWhenShortPredefined</summary>
+
+#### ✔️ TestLongVersionFlagOnlyInHelpWhenShortPredefined
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -676,8 +743,9 @@ output:
 ```
 
 </details>
-TestShorthandVersionFlagExecuted
-<details><summary>  ✔️ TestShorthandVersionFlagExecuted</summary>
+
+#### ✔️ TestShorthandVersionFlagExecuted
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -686,8 +754,9 @@ output:
 ```
 
 </details>
-TestVersionTemplate
-<details><summary>  ✔️ TestVersionTemplate</summary>
+
+#### ✔️ TestVersionTemplate
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -696,8 +765,9 @@ output:
 ```
 
 </details>
-TestShorthandVersionTemplate
-<details><summary>  ✔️ TestShorthandVersionTemplate</summary>
+
+#### ✔️ TestShorthandVersionTemplate
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -706,8 +776,9 @@ output:
 ```
 
 </details>
-TestVersionFlagExecutedOnSubcommand
-<details><summary>  ✔️ TestVersionFlagExecutedOnSubcommand</summary>
+
+#### ✔️ TestVersionFlagExecutedOnSubcommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -716,8 +787,9 @@ output:
 ```
 
 </details>
-TestShorthandVersionFlagExecutedOnSubcommand
-<details><summary>  ✔️ TestShorthandVersionFlagExecutedOnSubcommand</summary>
+
+#### ✔️ TestShorthandVersionFlagExecutedOnSubcommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -726,8 +798,9 @@ output:
 ```
 
 </details>
-TestVersionFlagOnlyAddedToRoot
-<details><summary>  ✔️ TestVersionFlagOnlyAddedToRoot</summary>
+
+#### ✔️ TestVersionFlagOnlyAddedToRoot
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -736,8 +809,9 @@ output:
 ```
 
 </details>
-TestShortVersionFlagOnlyAddedToRoot
-<details><summary>  ✔️ TestShortVersionFlagOnlyAddedToRoot</summary>
+
+#### ✔️ TestShortVersionFlagOnlyAddedToRoot
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -746,8 +820,9 @@ output:
 ```
 
 </details>
-TestVersionFlagOnlyExistsIfVersionNonEmpty
-<details><summary>  ✔️ TestVersionFlagOnlyExistsIfVersionNonEmpty</summary>
+
+#### ✔️ TestVersionFlagOnlyExistsIfVersionNonEmpty
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -756,8 +831,9 @@ output:
 ```
 
 </details>
-TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty
-<details><summary>  ✔️ TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty</summary>
+
+#### ✔️ TestShorthandVersionFlagOnlyExistsIfVersionNonEmpty
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -766,8 +842,9 @@ output:
 ```
 
 </details>
-TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined
-<details><summary>  ✔️ TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined</summary>
+
+#### ✔️ TestShorthandVersionFlagOnlyAddedIfShorthandNotDefined
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -776,8 +853,9 @@ output:
 ```
 
 </details>
-TestShorthandVersionFlagOnlyAddedIfVersionNotDefined
-<details><summary>  ✔️ TestShorthandVersionFlagOnlyAddedIfVersionNotDefined</summary>
+
+#### ✔️ TestShorthandVersionFlagOnlyAddedIfVersionNotDefined
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -786,8 +864,9 @@ output:
 ```
 
 </details>
-TestUsageIsNotPrintedTwice
-<details><summary>  ✔️ TestUsageIsNotPrintedTwice</summary>
+
+#### ✔️ TestUsageIsNotPrintedTwice
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -796,8 +875,9 @@ output:
 ```
 
 </details>
-TestVisitParents
-<details><summary>  ✔️ TestVisitParents</summary>
+
+#### ✔️ TestVisitParents
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -806,8 +886,9 @@ output:
 ```
 
 </details>
-TestSuggestions
-<details><summary>  ✔️ TestSuggestions</summary>
+
+#### ✔️ TestSuggestions
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -816,8 +897,9 @@ output:
 ```
 
 </details>
-TestRemoveCommand
-<details><summary>  ✔️ TestRemoveCommand</summary>
+
+#### ✔️ TestRemoveCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -826,8 +908,9 @@ output:
 ```
 
 </details>
-TestReplaceCommandWithRemove
-<details><summary>  ✔️ TestReplaceCommandWithRemove</summary>
+
+#### ✔️ TestReplaceCommandWithRemove
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -836,8 +919,9 @@ output:
 ```
 
 </details>
-TestDeprecatedCommand
-<details><summary>  ✔️ TestDeprecatedCommand</summary>
+
+#### ✔️ TestDeprecatedCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -846,8 +930,9 @@ output:
 ```
 
 </details>
-TestHooks
-<details><summary>  ✔️ TestHooks</summary>
+
+#### ✔️ TestHooks
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -856,8 +941,9 @@ output:
 ```
 
 </details>
-TestPersistentHooks
-<details><summary>  ✔️ TestPersistentHooks</summary>
+
+#### ✔️ TestPersistentHooks
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -866,8 +952,9 @@ output:
 ```
 
 </details>
-TestGlobalNormFuncPropagation
-<details><summary>  ✔️ TestGlobalNormFuncPropagation</summary>
+
+#### ✔️ TestGlobalNormFuncPropagation
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -876,8 +963,9 @@ output:
 ```
 
 </details>
-TestNormPassedOnLocal
-<details><summary>  ✔️ TestNormPassedOnLocal</summary>
+
+#### ✔️ TestNormPassedOnLocal
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -886,8 +974,9 @@ output:
 ```
 
 </details>
-TestNormPassedOnInherited
-<details><summary>  ✔️ TestNormPassedOnInherited</summary>
+
+#### ✔️ TestNormPassedOnInherited
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -896,8 +985,9 @@ output:
 ```
 
 </details>
-TestConsistentNormalizedName
-<details><summary>  ✔️ TestConsistentNormalizedName</summary>
+
+#### ✔️ TestConsistentNormalizedName
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -906,8 +996,9 @@ output:
 ```
 
 </details>
-TestFlagOnPflagCommandLine
-<details><summary>  ✔️ TestFlagOnPflagCommandLine</summary>
+
+#### ✔️ TestFlagOnPflagCommandLine
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -916,8 +1007,9 @@ output:
 ```
 
 </details>
-TestHiddenCommandExecutes
-<details><summary>  ✔️ TestHiddenCommandExecutes</summary>
+
+#### ✔️ TestHiddenCommandExecutes
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -926,8 +1018,9 @@ output:
 ```
 
 </details>
-TestHiddenCommandIsHidden
-<details><summary>  ✔️ TestHiddenCommandIsHidden</summary>
+
+#### ✔️ TestHiddenCommandIsHidden
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -936,8 +1029,9 @@ output:
 ```
 
 </details>
-TestCommandsAreSorted
-<details><summary>  ✔️ TestCommandsAreSorted</summary>
+
+#### ✔️ TestCommandsAreSorted
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -946,8 +1040,9 @@ output:
 ```
 
 </details>
-TestEnableCommandSortingIsDisabled
-<details><summary>  ✔️ TestEnableCommandSortingIsDisabled</summary>
+
+#### ✔️ TestEnableCommandSortingIsDisabled
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -956,8 +1051,9 @@ output:
 ```
 
 </details>
-TestSetOutput
-<details><summary>  ✔️ TestSetOutput</summary>
+
+#### ✔️ TestSetOutput
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -966,8 +1062,9 @@ output:
 ```
 
 </details>
-TestSetOut
-<details><summary>  ✔️ TestSetOut</summary>
+
+#### ✔️ TestSetOut
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -976,8 +1073,9 @@ output:
 ```
 
 </details>
-TestSetErr
-<details><summary>  ✔️ TestSetErr</summary>
+
+#### ✔️ TestSetErr
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -986,8 +1084,9 @@ output:
 ```
 
 </details>
-TestSetIn
-<details><summary>  ✔️ TestSetIn</summary>
+
+#### ✔️ TestSetIn
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -996,8 +1095,9 @@ output:
 ```
 
 </details>
-TestUsageStringRedirected
-<details><summary>  ✔️ TestUsageStringRedirected</summary>
+
+#### ✔️ TestUsageStringRedirected
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1006,8 +1106,9 @@ output:
 ```
 
 </details>
-TestCommandPrintRedirection
-<details><summary>  ✔️ TestCommandPrintRedirection</summary>
+
+#### ✔️ TestCommandPrintRedirection
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1016,8 +1117,9 @@ output:
 ```
 
 </details>
-TestFlagErrorFunc
-<details><summary>  ✔️ TestFlagErrorFunc</summary>
+
+#### ✔️ TestFlagErrorFunc
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1026,8 +1128,9 @@ output:
 ```
 
 </details>
-TestSortedFlags
-<details><summary>  ✔️ TestSortedFlags</summary>
+
+#### ✔️ TestSortedFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1036,8 +1139,9 @@ output:
 ```
 
 </details>
-TestMergeCommandLineToFlags
-<details><summary>  ✔️ TestMergeCommandLineToFlags</summary>
+
+#### ✔️ TestMergeCommandLineToFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1046,8 +1150,9 @@ output:
 ```
 
 </details>
-TestUseDeprecatedFlags
-<details><summary>  ✔️ TestUseDeprecatedFlags</summary>
+
+#### ✔️ TestUseDeprecatedFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1056,8 +1161,9 @@ output:
 ```
 
 </details>
-TestTraverseWithParentFlags
-<details><summary>  ✔️ TestTraverseWithParentFlags</summary>
+
+#### ✔️ TestTraverseWithParentFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1066,8 +1172,9 @@ output:
 ```
 
 </details>
-TestTraverseNoParentFlags
-<details><summary>  ✔️ TestTraverseNoParentFlags</summary>
+
+#### ✔️ TestTraverseNoParentFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1076,8 +1183,9 @@ output:
 ```
 
 </details>
-TestTraverseWithBadParentFlags
-<details><summary>  ✔️ TestTraverseWithBadParentFlags</summary>
+
+#### ✔️ TestTraverseWithBadParentFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1086,8 +1194,9 @@ output:
 ```
 
 </details>
-TestTraverseWithBadChildFlag
-<details><summary>  ✔️ TestTraverseWithBadChildFlag</summary>
+
+#### ✔️ TestTraverseWithBadChildFlag
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1096,8 +1205,9 @@ output:
 ```
 
 </details>
-TestTraverseWithTwoSubcommands
-<details><summary>  ✔️ TestTraverseWithTwoSubcommands</summary>
+
+#### ✔️ TestTraverseWithTwoSubcommands
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1106,8 +1216,9 @@ output:
 ```
 
 </details>
-TestUpdateName
-<details><summary>  ✔️ TestUpdateName</summary>
+
+#### ✔️ TestUpdateName
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1116,8 +1227,9 @@ output:
 ```
 
 </details>
-TestCalledAs
-<details><summary>  ✔️ TestCalledAs</summary>
+
+#### ✔️ TestCalledAs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1242,8 +1354,9 @@ output:
 ```
 
 </details>
-TestFParseErrWhitelistBackwardCompatibility
-<details><summary>  ✔️ TestFParseErrWhitelistBackwardCompatibility</summary>
+
+#### ✔️ TestFParseErrWhitelistBackwardCompatibility
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1252,8 +1365,9 @@ output:
 ```
 
 </details>
-TestFParseErrWhitelistSameCommand
-<details><summary>  ✔️ TestFParseErrWhitelistSameCommand</summary>
+
+#### ✔️ TestFParseErrWhitelistSameCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1262,8 +1376,9 @@ output:
 ```
 
 </details>
-TestFParseErrWhitelistParentCommand
-<details><summary>  ✔️ TestFParseErrWhitelistParentCommand</summary>
+
+#### ✔️ TestFParseErrWhitelistParentCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1272,8 +1387,9 @@ output:
 ```
 
 </details>
-TestFParseErrWhitelistChildCommand
-<details><summary>  ✔️ TestFParseErrWhitelistChildCommand</summary>
+
+#### ✔️ TestFParseErrWhitelistChildCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1282,8 +1398,9 @@ output:
 ```
 
 </details>
-TestFParseErrWhitelistSiblingCommand
-<details><summary>  ✔️ TestFParseErrWhitelistSiblingCommand</summary>
+
+#### ✔️ TestFParseErrWhitelistSiblingCommand
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1292,8 +1409,9 @@ output:
 ```
 
 </details>
-TestCmdNameCompletionInGo
-<details><summary>  ✔️ TestCmdNameCompletionInGo</summary>
+
+#### ✔️ TestCmdNameCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1302,8 +1420,9 @@ output:
 ```
 
 </details>
-TestNoCmdNameCompletionInGo
-<details><summary>  ✔️ TestNoCmdNameCompletionInGo</summary>
+
+#### ✔️ TestNoCmdNameCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1313,8 +1432,9 @@ output:
 ```
 
 </details>
-TestValidArgsCompletionInGo
-<details><summary>  ✔️ TestValidArgsCompletionInGo</summary>
+
+#### ✔️ TestValidArgsCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1323,8 +1443,9 @@ output:
 ```
 
 </details>
-TestValidArgsAndCmdCompletionInGo
-<details><summary>  ✔️ TestValidArgsAndCmdCompletionInGo</summary>
+
+#### ✔️ TestValidArgsAndCmdCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1333,8 +1454,9 @@ output:
 ```
 
 </details>
-TestValidArgsFuncAndCmdCompletionInGo
-<details><summary>  ✔️ TestValidArgsFuncAndCmdCompletionInGo</summary>
+
+#### ✔️ TestValidArgsFuncAndCmdCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1343,8 +1465,9 @@ output:
 ```
 
 </details>
-TestFlagNameCompletionInGo
-<details><summary>  ✔️ TestFlagNameCompletionInGo</summary>
+
+#### ✔️ TestFlagNameCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1353,8 +1476,9 @@ output:
 ```
 
 </details>
-TestFlagNameCompletionInGoWithDesc
-<details><summary>  ✔️ TestFlagNameCompletionInGoWithDesc</summary>
+
+#### ✔️ TestFlagNameCompletionInGoWithDesc
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1363,8 +1487,9 @@ output:
 ```
 
 </details>
-TestFlagNameCompletionRepeat
-<details><summary>  ✔️ TestFlagNameCompletionRepeat</summary>
+
+#### ✔️ TestFlagNameCompletionRepeat
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1373,8 +1498,9 @@ output:
 ```
 
 </details>
-TestRequiredFlagNameCompletionInGo
-<details><summary>  ✔️ TestRequiredFlagNameCompletionInGo</summary>
+
+#### ✔️ TestRequiredFlagNameCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1383,8 +1509,9 @@ output:
 ```
 
 </details>
-TestFlagFileExtFilterCompletionInGo
-<details><summary>  ✔️ TestFlagFileExtFilterCompletionInGo</summary>
+
+#### ✔️ TestFlagFileExtFilterCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1393,8 +1520,9 @@ output:
 ```
 
 </details>
-TestFlagDirFilterCompletionInGo
-<details><summary>  ✔️ TestFlagDirFilterCompletionInGo</summary>
+
+#### ✔️ TestFlagDirFilterCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1403,8 +1531,9 @@ output:
 ```
 
 </details>
-TestValidArgsFuncCmdContext
-<details><summary>  ✔️ TestValidArgsFuncCmdContext</summary>
+
+#### ✔️ TestValidArgsFuncCmdContext
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1413,8 +1542,9 @@ output:
 ```
 
 </details>
-TestValidArgsFuncSingleCmd
-<details><summary>  ✔️ TestValidArgsFuncSingleCmd</summary>
+
+#### ✔️ TestValidArgsFuncSingleCmd
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1423,8 +1553,9 @@ output:
 ```
 
 </details>
-TestValidArgsFuncSingleCmdInvalidArg
-<details><summary>  ✔️ TestValidArgsFuncSingleCmdInvalidArg</summary>
+
+#### ✔️ TestValidArgsFuncSingleCmdInvalidArg
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1433,8 +1564,9 @@ output:
 ```
 
 </details>
-TestValidArgsFuncChildCmds
-<details><summary>  ✔️ TestValidArgsFuncChildCmds</summary>
+
+#### ✔️ TestValidArgsFuncChildCmds
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1443,8 +1575,9 @@ output:
 ```
 
 </details>
-TestValidArgsFuncAliases
-<details><summary>  ✔️ TestValidArgsFuncAliases</summary>
+
+#### ✔️ TestValidArgsFuncAliases
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1453,8 +1586,9 @@ output:
 ```
 
 </details>
-TestValidArgsFuncInBashScript
-<details><summary>  ✔️ TestValidArgsFuncInBashScript</summary>
+
+#### ✔️ TestValidArgsFuncInBashScript
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1463,8 +1597,9 @@ output:
 ```
 
 </details>
-TestNoValidArgsFuncInBashScript
-<details><summary>  ✔️ TestNoValidArgsFuncInBashScript</summary>
+
+#### ✔️ TestNoValidArgsFuncInBashScript
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1473,8 +1608,9 @@ output:
 ```
 
 </details>
-TestCompleteCmdInBashScript
-<details><summary>  ✔️ TestCompleteCmdInBashScript</summary>
+
+#### ✔️ TestCompleteCmdInBashScript
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1483,8 +1619,9 @@ output:
 ```
 
 </details>
-TestCompleteNoDesCmdInZshScript
-<details><summary>  ✔️ TestCompleteNoDesCmdInZshScript</summary>
+
+#### ✔️ TestCompleteNoDesCmdInZshScript
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1493,8 +1630,9 @@ output:
 ```
 
 </details>
-TestCompleteCmdInZshScript
-<details><summary>  ✔️ TestCompleteCmdInZshScript</summary>
+
+#### ✔️ TestCompleteCmdInZshScript
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1503,8 +1641,9 @@ output:
 ```
 
 </details>
-TestFlagCompletionInGo
-<details><summary>  ✔️ TestFlagCompletionInGo</summary>
+
+#### ✔️ TestFlagCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1513,8 +1652,9 @@ output:
 ```
 
 </details>
-TestValidArgsFuncChildCmdsWithDesc
-<details><summary>  ✔️ TestValidArgsFuncChildCmdsWithDesc</summary>
+
+#### ✔️ TestValidArgsFuncChildCmdsWithDesc
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1523,8 +1663,9 @@ output:
 ```
 
 </details>
-TestFlagCompletionWithNotInterspersedArgs
-<details><summary>  ✔️ TestFlagCompletionWithNotInterspersedArgs</summary>
+
+#### ✔️ TestFlagCompletionWithNotInterspersedArgs
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1533,8 +1674,9 @@ output:
 ```
 
 </details>
-TestFlagCompletionWorksRootCommandAddedAfterFlags
-<details><summary>  ✔️ TestFlagCompletionWorksRootCommandAddedAfterFlags</summary>
+
+#### ✔️ TestFlagCompletionWorksRootCommandAddedAfterFlags
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1543,8 +1685,9 @@ output:
 ```
 
 </details>
-TestFlagCompletionInGoWithDesc
-<details><summary>  ✔️ TestFlagCompletionInGoWithDesc</summary>
+
+#### ✔️ TestFlagCompletionInGoWithDesc
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1553,8 +1696,9 @@ output:
 ```
 
 </details>
-TestValidArgsNotValidArgsFunc
-<details><summary>  ✔️ TestValidArgsNotValidArgsFunc</summary>
+
+#### ✔️ TestValidArgsNotValidArgsFunc
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1563,8 +1707,9 @@ output:
 ```
 
 </details>
-TestArgAliasesCompletionInGo
-<details><summary>  ✔️ TestArgAliasesCompletionInGo</summary>
+
+#### ✔️ TestArgAliasesCompletionInGo
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1573,8 +1718,9 @@ output:
 ```
 
 </details>
-TestCompleteHelp
-<details><summary>  ✔️ TestCompleteHelp</summary>
+
+#### ✔️ TestCompleteHelp
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1583,8 +1729,9 @@ output:
 ```
 
 </details>
-TestDefaultCompletionCmd
-<details><summary>  ✔️ TestDefaultCompletionCmd</summary>
+
+#### ✔️ TestDefaultCompletionCmd
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1593,8 +1740,9 @@ output:
 ```
 
 </details>
-TestCompleteCompletion
-<details><summary>  ✔️ TestCompleteCompletion</summary>
+
+#### ✔️ TestCompleteCompletion
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1603,8 +1751,9 @@ output:
 ```
 
 </details>
-TestMultipleShorthandFlagCompletion
-<details><summary>  ✔️ TestMultipleShorthandFlagCompletion</summary>
+
+#### ✔️ TestMultipleShorthandFlagCompletion
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1613,8 +1762,9 @@ output:
 ```
 
 </details>
-TestCompleteNoDesCmdInFishScript
-<details><summary>  ✔️ TestCompleteNoDesCmdInFishScript</summary>
+
+#### ✔️ TestCompleteNoDesCmdInFishScript
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1623,8 +1773,9 @@ output:
 ```
 
 </details>
-TestCompleteCmdInFishScript
-<details><summary>  ✔️ TestCompleteCmdInFishScript</summary>
+
+#### ✔️ TestCompleteCmdInFishScript
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1633,8 +1784,9 @@ output:
 ```
 
 </details>
-TestProgWithDash
-<details><summary>  ✔️ TestProgWithDash</summary>
+
+#### ✔️ TestProgWithDash
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```
@@ -1643,8 +1795,9 @@ output:
 ```
 
 </details>
-TestProgWithColon
-<details><summary>  ✔️ TestProgWithColon</summary>
+
+#### ✔️ TestProgWithColon
+<details><summary>  ✔️ (main)</summary>
 output:
 
 ```

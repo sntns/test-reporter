@@ -20,22 +20,26 @@
 |[test/stream_provider_test.dart](#r0s14)|8✔️|||282ms|
 |[test/value_listenable_provider_test.dart](#r0s15)|4✔️|1❌||327ms|
 ### ✔️ <a id="user-content-r0s0" href="#r0s0">test/builder_test.dart</a>
-ChangeNotifierProvider
+
+#### ✔️ ChangeNotifierProvider
 <details><summary>  ✔️ default</summary>
 </details>
 <details><summary>  ✔️ .value</summary>
 </details>
-ListenableProvider
+
+#### ✔️ ListenableProvider
 <details><summary>  ✔️ default</summary>
 </details>
 <details><summary>  ✔️ .value</summary>
 </details>
-Provider
+
+#### ✔️ Provider
 <details><summary>  ✔️ default</summary>
 </details>
 <details><summary>  ✔️ .value</summary>
 </details>
-ProxyProvider
+
+#### ✔️ ProxyProvider
 <details><summary>  ✔️ 0</summary>
 </details>
 <details><summary>  ✔️ 1</summary>
@@ -50,7 +54,8 @@ ProxyProvider
 </details>
 <details><summary>  ✔️ 6</summary>
 </details>
-MultiProvider
+
+#### ✔️ MultiProvider
 <details><summary>  ✔️ with 1 ChangeNotifierProvider default</summary>
 </details>
 <details><summary>  ✔️ with 2 ChangeNotifierProvider default</summary>
@@ -78,7 +83,8 @@ MultiProvider
 ### ✔️ <a id="user-content-r0s1" href="#r0s1">test/change_notifier_provider_test.dart</a>
 <details><summary>✔️ Use builder property, not child</summary>
 </details>
-ChangeNotifierProvider
+
+#### ✔️ ChangeNotifierProvider
 <details><summary>  ✔️ value</summary>
 </details>
 <details><summary>  ✔️ builder</summary>
@@ -100,42 +106,48 @@ ChangeNotifierProvider
 
 
 ### ✔️ <a id="user-content-r0s2" href="#r0s2">test/consumer_test.dart</a>
-consumer
+
+#### ✔️ consumer
 <details><summary>  ✔️ obtains value from Provider<T></summary>
 </details>
 <details><summary>  ✔️ crashed with no builder</summary>
 </details>
 <details><summary>  ✔️ can be used inside MultiProvider</summary>
 </details>
-consumer2
+
+#### ✔️ consumer2
 <details><summary>  ✔️ obtains value from Provider<T></summary>
 </details>
 <details><summary>  ✔️ crashed with no builder</summary>
 </details>
 <details><summary>  ✔️ can be used inside MultiProvider</summary>
 </details>
-consumer3
+
+#### ✔️ consumer3
 <details><summary>  ✔️ obtains value from Provider<T></summary>
 </details>
 <details><summary>  ✔️ crashed with no builder</summary>
 </details>
 <details><summary>  ✔️ can be used inside MultiProvider</summary>
 </details>
-consumer4
+
+#### ✔️ consumer4
 <details><summary>  ✔️ obtains value from Provider<T></summary>
 </details>
 <details><summary>  ✔️ crashed with no builder</summary>
 </details>
 <details><summary>  ✔️ can be used inside MultiProvider</summary>
 </details>
-consumer5
+
+#### ✔️ consumer5
 <details><summary>  ✔️ obtains value from Provider<T></summary>
 </details>
 <details><summary>  ✔️ crashed with no builder</summary>
 </details>
 <details><summary>  ✔️ can be used inside MultiProvider</summary>
 </details>
-consumer6
+
+#### ✔️ consumer6
 <details><summary>  ✔️ obtains value from Provider<T></summary>
 </details>
 <details><summary>  ✔️ crashed with no builder</summary>
@@ -157,7 +169,8 @@ consumer6
 </details>
 <details><summary>✔️ clears select dependencies for all dependents</summary>
 </details>
-BuildContext
+
+#### ✔️ BuildContext
 <details><summary>  ✔️ internal selected value is updated</summary>
 </details>
 <details><summary>  ✔️ create can use read without being lazy</summary>
@@ -229,7 +242,8 @@ BuildContext
 </details>
 <details><summary>✔️ FutureProvider() crashes if builder is null</summary>
 </details>
-FutureProvider()
+
+#### ✔️ FutureProvider()
 <details><summary>  ✔️ crashes if builder is null</summary>
 </details>
 
@@ -297,7 +311,8 @@ FutureProvider()
 </details>
 <details><summary>✔️ Provider.of has a proper error message if context is null</summary>
 </details>
-diagnostics
+
+#### ✔️ diagnostics
 <details><summary>  ✔️ InheritedProvider.value</summary>
 </details>
 <details><summary>  ✔️ InheritedProvider doesn't break lazy loading</summary>
@@ -308,7 +323,8 @@ diagnostics
 </details>
 <details><summary>  ✔️ DeferredInheritedProvider</summary>
 </details>
-InheritedProvider.value()
+
+#### ✔️ InheritedProvider.value()
 <details><summary>  ✔️ markNeedsNotifyDependents during startListening is noop</summary>
 </details>
 <details><summary>  ✔️ startListening called again when create returns new value</summary>
@@ -325,7 +341,8 @@ InheritedProvider.value()
 </details>
 <details><summary>  ✔️ custom updateShouldNotify</summary>
 </details>
-InheritedProvider()
+
+#### ✔️ InheritedProvider()
 <details><summary>  ✔️ hasValue</summary>
 </details>
 <details><summary>  ✔️ provider calls update if rebuilding only due to didChangeDependencies</summary>
@@ -376,7 +393,8 @@ InheritedProvider()
 </details>
 <details><summary>  ✔️ throws if both builder and initialBuilder are missing</summary>
 </details>
-DeferredInheritedProvider.value()
+
+#### ✔️ DeferredInheritedProvider.value()
 <details><summary>  ✔️ hasValue</summary>
 </details>
 <details><summary>  ✔️ startListening</summary>
@@ -393,7 +411,8 @@ DeferredInheritedProvider.value()
 </details>
 <details><summary>  ✔️ startListening called again on controller change</summary>
 </details>
-DeferredInheritedProvider()
+
+#### ✔️ DeferredInheritedProvider()
 <details><summary>  ✔️ create can't call inherited widgets</summary>
 </details>
 <details><summary>  ✔️ creates the value lazily</summary>
@@ -405,7 +424,8 @@ DeferredInheritedProvider()
 
 
 ### ✔️ <a id="user-content-r0s6" href="#r0s6">test/listenable_provider_test.dart</a>
-ListenableProvider
+
+#### ✔️ ListenableProvider
 <details><summary>  ✔️ works with MultiProvider</summary>
 </details>
 <details><summary>  ✔️ asserts that the created notifier can have listeners</summary>
@@ -428,12 +448,14 @@ ListenableProvider
 </details>
 <details><summary>  ✔️ notifylistener rebuilds descendants</summary>
 </details>
-ListenableProvider value constructor
+
+#### ✔️ ListenableProvider value constructor
 <details><summary>  ✔️ pass down key</summary>
 </details>
 <details><summary>  ✔️ changing the Listenable instance rebuilds dependents</summary>
 </details>
-ListenableProvider stateful constructor
+
+#### ✔️ ListenableProvider stateful constructor
 <details><summary>  ✔️ called with context</summary>
 </details>
 <details><summary>  ✔️ pass down key</summary>
@@ -443,7 +465,8 @@ ListenableProvider stateful constructor
 
 
 ### ✔️ <a id="user-content-r0s7" href="#r0s7">test/listenable_proxy_provider_test.dart</a>
-ListenableProxyProvider
+
+#### ✔️ ListenableProxyProvider
 <details><summary>  ✔️ throws if update is missing</summary>
 </details>
 <details><summary>  ✔️ asserts that the created notifier has no listener</summary>
@@ -456,7 +479,8 @@ ListenableProxyProvider
 </details>
 <details><summary>  ✔️ disposes of created value</summary>
 </details>
-ListenableProxyProvider variants
+
+#### ✔️ ListenableProxyProvider variants
 <details><summary>  ✔️ ListenableProxyProvider</summary>
 </details>
 <details><summary>  ✔️ ListenableProxyProvider2</summary>
@@ -472,7 +496,8 @@ ListenableProxyProvider variants
 
 
 ### ✔️ <a id="user-content-r0s8" href="#r0s8">test/multi_provider_test.dart</a>
-MultiProvider
+
+#### ✔️ MultiProvider
 <details><summary>  ✔️ throw if providers is null</summary>
 </details>
 <details><summary>  ✔️ MultiProvider children can only access parent providers</summary>
@@ -484,7 +509,8 @@ MultiProvider
 ### ✔️ <a id="user-content-r0s9" href="#r0s9">test/provider_test.dart</a>
 <details><summary>✔️ works with MultiProvider</summary>
 </details>
-Provider.of
+
+#### ✔️ Provider.of
 <details><summary>  ✔️ throws if T is dynamic</summary>
 </details>
 <details><summary>  ✔️ listen defaults to true when building widgets</summary>
@@ -495,7 +521,8 @@ Provider.of
 </details>
 <details><summary>  ✔️ listen:true outside of the widget tree throws</summary>
 </details>
-Provider
+
+#### ✔️ Provider
 <details><summary>  ✔️ throws if the provided value is a Listenable/Stream</summary>
 </details>
 <details><summary>  ✔️ debugCheckInvalidValueType can be disabled</summary>
@@ -509,7 +536,8 @@ Provider
 
 
 ### ✔️ <a id="user-content-r0s10" href="#r0s10">test/proxy_provider_test.dart</a>
-ProxyProvider
+
+#### ✔️ ProxyProvider
 <details><summary>  ✔️ throws if the provided value is a Listenable/Stream</summary>
 </details>
 <details><summary>  ✔️ debugCheckInvalidValueType can be disabled</summary>
@@ -532,7 +560,8 @@ ProxyProvider
 </details>
 <details><summary>  ✔️ throws if update is null</summary>
 </details>
-ProxyProvider variants
+
+#### ✔️ ProxyProvider variants
 <details><summary>  ✔️ ProxyProvider2</summary>
 </details>
 <details><summary>  ✔️ ProxyProvider3</summary>
@@ -615,7 +644,8 @@ ProxyProvider variants
 </details>
 <details><summary>✔️ StreamProvider() crashes if builder is null</summary>
 </details>
-StreamProvider()
+
+#### ✔️ StreamProvider()
 <details><summary>  ✔️ create and dispose stream with builder</summary>
 </details>
 <details><summary>  ✔️ crashes if builder is null</summary>
@@ -623,7 +653,8 @@ StreamProvider()
 
 
 ### ❌ <a id="user-content-r0s15" href="#r0s15">test/value_listenable_provider_test.dart</a>
-valueListenableProvider
+
+#### ❌ valueListenableProvider
 <details><summary>  ✔️ rebuilds when value change</summary>
 </details>
 <details><summary>  ✔️ don't rebuild dependents by default</summary>
