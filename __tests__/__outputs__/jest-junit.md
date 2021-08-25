@@ -7,6 +7,7 @@
 |[__tests__\second.test.js](#r0s1)||1❌|1✖️|82ms|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">__tests__\main.test.js</a>
 
+
 #### ✔️ Test 1
 <details><summary>  ✔️ Passing test</summary>
 </details>
@@ -41,6 +42,7 @@ Error: Some error
 
 
 ### ❌ <a id="user-content-r0s1" href="#r0s1">__tests__\second.test.js</a>
+
 <details><summary>❌ Timeout test</summary>
 error:
 

@@ -5,6 +5,7 @@
 |:---|---:|---:|---:|---:|
 |[DotnetTests.XUnitTests.CalculatorTests](#r0s0)|5✔️|5❌|1✖️|118ms|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">DotnetTests.XUnitTests.CalculatorTests</a>
+
 <details><summary>✔️ Custom Name</summary>
 </details>
 <details><summary>❌ Exception_In_TargetTest</summary>

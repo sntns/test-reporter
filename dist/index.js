@@ -1817,16 +1817,19 @@ function getTestsReport(ts, runIndex, suiteIndex, options) {
         return [];
     }
     const groups = ts.groups;
-    if (groups.length === 0) {
-        return [];
-    }
     const sections = [];
     const tsName = ts.name;
     const tsSlug = makeSuiteSlug(runIndex, suiteIndex);
     const tsNameLink = `<a id="${tsSlug.id}" href="${options.baseUrl + tsSlug.link}">${tsName}</a>`;
     const icon = getResultIcon(ts.result);
-    sections.push(`### ${icon}\xa0${tsNameLink}`);
-    //sections.push('```')
+    sections.push(`### ${icon}\xa0${tsNameLink}\n`);
+    if (ts.output !== undefined) {
+        sections.push(`<details><summary>output</summary>`);
+        sections.push('\n```');
+        sections.push(...ts.output);
+        sections.push('```\n');
+        sections.push(`</details>`);
+    }
     for (const grp of groups) {
         if (grp.name) {
             const groupIcon = getResultIcon(grp.result);

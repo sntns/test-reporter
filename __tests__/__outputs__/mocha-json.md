@@ -7,6 +7,7 @@
 |[test/second.test.js](#r0s1)||1❌|1✖️|8ms|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">test/main.test.js</a>
 
+
 #### ✔️ Test 1
 <details><summary>  ✔️ Passing test</summary>
 </details>
@@ -44,6 +45,7 @@ Some error
 
 
 ### ❌ <a id="user-content-r0s1" href="#r0s1">test/second.test.js</a>
+
 <details><summary>✖️ Skipped test</summary>
 </details>
 <details><summary>❌ Timeout test</summary>

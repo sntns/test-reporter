@@ -180,6 +180,7 @@
 |org.apache.pulsar.websocket.proxy.ProxyPublishConsumeWithoutZKTest|1✔️|||7s|
 |org.apache.pulsar.websocket.proxy.v1.V1_ProxyAuthenticationTest|4✔️|||30s|
 ### ❌ <a id="user-content-r0s0" href="#r0s0">org.apache.pulsar.AddMissingPatchVersionTest</a>
+
 <details><summary>✖️ testVersionStrings</summary>
 </details>
 <details><summary>❌ testVersionStrings</summary>

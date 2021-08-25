@@ -6,6 +6,15 @@
 |[github.com/spf13/cobra](#r0s0)|164✔️||1✖️|30ms|
 ### ✔️ <a id="user-content-r0s0" href="#r0s0">github.com/spf13/cobra</a>
 
+<details><summary>output</summary>
+
+```
+PASS
+ok  	github.com/spf13/cobra	0.087s
+```
+
+</details>
+
 #### ✔️ TestNoArgs
 <details><summary>  ✔️ (main)</summary>
 output:

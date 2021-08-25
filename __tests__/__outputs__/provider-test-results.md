@@ -21,6 +21,7 @@
 |[test/value_listenable_provider_test.dart](#r0s15)|4✔️|1❌||327ms|
 ### ✔️ <a id="user-content-r0s0" href="#r0s0">test/builder_test.dart</a>
 
+
 #### ✔️ ChangeNotifierProvider
 <details><summary>  ✔️ default</summary>
 </details>
@@ -81,6 +82,7 @@
 
 
 ### ✔️ <a id="user-content-r0s1" href="#r0s1">test/change_notifier_provider_test.dart</a>
+
 <details><summary>✔️ Use builder property, not child</summary>
 </details>
 
@@ -106,6 +108,7 @@
 
 
 ### ✔️ <a id="user-content-r0s2" href="#r0s2">test/consumer_test.dart</a>
+
 
 #### ✔️ consumer
 <details><summary>  ✔️ obtains value from Provider<T></summary>
@@ -157,6 +160,7 @@
 
 
 ### ✔️ <a id="user-content-r0s3" href="#r0s3">test/context_test.dart</a>
+
 <details><summary>✔️ watch in layoutbuilder</summary>
 </details>
 <details><summary>✔️ select in layoutbuilder</summary>
@@ -224,6 +228,7 @@
 
 
 ### ✔️ <a id="user-content-r0s4" href="#r0s4">test/future_provider_test.dart</a>
+
 <details><summary>✔️ works with MultiProvider</summary>
 </details>
 <details><summary>✔️ (catchError) previous future completes after transition is no-op</summary>
@@ -249,6 +254,7 @@
 
 
 ### ✔️ <a id="user-content-r0s5" href="#r0s5">test/inherited_provider_test.dart</a>
+
 <details><summary>✔️ regression test #377</summary>
 </details>
 <details><summary>✔️ rebuild on dependency flags update</summary>
@@ -425,6 +431,7 @@
 
 ### ✔️ <a id="user-content-r0s6" href="#r0s6">test/listenable_provider_test.dart</a>
 
+
 #### ✔️ ListenableProvider
 <details><summary>  ✔️ works with MultiProvider</summary>
 </details>
@@ -466,6 +473,7 @@
 
 ### ✔️ <a id="user-content-r0s7" href="#r0s7">test/listenable_proxy_provider_test.dart</a>
 
+
 #### ✔️ ListenableProxyProvider
 <details><summary>  ✔️ throws if update is missing</summary>
 </details>
@@ -497,6 +505,7 @@
 
 ### ✔️ <a id="user-content-r0s8" href="#r0s8">test/multi_provider_test.dart</a>
 
+
 #### ✔️ MultiProvider
 <details><summary>  ✔️ throw if providers is null</summary>
 </details>
@@ -507,6 +516,7 @@
 
 
 ### ✔️ <a id="user-content-r0s9" href="#r0s9">test/provider_test.dart</a>
+
 <details><summary>✔️ works with MultiProvider</summary>
 </details>
 
@@ -536,6 +546,7 @@
 
 
 ### ✔️ <a id="user-content-r0s10" href="#r0s10">test/proxy_provider_test.dart</a>
+
 
 #### ✔️ ProxyProvider
 <details><summary>  ✔️ throws if the provided value is a Listenable/Stream</summary>
@@ -575,6 +586,7 @@
 
 
 ### ✔️ <a id="user-content-r0s11" href="#r0s11">test/reassemble_test.dart</a>
+
 <details><summary>✔️ ReassembleHandler</summary>
 </details>
 <details><summary>✔️ unevaluated create</summary>
@@ -584,6 +596,7 @@
 
 
 ### ✔️ <a id="user-content-r0s12" href="#r0s12">test/selector_test.dart</a>
+
 <details><summary>✔️ asserts that builder/selector are not null</summary>
 </details>
 <details><summary>✔️ Deep compare maps by default</summary>
@@ -621,6 +634,7 @@
 
 
 ### ✔️ <a id="user-content-r0s13" href="#r0s13">test/stateful_provider_test.dart</a>
+
 <details><summary>✔️ asserts</summary>
 </details>
 <details><summary>✔️ works with MultiProvider</summary>
@@ -632,6 +646,7 @@
 
 
 ### ✔️ <a id="user-content-r0s14" href="#r0s14">test/stream_provider_test.dart</a>
+
 <details><summary>✔️ works with MultiProvider</summary>
 </details>
 <details><summary>✔️ transition from stream to stream preserve state</summary>
@@ -653,6 +668,7 @@
 
 
 ### ❌ <a id="user-content-r0s15" href="#r0s15">test/value_listenable_provider_test.dart</a>
+
 
 #### ❌ valueListenableProvider
 <details><summary>  ✔️ rebuilds when value change</summary>

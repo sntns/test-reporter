@@ -15,7 +15,50 @@
 |[github.com/dummy/sample2/driver/vpn/vici/conn](#r0s9)||||0ms|
 |[github.com/dummy/sample2/driver/vpn/vici/conn/child](#r0s10)||||0ms|
 |[github.com/dummy/sample2/integration_test](#r0s11)||||0ms|
+### ✔️ <a id="user-content-r0s0" href="#r0s0">github.com/dummy/sample2</a>
+
+<details><summary>output</summary>
+
+```
+?   	github.com/dummy/sample2	[no test files]
+```
+
+</details>
+
+
+### ✔️ <a id="user-content-r0s1" href="#r0s1">github.com/dummy/sample2/api</a>
+
+<details><summary>output</summary>
+
+```
+?   	github.com/dummy/sample2/api	[no test files]
+```
+
+</details>
+
+
+### ✔️ <a id="user-content-r0s2" href="#r0s2">github.com/dummy/sample2/cmd</a>
+
+<details><summary>output</summary>
+
+```
+?   	github.com/dummy/sample2/cmd	[no test files]
+```
+
+</details>
+
+
 ### ✔️ <a id="user-content-r0s3" href="#r0s3">github.com/dummy/sample2/core</a>
+
+<details><summary>output</summary>
+
+```
+PASS
+coverage: 17.3% of statements
+ok  	github.com/dummy/sample2/core	0.081s	coverage: 17.3% of statements
+```
+
+</details>
 
 #### ✔️ TestResolverSimple
 <details><summary>  ✔️ (main)</summary>
@@ -106,6 +149,16 @@ output:
 
 
 ### ❌ <a id="user-content-r0s4" href="#r0s4">github.com/dummy/sample2/driver/dns</a>
+
+<details><summary>output</summary>
+
+```
+FAIL
+coverage: 34.6% of statements
+FAIL	github.com/dummy/sample2/driver/dns	0.033s
+```
+
+</details>
 
 #### ✔️ TestUnpack
 <details><summary>  ✔️ (main)</summary>
@@ -212,6 +265,16 @@ time="2021-08-24T12:37:11Z" level=warning msg="request for ntpABCDE.example.fr. 
 
 ### ✔️ <a id="user-content-r0s5" href="#r0s5">github.com/dummy/sample2/driver/ntp</a>
 
+<details><summary>output</summary>
+
+```
+PASS
+coverage: 29.0% of statements
+ok  	github.com/dummy/sample2/driver/ntp	0.060s	coverage: 29.0% of statements
+```
+
+</details>
+
 #### ✔️ TestNtpPacket
 <details><summary>   (main)</summary>
 output:
@@ -288,6 +351,16 @@ output:
 
 ### ✔️ <a id="user-content-r0s6" href="#r0s6">github.com/dummy/sample2/driver/stbp</a>
 
+<details><summary>output</summary>
+
+```
+PASS
+coverage: 67.4% of statements
+ok  	github.com/dummy/sample2/driver/stbp	0.063s	coverage: 67.4% of statements
+```
+
+</details>
+
 #### ✔️ TestBase
 <details><summary>  ✔️ (main)</summary>
 output:
@@ -327,6 +400,18 @@ time="2021-08-24T12:37:15Z" level=info msg="request completed" duration=2.622204
 
 
 ### ❌ <a id="user-content-r0s7" href="#r0s7">github.com/dummy/sample2/driver/vpn</a>
+
+<details><summary>output</summary>
+
+```
+=== CONT
+    testing.go:1092: race detected during execution of test
+FAIL
+coverage: 41.0% of statements
+FAIL	github.com/dummy/sample2/driver/vpn	1.091s
+```
+
+</details>
 
 #### ✔️ TestSet
 <details><summary>  ✔️ (main)</summary>
@@ -766,6 +851,16 @@ Goroutine 34 (running) created at:
 
 
 ### ✔️ <a id="user-content-r0s8" href="#r0s8">github.com/dummy/sample2/driver/vpn/vici</a>
+
+<details><summary>output</summary>
+
+```
+PASS
+coverage: 52.1% of statements
+ok  	github.com/dummy/sample2/driver/vpn/vici	6.539s	coverage: 52.1% of statements
+```
+
+</details>
 
 #### ✔️ TestCert
 <details><summary>  ✔️ (main)</summary>
@@ -1463,6 +1558,44 @@ output:
 0 - 004* 0000006b
 0 - 107* 0103066461656d6f6e0006636861726f6e030776657273696f6e0005352e392e3203077379736e616d6500054c696e7578030772656c65617365001e352e342e37322d6d6963726f736f66742d7374616e646172642d57534c3203076d616368696e6500067838365f3634
 --- PASS: TestSpyVersion (1.11s)
+```
+
+</details>
+
+
+### ✔️ <a id="user-content-r0s9" href="#r0s9">github.com/dummy/sample2/driver/vpn/vici/conn</a>
+
+<details><summary>output</summary>
+
+```
+?   	github.com/dummy/sample2/driver/vpn/vici/conn	[no test files]
+```
+
+</details>
+
+
+### ✔️ <a id="user-content-r0s10" href="#r0s10">github.com/dummy/sample2/driver/vpn/vici/conn/child</a>
+
+<details><summary>output</summary>
+
+```
+?   	github.com/dummy/sample2/driver/vpn/vici/conn/child	[no test files]
+```
+
+</details>
+
+
+### ✔️ <a id="user-content-r0s11" href="#r0s11">github.com/dummy/sample2/integration_test</a>
+
+<details><summary>output</summary>
+
+```
+panic: exit status 1
+
+goroutine 1 [running]:
+github.com/dummy/sample2/integration_test.init.0()
+	/home/runner/work/sample2/sample2/integration_test/testbed_test.go:36 +0x585
+FAIL	github.com/dummy/sample2/integration_test	1.162s
 ```
 
 </details>
