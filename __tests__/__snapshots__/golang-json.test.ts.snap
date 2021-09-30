@@ -292,12 +292,7 @@ TestRunResult {
           "output": undefined,
           "tests": Array [
             TestCaseResult {
-              "error": Object {
-                "details": "",
-                "line": undefined,
-                "message": "",
-                "path": undefined,
-              },
+              "error": undefined,
               "name": "(main)",
               "output": Array [
                 "=== RUN   TestDns",
@@ -446,12 +441,7 @@ Error line 2, with a very long description",
           "output": undefined,
           "tests": Array [
             TestCaseResult {
-              "error": Object {
-                "details": "",
-                "line": undefined,
-                "message": "",
-                "path": undefined,
-              },
+              "error": undefined,
               "name": "(main)",
               "output": Array [
                 "=== RUN   TestCommand",
@@ -624,9 +614,41 @@ Test:       	TestCommand/k=0/case=should_run_the_command_and_grab_stdout",
             },
             TestCaseResult {
               "error": Object {
-                "details": "",
+                "details": "=== RUN   TestCommand/k=2/case=should_retry_a_failed_command
+==================
+WARNING: DATA RACE
+Read at 0x00c00020801b by goroutine 27:
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve.func1()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:99 +0xe9
+
+Previous write at 0x00c00020801b by goroutine 22:
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:110 +0x57a
+  github.com/dummy/sample2/driver/vpn.TestCommand.func4()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:66 +0x3fa
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Goroutine 27 (running) created at:
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:96 +0x544
+  github.com/dummy/sample2/driver/vpn.TestCommand.func4()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:66 +0x3fa
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Goroutine 22 (running) created at:
+  testing.(*T).Run()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1238 +0x5d7
+  github.com/dummy/sample2/driver/vpn.TestCommand()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:51 +0x348
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+==================
+    testing.go:1092: race detected during execution of test
+    --- FAIL: TestCommand/k=2/case=should_retry_a_failed_command (0.01s)",
                 "line": undefined,
-                "message": "",
+                "message": "WARNING: DATA RACE (1)",
                 "path": undefined,
               },
               "name": "k=2/case=should_retry_a_failed_command",
@@ -675,12 +697,7 @@ Test:       	TestCommand/k=0/case=should_run_the_command_and_grab_stdout",
           "output": undefined,
           "tests": Array [
             TestCaseResult {
-              "error": Object {
-                "details": "",
-                "line": undefined,
-                "message": "",
-                "path": undefined,
-              },
+              "error": undefined,
               "name": "(main)",
               "output": Array [
                 "=== RUN   TestStop",
@@ -693,9 +710,137 @@ Test:       	TestCommand/k=0/case=should_run_the_command_and_grab_stdout",
             },
             TestCaseResult {
               "error": Object {
-                "details": "",
+                "details": "=== RUN   TestStop/k=0/case=should_run_and_stop_the_command
+==================
+WARNING: DATA RACE
+Read at 0x00c0001b40a0 by goroutine 29:
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:111 +0x5a7
+  github.com/dummy/sample2/driver/vpn.TestStop.func2()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:107 +0x3f3
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Previous write at 0x00c0001b40a0 by goroutine 32:
+  os/exec.(*Cmd).Start()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec/exec.go:422 +0x8f0
+  github.com/dummy/sample2/driver/vpn.(*Daemon).run()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:150 +0x224
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve.func1()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:98 +0xb4
+
+Goroutine 29 (running) created at:
+  testing.(*T).Run()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1238 +0x5d7
+  github.com/dummy/sample2/driver/vpn.TestStop()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:92 +0x28e
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Goroutine 32 (running) created at:
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:96 +0x544
+  github.com/dummy/sample2/driver/vpn.TestStop.func2()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:107 +0x3f3
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+==================
+==================
+WARNING: DATA RACE
+Read at 0x00c000020720 by goroutine 29:
+  os.(*Process).signal()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec_unix.go:63 +0x64
+  os.(*Process).Signal()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec.go:135 +0x699
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:112 +0x639
+  github.com/dummy/sample2/driver/vpn.TestStop.func2()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:107 +0x3f3
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Previous write at 0x00c000020720 by goroutine 32:
+  os.newProcess()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec.go:29 +0x5f2
+  os.startProcess()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec_posix.go:62 +0x66c
+  os.StartProcess()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec.go:106 +0x92
+  os/exec.(*Cmd).Start()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec/exec.go:422 +0x8a8
+  github.com/dummy/sample2/driver/vpn.(*Daemon).run()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:150 +0x224
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve.func1()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:98 +0xb4
+
+Goroutine 29 (running) created at:
+  testing.(*T).Run()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1238 +0x5d7
+  github.com/dummy/sample2/driver/vpn.TestStop()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:92 +0x28e
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Goroutine 32 (running) created at:
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:96 +0x544
+  github.com/dummy/sample2/driver/vpn.TestStop.func2()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:107 +0x3f3
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+==================
+==================
+WARNING: DATA RACE
+Read at 0x00c000020730 by goroutine 29:
+  sync/atomic.LoadInt32()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/runtime/race_amd64.s:213 +0xb
+  os.(*Process).done()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec.go:39 +0x210
+  os.(*Process).signal()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec_unix.go:71 +0x216
+  os.(*Process).Signal()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec.go:135 +0x699
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:112 +0x639
+  github.com/dummy/sample2/driver/vpn.TestStop.func2()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:107 +0x3f3
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Previous write at 0x00c000020730 by goroutine 32:
+  os.newProcess()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec.go:29 +0x5f2
+  os.startProcess()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec_posix.go:62 +0x66c
+  os.StartProcess()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec.go:106 +0x92
+  os/exec.(*Cmd).Start()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/os/exec/exec.go:422 +0x8a8
+  github.com/dummy/sample2/driver/vpn.(*Daemon).run()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:150 +0x224
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve.func1()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:98 +0xb4
+
+Goroutine 29 (running) created at:
+  testing.(*T).Run()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1238 +0x5d7
+  github.com/dummy/sample2/driver/vpn.TestStop()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:92 +0x28e
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Goroutine 32 (running) created at:
+  github.com/dummy/sample2/driver/vpn.(*Daemon).Serve()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon.go:96 +0x544
+  github.com/dummy/sample2/driver/vpn.TestStop.func2()
+      /home/runner/work/sample2/sample2/driver/vpn/daemon_test.go:107 +0x3f3
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+==================
+    testing.go:1092: race detected during execution of test
+    --- FAIL: TestStop/k=0/case=should_run_and_stop_the_command (1.02s)",
                 "line": undefined,
-                "message": "",
+                "message": "WARNING: DATA RACE (3)",
                 "path": undefined,
               },
               "name": "k=0/case=should_run_and_stop_the_command",
@@ -841,10 +986,58 @@ Test:       	TestCommand/k=0/case=should_run_the_command_and_grab_stdout",
           "tests": Array [
             TestCaseResult {
               "error": Object {
-                "details": "",
-                "line": undefined,
-                "message": "",
-                "path": undefined,
+                "details": "=== RUN   TestChildUpDown
+==================
+WARNING: DATA RACE
+Write at 0x00c000010070 by goroutine 35:
+  github.com/dummy/sample2/driver/vpn.TestChildUpDown.func1()
+      /home/runner/work/sample2/sample2/driver/vpn/vici_test.go:33 +0x46
+  runtime.call64()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/runtime/asm_amd64.s:552 +0x3d
+  reflect.Value.Call()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/reflect/value.go:337 +0xd8
+  github.com/golang/mock/gomock.(*Call).Do.func1()
+      /home/runner/work/sample2/sample2/vendor/github.com/golang/mock/gomock/call.go:155 +0x4ed
+  github.com/golang/mock/gomock.(*Controller).Call()
+      /home/runner/work/sample2/sample2/vendor/github.com/golang/mock/gomock/controller.go:251 +0x152
+  github.com/dummy/sample2/driver/vpn/vici.(*MockClient).Run()
+      /home/runner/work/sample2/sample2/driver/vpn/vici/client.mock.go:283 +0x187
+  github.com/dummy/sample2/driver/vpn.(*Vici).runWithClient()
+      /home/runner/work/sample2/sample2/driver/vpn/vici.go:96 +0x182
+  github.com/dummy/sample2/driver/vpn.TestChildUpDown.func2()
+      /home/runner/work/sample2/sample2/driver/vpn/vici_test.go:44 +0xc4
+
+Previous read at 0x00c000010070 by goroutine 34:
+  github.com/dummy/sample2/driver/vpn.TestChildUpDown()
+      /home/runner/work/sample2/sample2/driver/vpn/vici_test.go:50 +0xac4
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Goroutine 35 (running) created at:
+  github.com/dummy/sample2/driver/vpn.TestChildUpDown()
+      /home/runner/work/sample2/sample2/driver/vpn/vici_test.go:41 +0xa53
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+
+Goroutine 34 (running) created at:
+  testing.(*T).Run()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1238 +0x5d7
+  testing.runTests.func1()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1511 +0xa6
+  testing.tRunner()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1193 +0x202
+  testing.runTests()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1509 +0x612
+  testing.(*M).Run()
+      /opt/hostedtoolcache/go/1.16.7/x64/src/testing/testing.go:1417 +0x3b3
+  main.main()
+      _testmain.go:109 +0x356
+==================
+    testing.go:1092: race detected during execution of test
+--- FAIL: TestChildUpDown (0.00s)",
+                "line": 33,
+                "message": "WARNING: DATA RACE (1)",
+                "path": "driver/vpn/vici_test.go",
               },
               "name": "(main)",
               "output": Array [

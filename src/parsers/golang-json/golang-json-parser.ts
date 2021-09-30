@@ -13,6 +13,8 @@ import {
   TestCaseResult,
   TestCaseError
 } from '../../test-results'
+import { privateEncrypt } from 'crypto'
+import { basename } from 'path'
 
 class TestRun {
   constructor(readonly path: string, readonly packages: TestPackage[], readonly success: boolean, readonly time: number) {}
@@ -140,7 +142,7 @@ export class GolangJsonParser implements TestParser {
 
     return groups.map(group => {
       let tests = Object.values(group.tests).sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0)).map(tc => {
-        const error = this.getError(pkg, tc)
+        const error = this.getError(pkg, tc) || this.getDataRaceError(pkg, tc)
         const testName =
           group.group.name !== undefined && tc.name.startsWith(group.group.name)
             ? tc.name.slice(group.group.name.length).trim()
@@ -160,6 +162,107 @@ export class GolangJsonParser implements TestParser {
     })
 
     return new TestRunResult(tr.path, suites, tr.time)
+  }
+
+  private getDataRaceError(pkg: TestPackage, test: TestCase): TestCaseError | undefined {
+    if (!this.options.parseErrors || test.result != 'failed' || !test.output) {
+      return undefined
+    }
+    const {trackedFiles} = this.options
+    /*
+    "Output":"==================\n"
+    "Output":"WARNING: DATA RACE\n"
+    "Output":"Read at 0x00c0001826c0 by goroutine 42:\n"
+    "Output":"  github.com/sample/myproject/core.TestImpl()\n"
+    "Output":"      /home/runner/work/sample/myproject/core/impl_test.go:308 +0xaa4\n"
+    "Output":"  testing.tRunner()\n"
+    "Output":"      /opt/hostedtoolcache/go/1.16.8/x64/src/testing/testing.go:1193 +0x202\n"
+    "Output":"\n"
+    "Output":"Previous write at 0x00c0001826c0 by goroutine 51:\n"
+    "Output":"  runtime.mapdelete_faststr()\n"
+    "Output":"      /opt/hostedtoolcache/go/1.16.8/x64/src/runtime/map_faststr.go:297 +0x0\n"
+    "Output":"  github.com/sample/myproject/core.(*DefaultImpl).processSync.func1()\n"
+    "Output":"      /home/runner/work/sample/myproject/core/impl.go:140 +0x144\n"
+    "Output":"\n"
+    "Output":"Goroutine 42 (running) created at:\n"
+    "Output":"  testing.(*T).Run()\n"
+    "Output":"      /opt/hostedtoolcache/go/1.16.8/x64/src/testing/testing.go:1238 +0x5d7\n"
+    "Output":"  testing.runTests.func1()\n"
+    "Output":"      /opt/hostedtoolcache/go/1.16.8/x64/src/testing/testing.go:1511 +0xa6\n"
+    "Output":"  testing.tRunner()\n"
+    "Output":"      /opt/hostedtoolcache/go/1.16.8/x64/src/testing/testing.go:1193 +0x202\n"
+    "Output":"  testing.runTests()\n"
+    "Output":"      /opt/hostedtoolcache/go/1.16.8/x64/src/testing/testing.go:1509 +0x612\n"
+    "Output":"  testing.(*M).Run()\n"
+    "Output":"      /opt/hostedtoolcache/go/1.16.8/x64/src/testing/testing.go:1417 +0x3b3\n"
+    "Output":"  main.main()\n"
+    "Output":"      _testmain.go:113 +0x356\n"
+    "Output":"\n"
+    "Output":"Goroutine 51 (finished) created at:\n"
+    "Output":"  github.com/sample/myproject/core.(*DefaultImpl).processSync()\n"
+    "Output":"      /home/runner/work/sample/myproject/core/impl.go:134 +0x97d\n"
+    "Output":"  github.com/sample/myproject/core.TestImpl()\n"
+    "Output":"      /home/runner/work/sample/myproject/core/impl_test.go:301 +0xa24\n"
+    "Output":"  testing.tRunner()\n"
+    "Output":"      /opt/hostedtoolcache/go/1.16.8/x64/src/testing/testing.go:1193 +0x202\n"
+    "Output":"==================\n"
+  */
+    const out = test.output
+      .map(e => { return e.Output.trimRight() })
+
+    const dataRaceCount = out.filter( e => e.startsWith("WARNING: DATA RACE")).length
+    if( dataRaceCount == 0) {
+      return undefined
+    }
+
+    let stack: string[] = []
+    let stacks: string[][] = []
+    let inBlock = false
+    out.forEach((it, i) => {
+      if(it.startsWith("Read") || it.startsWith("Write") || it.startsWith("Previous")) {
+        stack = []
+        inBlock = true
+      }
+      else if(it == "") {
+        inBlock = false
+        stacks.push(stack)
+      }
+      else if(inBlock && it.startsWith("      ")) {
+        const re = /^(.+):(\d+)\s.*/
+        const match = it.trim().match(re)
+        if (match !== null) {
+          const [_, pathStr, lineStr] = match
+          const fname = basename(pathStr)
+          stack.push(fname + ":" + lineStr)
+        }
+      }
+    })
+    const src = this.exceptionThrowSource(stacks[0], trackedFiles, pkg)
+    
+    let path
+    let line
+    let message = `WARNING: DATA RACE (${dataRaceCount})`
+    let details = out.join("\n")
+
+    if (src !== undefined) {
+      path = src.path
+      line = src.line
+    } else {
+      /*
+      const testStartPath = this.getRelativePath(testSuite.suite.path)
+      if (trackedFiles.includes(testStartPath)) {
+        path = testStartPath
+        line = test.testStart.test.root_line ?? test.testStart.test.line ?? undefined
+      }*/
+    }
+
+    return {
+      path,
+      line,
+      message,
+      details
+    }
+
   }
 
   private getError(pkg: TestPackage, test: TestCase): TestCaseError | undefined {
@@ -217,7 +320,13 @@ export class GolangJsonParser implements TestParser {
         error.push(it.trim())
       }
     })
+    
+    if(stack.length==0 && error.length==0) {
+      return undefined
+    }
+
     const src = this.exceptionThrowSource(stack, trackedFiles, pkg)
+    console.log("LM(error): " + JSON.stringify(stack))
 
     let path
     let line

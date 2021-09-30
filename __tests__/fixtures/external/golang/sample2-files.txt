@@ -1,1 +1,2 @@
 driver/dns/server_test.go
+driver/vpn/vici_test.go

@@ -40,12 +40,6 @@ output:
 
 #### ❌ TestDns
 <details><summary>  ❌ (main)</summary>
-error:
-
-```
-
-```
-
 output:
 
 ```
@@ -174,12 +168,6 @@ output:
 
 #### ❌ TestCommand
 <details><summary>  ❌ (main)</summary>
-error:
-
-```
-
-```
-
 output:
 
 ```
@@ -350,7 +338,7 @@ output:
 error:
 
 ```
-
+WARNING: DATA RACE (1)
 ```
 
 output:
@@ -395,12 +383,6 @@ Goroutine 22 (running) created at:
 
 #### ❌ TestStop
 <details><summary>  ❌ (main)</summary>
-error:
-
-```
-
-```
-
 output:
 
 ```
@@ -415,7 +397,7 @@ output:
 error:
 
 ```
-
+WARNING: DATA RACE (3)
 ```
 
 output:
@@ -559,7 +541,7 @@ Goroutine 32 (running) created at:
 error:
 
 ```
-
+WARNING: DATA RACE (1)
 ```
 
 output:
